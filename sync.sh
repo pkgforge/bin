@@ -18,11 +18,6 @@ HOST_TRIPLET="$(uname -m)-$(uname -s)"
 export HOST_TRIPLET="$(echo "${HOST_TRIPLET}" | tr -d '[:space:]')"
 export HOST_TRIPLET_L="${HOST_TRIPLET,,}"
 ##Sanity
-#mirror
-if [[ -z "${GH_BIN_REPO+x}" ]]; then
-  echo -e "[-] FATAL: Failed to get GH_BIN_REPO '\${GH_BIN_REPO}'\n"
- exit 1
-fi
 #repo
  if [[ -z "${UPSTREAM_REPO+x}" ]]; then
    echo -e "[-] FATAL: Repository '\${UPSTREAM_REPO}' is NOT Set\n"

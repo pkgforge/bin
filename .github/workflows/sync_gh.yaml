@@ -5,9 +5,10 @@ concurrency:
 
 on:
   workflow_dispatch:
-  #schedule:
-  # - cron: "0 2 * * Sun" #UTC 02:00 AM --> 07:45 AM NPT Sun
-  # - cron: "0 2 * * Wed" #UTC 02:00 AM --> 07:45 AM NPT Wed
+  schedule:
+   - cron: "0 1 * * *" #UTC 01:00 AM --> 06:45 AM NPT Everyday
+   #- cron: "0 2 * * Sun" #UTC 02:00 AM --> 07:45 AM NPT Sun
+   #- cron: "0 2 * * Wed" #UTC 02:00 AM --> 07:45 AM NPT Wed
 jobs:
   sync:
     runs-on: ${{ matrix.runner }}
