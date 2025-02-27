@@ -18,13 +18,21 @@ HOST_TRIPLET="$(uname -m)-$(uname -s)"
 export HOST_TRIPLET="$(echo "${HOST_TRIPLET}" | tr -d '[:space:]')"
 export HOST_TRIPLET_L="${HOST_TRIPLET,,}"
 ##Sanity
+ if [[ -z "${GIT_USER+x}" ]]; then
+   echo -e "[-] FATAL: User '\${GIT_USER}' is NOT Set\n"
+  exit 1
+ fi
+ if [[ -z "${GITHUB_TOKEN+x}" ]]; then
+   echo -e "[-] FATAL: Token '\${GITHUB_TOKEN}' is NOT Set\n"
+  exit 1
+ fi
 #repo
  if [[ -z "${UPSTREAM_REPO+x}" ]]; then
    echo -e "[-] FATAL: Repository '\${UPSTREAM_REPO}' is NOT Set\n"
   exit 1
  else
    pushd "$(mktemp -d)" &>/dev/null &&\
-    git clone --filter="blob:none" --depth="1" --no-checkout "https://github.com/pkgforge/bin" && cd "./bin" &&\
+    git clone --filter="blob:none" --depth="1" --no-checkout "https://${GIT_USER}:${GITHUB_TOKEN}@github.com/pkgforge/bin" && cd "./bin" &&\
     unset REPO_DIR ; REPO_DIR="$(realpath .)" && export REPO_DIR="${REPO_DIR}"
      if [ ! -d "${REPO_DIR}" ] || [ $(du -s "${REPO_DIR}" | cut -f1) -le 100 ]; then
        echo -e "\n[X] FATAL: Failed to clone GH Repo\n"

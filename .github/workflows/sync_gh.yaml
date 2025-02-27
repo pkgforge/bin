@@ -90,8 +90,12 @@ jobs:
           #-------------#
           ##Git
           export GH_PAGER=""
+          echo "GH_PAGER=${GH_PAGER}" >> "${GITHUB_ENV}"
           export GIT_TERMINAL_PROMPT="0"
+          export GIT_USER="Azathothas"
+          echo "GIT_USER=${GIT_USER}" >> "${GITHUB_ENV}"
           export GIT_ASKPASS="/bin/echo"
+          echo "GIT_ASKPASS=${GIT_ASKPASS}" >> "${GITHUB_ENV}"
           gh config set prompt disabled
           gh auth login --with-token < <(echo "${{ github.token }}" | tr -d '[:space:]')
           git config --global "credential.helper" store
