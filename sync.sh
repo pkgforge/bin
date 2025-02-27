@@ -130,10 +130,11 @@ pushd "${REPO_DIR}" &>/dev/null
        find "${REPO_DIR}" -path "${REPO_DIR}/.git" -prune -o -type f -size +95M -exec rm -rvf "{}" + 2>/dev/null
        find "${PKG_DIR}" -type f ! -path "./.git/*" -exec dos2unix --quiet "{}" \; 2>/dev/null
        git sparse-checkout init --cone
-       git sparse-checkout add "**"
+       git sparse-checkout add "${HOST_TRIPLET}"
+       git sparse-checkout reapply
        git sparse-checkout list
        COMMIT_MSG="[+] Sync [${HOST_TRIPLET})"
-       find "${REPO_DIR}" -maxdepth 1 -type f -not -path "*/\.*" | xargs -I "{}" git add "{}" --verbose
+       find "${PKG_DIR}" -maxdepth 1 -type f -not -path "*/\.*" | xargs -I "{}" git add "{}" --verbose
        git add --all --renormalize --verbose
        git commit -m "${COMMIT_MSG}"
      pushd "${REPO_DIR}" &>/dev/null
