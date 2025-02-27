@@ -24,7 +24,7 @@ export HOST_TRIPLET_L="${HOST_TRIPLET,,}"
   exit 1
  else
    pushd "$(mktemp -d)" &>/dev/null &&\
-    git clone --filter="blob:none" --depth="1" --no-checkout "https://github.com/pkgforge/bin" && cd "./bincache" &&\
+    git clone --filter="blob:none" --depth="1" --no-checkout "https://github.com/pkgforge/bin" && cd "./bin" &&\
     unset REPO_DIR ; REPO_DIR="$(realpath .)" && export REPO_DIR="${REPO_DIR}"
      if [ ! -d "${PKG_DIR}" ] || [ $(du -s "${PKG_DIR}" | cut -f1) -le 100 ]; then
        echo -e "\n[X] FATAL: Failed to clone GH Repo\n"
