@@ -1,6 +1,6 @@
 ```mathematica
-1.8G └─┬ main
-955M   ├─┬ x86_64-Linux
+1.9G └─┬ main
+998M   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  41M   │ ├── gh
  41M   │ ├── httpx
@@ -13,6 +13,8 @@
  25M   │ ├── noseyparker
  24M   │ ├── cloudflared
  24M   │ ├── csvtk
+ 21M   │ ├── jc
+ 21M   │ ├── huggingface-cli
  19M   │ ├── qsv
  19M   │ ├── notify
  17M   │ ├── glow
@@ -154,12 +156,12 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-897M   ├─┬ aarch64-Linux
+933M   ├─┬ aarch64-Linux
  56M   │ ├── rclone
  41M   │ ├── gh
  39M   │ ├── httpx
  39M   │ ├── logdy
- 30M   │ ├── shellcheck
+ 29M   │ ├── shellcheck
  29M   │ ├── trufflehog
  28M   │ ├── tailscale-multi
  28M   │ ├── glab
@@ -169,6 +171,8 @@
  20M   │ ├── noseyparker-cli
  20M   │ ├── noseyparker
  18M   │ ├── notify
+ 18M   │ ├── jc
+ 17M   │ ├── huggingface-cli
  17M   │ ├── glow
  15M   │ ├── gitleaks
  14M   │ ├── qsv
