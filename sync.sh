@@ -40,7 +40,9 @@ export HOST_TRIPLET_L="${HOST_TRIPLET,,}"
      else
        PKG_DIR="${REPO_DIR}/${HOST_TRIPLET}" && export PKG_DIR="${PKG_DIR}"
        mkdir -pv "${PKG_DIR}" ; git fetch origin main
-       git sparse-checkout set "" && git checkout
+       git sparse-checkout set ""
+       git sparse-checkout set --no-cone --sparse-index "/README.md"
+       git checkout
        ls -lah "." "${PKG_DIR}" ; git sparse-checkout list
      fi
    popd &>/dev/null
@@ -129,9 +131,7 @@ pushd "${REPO_DIR}" &>/dev/null
        find "${REPO_DIR}" -type f ! -path "./.git/*" -size -3c -delete
        find "${REPO_DIR}" -path "${REPO_DIR}/.git" -prune -o -type f -size +95M -exec rm -rvf "{}" + 2>/dev/null
        find "${PKG_DIR}" -type f ! -path "./.git/*" -exec dos2unix --quiet "{}" \; 2>/dev/null
-       git sparse-checkout init --cone
-       git sparse-checkout add "${HOST_TRIPLET}"
-       git sparse-checkout reapply
+       git sparse-checkout add "${HOST_TRIPLET}/**"
        git sparse-checkout list
        COMMIT_MSG="[+] Sync [${HOST_TRIPLET})"
        find "${PKG_DIR}" -maxdepth 1 -type f -not -path "*/\.*" | xargs -I "{}" git add "{}" --verbose
