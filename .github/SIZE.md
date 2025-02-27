@@ -1,6 +1,6 @@
 ```mathematica
-1.9G └─┬ main
-998M   ├─┬ x86_64-Linux
+2.0G └─┬ main
+1.0G   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  41M   │ ├── gh
  41M   │ ├── httpx
@@ -8,7 +8,7 @@
  34M   │ ├── trufflehog
  29M   │ ├── tailscale-multi
  29M   │ ├── glab
- 28M   │ ├── tailscale
+ 28M   │ ├── tailscaled
  25M   │ ├── noseyparker-cli
  25M   │ ├── noseyparker
  24M   │ ├── cloudflared
@@ -21,6 +21,7 @@
  16M   │ ├── gitleaks
  16M   │ ├── gost
  15M   │ ├── gdu
+ 14M   │ ├── tailscale
  14M   │ ├── shellcheck
  14M   │ ├── freeze
  13M   │ ├── dwarfs-tools
@@ -53,12 +54,21 @@
 6.1M   │ ├── wget
 6.0M   │ ├── socat
 6.0M   │ ├── rsync
+5.7M   │ ├── sshd-session
+5.7M   │ ├── ssh
+5.3M   │ ├── ssh-keyscan
 5.3M   │ ├── rga
 5.2M   │ ├── delta
+5.2M   │ ├── sshd
+5.2M   │ ├── ssh-keygen
 5.0M   │ ├── bsdunzip
 4.9M   │ ├── actionlint
+4.8M   │ ├── ssh-keysign
+4.8M   │ ├── ssh-add
 4.8M   │ ├── askalono
+4.8M   │ ├── ssh-agent
 4.7M   │ ├── validtoml
+4.7M   │ ├── ssh-pkcs11-helper
 4.4M   │ ├── ouch
 4.3M   │ ├── nmap
 4.0M   │ ├── ripgrep
@@ -113,14 +123,17 @@
 724K   │ ├── anew-rs
 716K   │ ├── faketty
 696K   │ ├── ncdu
+644K   │ ├── sftp
 588K   │ ├── upx
 520K   │ ├── dash
 428K   │ ├── bsdcat
 396K   │ ├── minisign
 356K   │ ├── base64
+344K   │ ├── scp
 320K   │ ├── xz
 320K   │ ├── unxz
 304K   │ ├── ps
+256K   │ ├── sftp-server
 256K   │ ├── sed
 244K   │ ├── bwrap
 236K   │ ├── hexdump
@@ -141,6 +154,8 @@
 104K   │ ├── mac2unix
 104K   │ ├── dos2unix
  40K   │ ├── ansi2html
+ 16K   │ ├── ssh-sk-helper
+ 16K   │ ├── ssh-copy-id
  12K   │ ├── zgrep
  12K   │ ├── ansi2txt
 8.0K   │ ├── znew
@@ -156,7 +171,7 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-933M   ├─┬ aarch64-Linux
+990M   ├─┬ aarch64-Linux
  56M   │ ├── rclone
  41M   │ ├── gh
  39M   │ ├── httpx
@@ -165,7 +180,7 @@
  29M   │ ├── trufflehog
  28M   │ ├── tailscale-multi
  28M   │ ├── glab
- 26M   │ ├── tailscale
+ 26M   │ ├── tailscaled
  23M   │ ├── cloudflared
  22M   │ ├── csvtk
  20M   │ ├── noseyparker-cli
@@ -178,6 +193,7 @@
  14M   │ ├── qsv
  14M   │ ├── gdu
  14M   │ ├── gost
+ 14M   │ ├── tailscale
  13M   │ ├── freeze
  13M   │ ├── micro
  13M   │ ├── chafa
@@ -208,12 +224,21 @@
 5.9M   │ ├── wormhole-rs
 5.5M   │ ├── socat
 5.4M   │ ├── openssl
+5.1M   │ ├── sshd-session
+5.1M   │ ├── ssh
 4.8M   │ ├── rsync
 4.8M   │ ├── actionlint
+4.7M   │ ├── ssh-keyscan
+4.7M   │ ├── sshd
+4.7M   │ ├── ssh-keygen
 4.6M   │ ├── validtoml
 4.6M   │ ├── nmap
 4.5M   │ ├── rga
 4.5M   │ ├── delta
+4.3M   │ ├── ssh-keysign
+4.2M   │ ├── ssh-add
+4.2M   │ ├── ssh-agent
+4.2M   │ ├── ssh-pkcs11-helper
 4.1M   │ ├── ouch
 4.0M   │ ├── askalono
 3.9M   │ ├── vim
@@ -264,6 +289,7 @@
 912K   │ ├── jq
 840K   │ ├── gawk
 832K   │ ├── tar
+740K   │ ├── sftp
 740K   │ ├── b3sum
 712K   │ ├── ncdu
 616K   │ ├── anew-rs
@@ -272,11 +298,13 @@
 564K   │ ├── upx
 564K   │ ├── dash
 392K   │ ├── bsdcat
+388K   │ ├── scp
 364K   │ ├── base64
 340K   │ ├── ps
 324K   │ ├── xz
 324K   │ ├── unxz
 320K   │ ├── minisign
+308K   │ ├── sftp-server
 260K   │ ├── sed
 260K   │ ├── bwrap
 256K   │ ├── ping
@@ -295,6 +323,8 @@
 132K   │ ├── nc
 132K   │ ├── fusermount3
  52K   │ ├── ansi2html
+ 36K   │ ├── ssh-sk-helper
+ 16K   │ ├── ssh-copy-id
  12K   │ ├── zgrep
  12K   │ ├── ansi2txt
 8.0K   │ ├── znew
