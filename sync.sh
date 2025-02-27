@@ -129,6 +129,7 @@ pushd "${REPO_DIR}" &>/dev/null
        find "${REPO_DIR}" -type f ! -path "./.git/*" -size -3c -delete
        find "${REPO_DIR}" -path "${REPO_DIR}/.git" -prune -o -type f -size +95M -exec rm -rvf "{}" + 2>/dev/null
        find "${PKG_DIR}" -type f ! -path "./.git/*" -exec dos2unix --quiet "{}" \; 2>/dev/null
+       git sparse-checkout init --cone
        git sparse-checkout add "**"
        git sparse-checkout list
        COMMIT_MSG="[+] Sync [${HOST_TRIPLET})"
