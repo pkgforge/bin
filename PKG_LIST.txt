@@ -168,3 +168,17 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+scp#nixpkgs.openssh:bincache
+sftp-server#nixpkgs.openssh:bincache
+sftp#nixpkgs.openssh:bincache
+ssh-add#nixpkgs.openssh:bincache
+ssh-agent#nixpkgs.openssh:bincache
+ssh-copy-id#nixpkgs.openssh:bincache
+ssh-keygen#nixpkgs.openssh:bincache
+ssh-keyscan#nixpkgs.openssh:bincache
+ssh-keysign#nixpkgs.openssh:bincache
+ssh-pkcs11-helper#nixpkgs.openssh:bincache
+ssh-sk-helper#nixpkgs.openssh:bincache
+ssh#nixpkgs.openssh:bincache
+sshd-session#nixpkgs.openssh:bincache
+sshd#nixpkgs.openssh:bincache
