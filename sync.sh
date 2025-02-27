@@ -124,7 +124,7 @@ pushd "${REPO_DIR}" &>/dev/null
  else
    echo -e "\n[+] Total Packages: ${#GH_PKG_INPUT[@]}\n"
    printf '%s\n' "${GH_PKG_INPUT[@]}" | xargs -P "${PARALLEL_LIMIT:-$(($(nproc)+1))}" -I "{}" bash -c 'sync_to_gh "$@"' _ "{}"
-   if [[ -d "${PKG_DIR}" ]] && [[ "$(du -s "${PKG_DIR}" | cut -f1 | tr -d '[:space:]')" -gt 100000 ]]; then
+   if [[ -d "${PKG_DIR}" ]] && [[ "$(du -s "${PKG_DIR}" | cut -f1 | tr -d '[:space:]')" -gt 100 ]]; then
      pushd "${REPO_DIR}" &>/dev/null &&\
        find "${REPO_DIR}" -type f ! -path "./.git/*" -size -3c -delete
        find "${REPO_DIR}" -path "${REPO_DIR}/.git" -prune -o -type f -size +95M -exec rm -rvf "{}" + 2>/dev/null
@@ -164,8 +164,8 @@ pushd "${REPO_DIR}" &>/dev/null
            retry_git_push
          fi
         fi
-      du -sh "${REPO_DIR}" && realpath "${REPO_DIR}"
    fi
+  du -sh "${REPO_DIR}" && realpath "${REPO_DIR}" 
  fi
 popd &>/dev/null
 #-------------------------------------------------------#
