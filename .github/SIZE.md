@@ -1,0 +1,313 @@
+```mathematica
+1.8G └─┬ main
+955M   ├─┬ x86_64-Linux
+ 60M   │ ├── rclone
+ 41M   │ ├── gh
+ 41M   │ ├── httpx
+ 40M   │ ├── logdy
+ 34M   │ ├── trufflehog
+ 29M   │ ├── tailscale-multi
+ 29M   │ ├── glab
+ 28M   │ ├── tailscale
+ 25M   │ ├── noseyparker-cli
+ 25M   │ ├── noseyparker
+ 24M   │ ├── cloudflared
+ 24M   │ ├── csvtk
+ 19M   │ ├── qsv
+ 19M   │ ├── notify
+ 17M   │ ├── glow
+ 16M   │ ├── gitleaks
+ 16M   │ ├── gost
+ 15M   │ ├── gdu
+ 14M   │ ├── shellcheck
+ 14M   │ ├── freeze
+ 13M   │ ├── dwarfs-tools
+ 13M   │ ├── chafa
+ 13M   │ ├── micro
+ 12M   │ ├── aria2
+ 11M   │ ├── yq
+ 11M   │ ├── dbin
+ 10M   │ ├── bita
+ 10M   │ ├── soar
+ 10M   │ ├── dasel
+ 10M   │ ├── sttr
+ 10M   │ ├── archey
+9.9M   │ ├── oras
+9.0M   │ ├── speedtest-go
+9.0M   │ ├── croc
+8.6M   │ ├── taplo
+8.3M   │ ├── miniserve
+7.9M   │ ├── curl
+7.7M   │ ├── xq
+7.7M   │ ├── trurl
+7.7M   │ ├── eget
+7.4M   │ ├── bsdtar
+7.3M   │ ├── wget2
+7.3M   │ ├── bsdcpio
+7.3M   │ ├── wormhole-rs
+7.0M   │ ├── pixterm
+6.5M   │ ├── openssl
+6.2M   │ ├── unfurl
+6.1M   │ ├── wget
+6.0M   │ ├── socat
+6.0M   │ ├── rsync
+5.3M   │ ├── rga
+5.2M   │ ├── delta
+5.0M   │ ├── bsdunzip
+4.9M   │ ├── actionlint
+4.8M   │ ├── askalono
+4.7M   │ ├── validtoml
+4.4M   │ ├── ouch
+4.3M   │ ├── nmap
+4.0M   │ ├── ripgrep
+4.0M   │ ├── rg
+3.8M   │ ├── vim
+3.6M   │ ├── 7z
+3.6M   │ ├── nping
+3.4M   │ ├── yj
+3.4M   │ ├── fd-find
+3.4M   │ ├── fd
+3.3M   │ ├── git-sizer
+3.1M   │ ├── tldr
+3.1M   │ ├── imgcat
+2.8M   │ ├── ncat
+2.8M   │ ├── duf
+2.7M   │ ├── gs-netcat
+2.5M   │ ├── wrappe
+2.5M   │ ├── dust
+2.4M   │ ├── btop
+2.3M   │ ├── dysk
+1.9M   │ ├── epoch
+1.8M   │ ├── anew
+1.7M   │ ├── fastfetch
+1.7M   │ ├── tmux
+1.7M   │ ├── coreutils
+1.6M   │ ├── tcpdump
+1.5M   │ ├── sqfstar
+1.5M   │ ├── mksquashfs
+1.5M   │ ├── flashfetch
+1.5M   │ ├── grep
+1.4M   │ ├── xhost
+1.4M   │ ├── unsquashfs
+1.4M   │ ├── strace
+1.4M   │ ├── sqfscat
+1.4M   │ ├── tar2sqfs
+1.3M   │ ├── gensquashfs
+1.3M   │ ├── sqfs2tar
+1.3M   │ ├── rdsquashfs
+1.3M   │ ├── gsocket
+1.2M   │ ├── sqfsdiff
+1.2M   │ ├── busybox
+1.1M   │ ├── bash
+1.0M   │ ├── zstdmt
+1.0M   │ ├── zstdcat
+1.0M   │ ├── zstd
+1.0M   │ ├── unzstd
+924K   │ ├── b3sum
+912K   │ ├── jq
+808K   │ ├── gawk
+792K   │ ├── tar
+724K   │ ├── anewer
+724K   │ ├── anew-rs
+716K   │ ├── faketty
+696K   │ ├── ncdu
+588K   │ ├── upx
+520K   │ ├── dash
+428K   │ ├── bsdcat
+396K   │ ├── minisign
+356K   │ ├── base64
+320K   │ ├── xz
+320K   │ ├── unxz
+304K   │ ├── ps
+256K   │ ├── sed
+244K   │ ├── bwrap
+236K   │ ├── hexdump
+212K   │ ├── netstat
+204K   │ ├── ping
+192K   │ ├── reptyr
+172K   │ ├── zapper
+168K   │ ├── zapper-stealth
+160K   │ ├── sponge
+160K   │ ├── pipetty
+144K   │ ├── script
+140K   │ ├── awk
+116K   │ ├── netcat
+116K   │ ├── nc
+112K   │ ├── fusermount3
+104K   │ ├── unix2mac
+104K   │ ├── unix2dos
+104K   │ ├── mac2unix
+104K   │ ├── dos2unix
+ 40K   │ ├── ansi2html
+ 12K   │ ├── zgrep
+ 12K   │ ├── ansi2txt
+8.0K   │ ├── znew
+8.0K   │ ├── zdiff
+8.0K   │ ├── gzexe
+4.0K   │ ├── zstdless
+4.0K   │ ├── zstdgrep
+4.0K   │ ├── zmore
+4.0K   │ ├── zless
+4.0K   │ ├── zforce
+4.0K   │ ├── zcmp
+4.0K   │ ├── zcat
+4.0K   │ ├── uncompress
+4.0K   │ ├── gzip
+4.0K   │ └── gunzip
+897M   ├─┬ aarch64-Linux
+ 56M   │ ├── rclone
+ 41M   │ ├── gh
+ 39M   │ ├── httpx
+ 39M   │ ├── logdy
+ 30M   │ ├── shellcheck
+ 29M   │ ├── trufflehog
+ 28M   │ ├── tailscale-multi
+ 28M   │ ├── glab
+ 26M   │ ├── tailscale
+ 23M   │ ├── cloudflared
+ 22M   │ ├── csvtk
+ 20M   │ ├── noseyparker-cli
+ 20M   │ ├── noseyparker
+ 18M   │ ├── notify
+ 17M   │ ├── glow
+ 15M   │ ├── gitleaks
+ 14M   │ ├── qsv
+ 14M   │ ├── gdu
+ 14M   │ ├── gost
+ 13M   │ ├── freeze
+ 13M   │ ├── micro
+ 13M   │ ├── chafa
+ 12M   │ ├── dwarfs-tools
+ 11M   │ ├── aria2
+ 10M   │ ├── dbin
+ 10M   │ ├── yq
+ 10M   │ ├── dasel
+ 10M   │ ├── sttr
+ 10M   │ ├── archey
+9.4M   │ ├── oras
+8.6M   │ ├── croc
+8.5M   │ ├── bita
+8.3M   │ ├── soar
+8.2M   │ ├── speedtest-go
+7.5M   │ ├── xq
+7.3M   │ ├── eget
+7.3M   │ ├── curl
+7.0M   │ ├── trurl
+7.0M   │ ├── wget2
+6.8M   │ ├── taplo
+6.6M   │ ├── miniserve
+6.6M   │ ├── pixterm
+6.2M   │ ├── bsdtar
+6.1M   │ ├── bsdcpio
+5.9M   │ ├── wget
+5.9M   │ ├── unfurl
+5.9M   │ ├── wormhole-rs
+5.5M   │ ├── socat
+5.4M   │ ├── openssl
+4.8M   │ ├── rsync
+4.8M   │ ├── actionlint
+4.6M   │ ├── validtoml
+4.6M   │ ├── nmap
+4.5M   │ ├── rga
+4.5M   │ ├── delta
+4.1M   │ ├── ouch
+4.0M   │ ├── askalono
+3.9M   │ ├── vim
+3.8M   │ ├── bsdunzip
+3.8M   │ ├── nping
+3.3M   │ ├── yj
+3.3M   │ ├── git-sizer
+3.1M   │ ├── ripgrep
+3.1M   │ ├── rg
+3.1M   │ ├── ncat
+3.0M   │ ├── imgcat
+3.0M   │ ├── 7z
+2.7M   │ ├── duf
+2.7M   │ ├── gs-netcat
+2.6M   │ ├── fd-find
+2.6M   │ ├── fd
+2.5M   │ ├── tldr
+2.2M   │ ├── btop
+2.0M   │ ├── wrappe
+2.0M   │ ├── dust
+1.8M   │ ├── epoch
+1.8M   │ ├── dysk
+1.7M   │ ├── anew
+1.7M   │ ├── tmux
+1.6M   │ ├── coreutils
+1.6M   │ ├── fastfetch
+1.6M   │ ├── tcpdump
+1.4M   │ ├── strace
+1.4M   │ ├── flashfetch
+1.4M   │ ├── sqfstar
+1.4M   │ ├── mksquashfs
+1.4M   │ ├── xhost
+1.3M   │ ├── busybox
+1.3M   │ ├── unsquashfs
+1.3M   │ ├── sqfscat
+1.3M   │ ├── grep
+1.2M   │ ├── gsocket
+1.2M   │ ├── tar2sqfs
+1.2M   │ ├── sqfs2tar
+1.2M   │ ├── gensquashfs
+1.1M   │ ├── rdsquashfs
+1.1M   │ ├── sqfsdiff
+1.1M   │ ├── bash
+936K   │ ├── zstdmt
+936K   │ ├── zstdcat
+936K   │ ├── zstd
+936K   │ ├── unzstd
+912K   │ ├── jq
+840K   │ ├── gawk
+832K   │ ├── tar
+740K   │ ├── b3sum
+712K   │ ├── ncdu
+616K   │ ├── anew-rs
+612K   │ ├── anewer
+600K   │ ├── faketty
+564K   │ ├── upx
+564K   │ ├── dash
+392K   │ ├── bsdcat
+364K   │ ├── base64
+340K   │ ├── ps
+324K   │ ├── xz
+324K   │ ├── unxz
+320K   │ ├── minisign
+260K   │ ├── sed
+260K   │ ├── bwrap
+256K   │ ├── ping
+248K   │ ├── netstat
+216K   │ ├── reptyr
+180K   │ ├── zapper-stealth
+180K   │ ├── zapper
+172K   │ ├── sponge
+168K   │ ├── pipetty
+140K   │ ├── unix2mac
+140K   │ ├── unix2dos
+140K   │ ├── mac2unix
+140K   │ ├── dos2unix
+140K   │ ├── awk
+132K   │ ├── netcat
+132K   │ ├── nc
+132K   │ ├── fusermount3
+ 52K   │ ├── ansi2html
+ 12K   │ ├── zgrep
+ 12K   │ ├── ansi2txt
+8.0K   │ ├── znew
+8.0K   │ ├── zdiff
+8.0K   │ ├── gzexe
+4.0K   │ ├── zstdless
+4.0K   │ ├── zstdgrep
+4.0K   │ ├── zmore
+4.0K   │ ├── zless
+4.0K   │ ├── zforce
+4.0K   │ ├── zcmp
+4.0K   │ ├── zcat
+4.0K   │ ├── uncompress
+4.0K   │ ├── gzip
+4.0K   │ └── gunzip
+8.0K   ├── sync.sh
+8.0K   ├── PKG_LIST.txt
+4.0K   ├── README.md
+4.0K   └── LICENSE
+```
