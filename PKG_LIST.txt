@@ -1,4 +1,4 @@
-###fuser#nixpkgs.psmisc
+fuser#nixpkgs.psmisc
 #base64#git.busybox.net.busybox.standalone.glibc:bincache
 #base64#git.busybox.net.busybox.standalone:bincache
 #base64#github.com.coreutils.coreutils.standalone.glibc:bincache
