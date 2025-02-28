@@ -1,8 +1,8 @@
-fuser#nixpkgs.psmisc
 #base64#git.busybox.net.busybox.standalone.glibc:bincache
 #base64#git.busybox.net.busybox.standalone:bincache
 #base64#github.com.coreutils.coreutils.standalone.glibc:bincache
 #coreutils#nixpkgs.coreutils:bincache
+#fuser#nixpkgs.psmisc
 #grep#git.savannah.gnu.org.cgit.grep:bincache
 #jq#github.com.jqlang.jq.stable:bincache
 #ncdu#ppkg.ncdu:bincache
