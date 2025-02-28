@@ -182,3 +182,8 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+column#nixpkgs.util-linux:bincache
+findmnt#nixpkgs.util-linux:bincache
+mount#nixpkgs.util-linux:bincache
+fuser#nixpkgs.psmisc
+umount#nixpkgs.util-linux:bincache
