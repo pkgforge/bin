@@ -30,8 +30,8 @@
  12M   │ ├── aria2
  11M   │ ├── yq
  11M   │ ├── dbin
- 10M   │ ├── bita
  10M   │ ├── soar
+ 10M   │ ├── bita
  10M   │ ├── dasel
  10M   │ ├── sttr
  10M   │ ├── archey
