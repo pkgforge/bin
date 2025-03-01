@@ -12,8 +12,8 @@
  25M   │ ├── noseyparker
  24M   │ ├── cloudflared
  24M   │ ├── csvtk
- 21M   │ ├── jc
  21M   │ ├── huggingface-cli
+ 21M   │ ├── jc
  19M   │ ├── qsv
  19M   │ ├── notify
  17M   │ ├── glow
@@ -114,7 +114,7 @@
 1.0M   │ ├── zstdcat
 1.0M   │ ├── zstd
 1.0M   │ ├── unzstd
-924K   │ ├── b3sum
+928K   │ ├── b3sum
 912K   │ ├── jq
 808K   │ ├── gawk
 792K   │ ├── tar
@@ -123,6 +123,9 @@
 716K   │ ├── faketty
 696K   │ ├── ncdu
 644K   │ ├── sftp
+640K   │ ├── mount
+632K   │ ├── umount
+620K   │ ├── findmnt
 588K   │ ├── upx
 520K   │ ├── dash
 428K   │ ├── bsdcat
@@ -138,6 +141,7 @@
 236K   │ ├── hexdump
 212K   │ ├── netstat
 204K   │ ├── ping
+196K   │ ├── column
 192K   │ ├── reptyr
 172K   │ ├── zapper
 168K   │ ├── zapper-stealth
@@ -185,8 +189,8 @@
  20M   │ ├── noseyparker-cli
  20M   │ ├── noseyparker
  18M   │ ├── notify
+ 18M   │ ├── huggingface-cli
  18M   │ ├── jc
- 17M   │ ├── huggingface-cli
  17M   │ ├── glow
  15M   │ ├── gitleaks
  14M   │ ├── qsv
