@@ -174,12 +174,12 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-995M   ├─┬ aarch64-Linux
+994M   ├─┬ aarch64-Linux
  56M   │ ├── rclone
  41M   │ ├── gh
  39M   │ ├── httpx
  39M   │ ├── logdy
- 29M   │ ├── shellcheck
+ 30M   │ ├── shellcheck
  29M   │ ├── trufflehog
  28M   │ ├── tailscale-multi
  28M   │ ├── glab
@@ -212,15 +212,15 @@
 8.5M   │ ├── speedtest-go
 8.5M   │ ├── bita
 8.4M   │ ├── soar
-7.5M   │ ├── xq
 7.3M   │ ├── eget
 7.3M   │ ├── curl
 7.0M   │ ├── trurl
 7.0M   │ ├── wget2
 6.8M   │ ├── taplo
-6.6M   │ ├── miniserve
+6.8M   │ ├── miniserve
 6.6M   │ ├── tldr
 6.6M   │ ├── pixterm
+6.2M   │ ├── xq
 6.2M   │ ├── bsdtar
 6.1M   │ ├── bsdcpio
 5.9M   │ ├── wget
