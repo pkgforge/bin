@@ -91,7 +91,8 @@ jobs:
           #Presets
           set +x ; set +e
           #--------------#
-          sed '/:/!s/^/#/' -i "${GITHUB_WORKSPACE}/main/PKG_LIST.txt"
+          #sed '/:/!s/^/#/' -i "${GITHUB_WORKSPACE}/main/PKG_LIST.txt"
+          sed '/:/!s/^[^#]/#&/' -i "${GITHUB_WORKSPACE}/main/PKG_LIST.txt"
           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/PKG_LIST.txt"
           sort -u "${GITHUB_WORKSPACE}/main/PKG_LIST.txt" -o "${GITHUB_WORKSPACE}/main/PKG_LIST.txt"
           sed -E 's/^[[:space:]]+|[[:space:]]+$//g' -i "${GITHUB_WORKSPACE}/main/PKG_LIST.txt"
