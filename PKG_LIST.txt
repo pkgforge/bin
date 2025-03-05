@@ -1,4 +1,3 @@
-####################fuser#nixpkgs.psmisc
 #base64#git.busybox.net.busybox.standalone.glibc:bincache
 #base64#git.busybox.net.busybox.standalone:bincache
 #base64#github.com.coreutils.coreutils.standalone.glibc:bincache
@@ -59,6 +58,7 @@ fd-find#github.com.sharkdp.fd:bincache
 findmnt#nixpkgs.util-linux:bincache
 flashfetch#github.com.fastfetch-cli.fastfetch:bincache
 freeze#github.com.charmbracelet.freeze:bincache
+fuser#nixpkgs.psmisc:bincache
 fusermount#nixpkgs.fuse3:bincache
 fusermount3#nixpkgs.fuse3:bincache
 gawk#nixpkgs.gawk:bincache
