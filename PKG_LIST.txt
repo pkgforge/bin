@@ -191,3 +191,5 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+aws-wire-lengths#github.com.oxidecomputer.aws-wire-lengths:bincache
+cntb#github.com.contabo.cntb:bincache
