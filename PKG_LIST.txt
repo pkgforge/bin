@@ -23,6 +23,7 @@ archey#github.com.HorlogeSkynet.archey4:bincache
 aria2#github.com.aria2.aria2.stable:bincache
 askalono#github.com.jpeddicord.askalono:bincache
 awk#github.com.onetrueawk.awk:bincache
+aws-wire-lengths#github.com.oxidecomputer.aws-wire-lengths:bincache
 b3sum#github.com.BLAKE3-team.BLAKE3:bincache
 base64#github.com.coreutils.coreutils.standalone:bincache
 bash#nixpkgs.bash:bincache
@@ -37,6 +38,7 @@ bwrap#github.com.containers.bubblewrap.patched:bincache
 bwrap#github.com.containers.bubblewrap:bincache
 chafa#sharun.wrappe.alpine.chafa:pkgcache
 cloudflared#github.com.cloudflare.cloudflared:bincache
+cntb#github.com.contabo.cntb:bincache
 column#nixpkgs.util-linux:bincache
 coreutils#github.com.coreutils.coreutils.multicall:bincache
 croc#github.com.schollz.croc:bincache
@@ -191,5 +193,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-aws-wire-lengths#github.com.oxidecomputer.aws-wire-lengths:bincache
-cntb#github.com.contabo.cntb:bincache
