@@ -38,10 +38,10 @@
   10M   │ ├── sttr
   10M   │ ├── archey
  9.9M   │ ├── oras
+ 9.1M   │ ├── miniserve
  9.0M   │ ├── speedtest-go
  9.0M   │ ├── croc
  8.6M   │ ├── taplo
- 8.5M   │ ├── miniserve
  8.2M   │ ├── tldr
  7.9M   │ ├── curl
  7.7M   │ ├── trurl
@@ -185,7 +185,7 @@
   41M   │ ├── gh
   39M   │ ├── httpx
   39M   │ ├── logdy
-  30M   │ ├── shellcheck
+  29M   │ ├── shellcheck
   29M   │ ├── trufflehog
   28M   │ ├── tailscale-multi
   28M   │ ├── glab
@@ -221,11 +221,11 @@
  8.4M   │ ├── soar
  7.7M   │ ├── aws-wire-lengths
  7.3M   │ ├── eget
+ 7.3M   │ ├── miniserve
  7.3M   │ ├── curl
  7.0M   │ ├── trurl
  7.0M   │ ├── wget2
  6.8M   │ ├── taplo
- 6.8M   │ ├── miniserve
  6.6M   │ ├── tldr
  6.6M   │ ├── pixterm
  6.2M   │ ├── xq
