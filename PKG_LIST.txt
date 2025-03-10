@@ -2,6 +2,7 @@
 #base64#git.busybox.net.busybox.standalone:bincache
 #base64#github.com.coreutils.coreutils.standalone.glibc:bincache
 #coreutils#nixpkgs.coreutils:bincache
+#duplicut#github.com.pkgforge-security.duplicut.musl:bincache
 #grep#git.savannah.gnu.org.cgit.grep:bincache
 #hexedit#git.busybox.net.busybox.standalone.glibc:bincache
 #jq#github.com.jqlang.jq.stable:bincache
@@ -50,6 +51,7 @@ dbin#github.com.xplshn.dbin:bincache
 delta#github.com.dandavison.delta:bincache
 dos2unix#nixpkgs.dos2unix:bincache
 duf#github.com.muesli.duf:bincache
+duplicut#github.com.pkgforge-security.duplicut.glibc:bincache
 dust#github.com.bootandy.dust:bincache
 dwarfs-tools#github.com.mhx.dwarfs.multicall:bincache
 dysk#github.com.Canop.dysk:bincache
@@ -193,5 +195,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-duplicut#github.com.pkgforge-security.duplicut.glibc:bincache
-#duplicut#github.com.pkgforge-security.duplicut.musl:bincache

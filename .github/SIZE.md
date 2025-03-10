@@ -117,6 +117,7 @@
  1.0M   │ ├── zstdcat
  1.0M   │ ├── zstd
  1.0M   │ ├── unzstd
+ 944K   │ ├── duplicut
  928K   │ ├── b3sum
  808K   │ ├── gawk
  804K   │ ├── jq
@@ -180,7 +181,7 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
-1015M   ├─┬ aarch64-Linux
+1016M   ├─┬ aarch64-Linux
   56M   │ ├── rclone
   41M   │ ├── gh
   39M   │ ├── httpx
@@ -300,6 +301,7 @@
  840K   │ ├── gawk
  832K   │ ├── tar
  804K   │ ├── jq
+ 768K   │ ├── duplicut
  744K   │ ├── b3sum
  740K   │ ├── sftp
  720K   │ ├── ncdu
