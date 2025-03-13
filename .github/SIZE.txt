@@ -12,7 +12,7 @@
   25M   │ ├── noseyparker
   24M   │ ├── cloudflared
   24M   │ ├── csvtk
-  21M   │ ├── huggingface-cli
+  22M   │ ├── huggingface-cli
   21M   │ ├── jc
   19M   │ ├── qsv
   19M   │ ├── notify
@@ -41,8 +41,8 @@
  9.0M   │ ├── speedtest-go
  9.0M   │ ├── croc
  8.6M   │ ├── taplo
- 8.2M   │ ├── tldr
  7.9M   │ ├── curl
+ 7.9M   │ ├── tldr
  7.7M   │ ├── trurl
  7.7M   │ ├── eget
  7.4M   │ ├── bsdtar
@@ -56,6 +56,7 @@
  6.1M   │ ├── wget
  6.0M   │ ├── socat
  6.0M   │ ├── rsync
+ 5.7M   │ ├── ripgrep
  5.7M   │ ├── sshd-session
  5.7M   │ ├── ssh
  5.3M   │ ├── rga
@@ -73,7 +74,6 @@
  4.7M   │ ├── ssh-pkcs11-helper
  4.4M   │ ├── ouch
  4.3M   │ ├── nmap
- 4.0M   │ ├── ripgrep
  4.0M   │ ├── rg
  3.8M   │ ├── vim
  3.6M   │ ├── 7z
@@ -132,12 +132,12 @@
  588K   │ ├── upx
  520K   │ ├── dash
  428K   │ ├── bsdcat
- 396K   │ ├── minisign
  356K   │ ├── base64
  344K   │ ├── scp
  320K   │ ├── xz
  320K   │ ├── unxz
  304K   │ ├── ps
+ 276K   │ ├── minisign
  256K   │ ├── sftp-server
  256K   │ ├── sed
  244K   │ ├── bwrap
@@ -180,15 +180,15 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
-1016M   ├─┬ aarch64-Linux
+1018M   ├─┬ aarch64-Linux
   56M   │ ├── rclone
   41M   │ ├── gh
   39M   │ ├── httpx
   39M   │ ├── logdy
   29M   │ ├── shellcheck
   29M   │ ├── trufflehog
-  28M   │ ├── tailscale-multi
   28M   │ ├── glab
+  28M   │ ├── tailscale-multi
   26M   │ ├── tailscaled
   23M   │ ├── cloudflared
   22M   │ ├── csvtk
@@ -218,7 +218,7 @@
  8.6M   │ ├── croc
  8.5M   │ ├── speedtest-go
  8.5M   │ ├── bita
- 8.4M   │ ├── soar
+ 8.5M   │ ├── soar
  7.7M   │ ├── aws-wire-lengths
  7.3M   │ ├── eget
  7.3M   │ ├── miniserve
@@ -226,8 +226,8 @@
  7.0M   │ ├── trurl
  7.0M   │ ├── wget2
  6.8M   │ ├── taplo
- 6.6M   │ ├── tldr
  6.6M   │ ├── pixterm
+ 6.3M   │ ├── tldr
  6.2M   │ ├── xq
  6.2M   │ ├── bsdtar
  6.1M   │ ├── bsdcpio
@@ -246,6 +246,7 @@
  4.6M   │ ├── validtoml
  4.6M   │ ├── nmap
  4.5M   │ ├── delta
+ 4.5M   │ ├── ripgrep
  4.5M   │ ├── rga
  4.3M   │ ├── ssh-keysign
  4.2M   │ ├── ssh-add
@@ -258,7 +259,6 @@
  3.8M   │ ├── nping
  3.3M   │ ├── yj
  3.3M   │ ├── git-sizer
- 3.1M   │ ├── ripgrep
  3.1M   │ ├── rg
  3.1M   │ ├── ncat
  3.0M   │ ├── imgcat
@@ -315,12 +315,12 @@
  340K   │ ├── xz
  340K   │ ├── unxz
  340K   │ ├── ps
- 320K   │ ├── minisign
  308K   │ ├── sftp-server
  260K   │ ├── sed
  260K   │ ├── bwrap
  256K   │ ├── ping
  248K   │ ├── netstat
+ 228K   │ ├── minisign
  216K   │ ├── reptyr
  180K   │ ├── zapper-stealth
  180K   │ ├── zapper
