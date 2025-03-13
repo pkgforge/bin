@@ -180,7 +180,7 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
-1017M   ├─┬ aarch64-Linux
+1018M   ├─┬ aarch64-Linux
   56M   │ ├── rclone
   41M   │ ├── gh
   39M   │ ├── httpx
