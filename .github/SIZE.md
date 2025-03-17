@@ -131,6 +131,7 @@
  632K   │ ├── umount
  620K   │ ├── findmnt
  588K   │ ├── upx
+ 560K   │ ├── neofetch
  520K   │ ├── dash
  428K   │ ├── bsdcat
  356K   │ ├── base64
@@ -310,6 +311,7 @@
  600K   │ ├── faketty
  596K   │ ├── upx
  564K   │ ├── dash
+ 560K   │ ├── neofetch
  392K   │ ├── bsdcat
  388K   │ ├── scp
  364K   │ ├── base64
