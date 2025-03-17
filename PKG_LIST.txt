@@ -195,3 +195,4 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+neofetch#github.com.hykilpikonna.hyfetch:bincache
