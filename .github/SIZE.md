@@ -6,8 +6,8 @@
   41M   │ ├── httpx
   40M   │ ├── logdy
   34M   │ ├── trufflehog
-  29M   │ ├── glab
   29M   │ ├── tailscale-multi
+  29M   │ ├── glab
   28M   │ ├── tailscaled
   25M   │ ├── noseyparker-cli
   25M   │ ├── noseyparker
@@ -17,14 +17,14 @@
   21M   │ ├── jc
   19M   │ ├── qsv
   19M   │ ├── notify
-  17M   │ ├── glow
+  18M   │ ├── glow
   16M   │ ├── gitleaks
   16M   │ ├── gost
   15M   │ ├── gdu
   15M   │ ├── tailscale
   14M   │ ├── shellcheck
   14M   │ ├── freeze
-  13M   │ ├── dwarfs-tools
+  14M   │ ├── dwarfs-tools
   13M   │ ├── chafa
   13M   │ ├── micro
   13M   │ ├── cntb
@@ -79,9 +79,9 @@
  3.8M   │ ├── vim
  3.6M   │ ├── 7z
  3.6M   │ ├── nping
+ 3.5M   │ ├── fd-find
+ 3.5M   │ ├── fd
  3.4M   │ ├── yj
- 3.4M   │ ├── fd-find
- 3.4M   │ ├── fd
  3.3M   │ ├── git-sizer
  3.1M   │ ├── imgcat
  2.8M   │ ├── ncat
@@ -182,7 +182,7 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
-1018M   ├─┬ aarch64-Linux
+1019M   ├─┬ aarch64-Linux
   56M   │ ├── rclone
   41M   │ ├── gh
   39M   │ ├── httpx
@@ -208,8 +208,8 @@
   13M   │ ├── freeze
   13M   │ ├── micro
   13M   │ ├── chafa
-  12M   │ ├── cntb
   12M   │ ├── dwarfs-tools
+  12M   │ ├── cntb
   11M   │ ├── aria2
   10M   │ ├── dbin
   10M   │ ├── yq
@@ -265,10 +265,10 @@
  3.1M   │ ├── ncat
  3.0M   │ ├── imgcat
  3.0M   │ ├── 7z
+ 2.8M   │ ├── fd-find
+ 2.8M   │ ├── fd
  2.7M   │ ├── duf
  2.7M   │ ├── gs-netcat
- 2.6M   │ ├── fd-find
- 2.6M   │ ├── fd
  2.2M   │ ├── btop
  2.0M   │ ├── wrappe
  2.0M   │ ├── dust
