@@ -1,0 +1,35 @@
+name: ⌚ TIME
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 * *" #Once a month
+#------------------------------------------------------------------------------------#
+jobs:
+  Initialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      
+    steps:        
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          path: main
+          fetch-depth: "1"
+          filter: "blob:none"
+
+      - name: Get DateTime
+        run: |
+          UTC_TIME="$(TZ='UTC' date +'%Y-%m-%d (%I:%M:%S %p)' | tr -d '[:space:]')"
+          echo "UTC_TIME=${UTC_TIME}" >> "${GITHUB_ENV}"
+          echo "${UTC_TIME}" | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/.github/TIME"
+        continue-on-error: true
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          repository: ./main        
+          commit_user_name: Azathothas
+          commit_user_email: AjamX101@gmail.com
+          commit_message: "✅ Time <-- ${{ env.UTC_TIME }} ⌚"
