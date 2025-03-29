@@ -197,3 +197,9 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+subxtract#github.com.pkgforge-security.subxtract:bincache
+crt#github.com.pkgforge-security.crt:bincache
+tok#github.com.pkgforge-security.tok:bincache
+scopegen#github.com.pkgforge-security.scopegen:bincache
+inscope#github.com.pkgforge-security.inscope:bincache
+comb#github.com.pkgforge-security.comb:bincache
