@@ -41,8 +41,10 @@ chafa#sharun.wrappe.alpine.chafa:pkgcache
 cloudflared#github.com.cloudflare.cloudflared:bincache
 cntb#github.com.contabo.cntb:bincache
 column#nixpkgs.util-linux:bincache
+comb#github.com.pkgforge-security.comb:bincache
 coreutils#github.com.coreutils.coreutils.multicall:bincache
 croc#github.com.schollz.croc:bincache
+crt#github.com.pkgforge-security.crt:bincache
 csvtk#github.com.shenwei356.csvtk:bincache
 curl#github.com.stunnel.static-curl:bincache
 dasel#github.com.TomWright.dasel:bincache
@@ -87,6 +89,7 @@ hexedit#git.busybox.net.busybox.standalone:bincache
 httpx#github.com.projectdiscovery.httpx:bincache
 huggingface-cli#sharun.wrappe.source.huggingface-cli:pkgcache
 imgcat#github.com.danielgatis.imgcat:bincache
+inscope#github.com.pkgforge-security.inscope:bincache
 ipinfo#github.com.ipinfo.cli.source:bincache
 jc#sharun.wrappe.pypi.jc:pkgcache
 jq#github.com.jqlang.jq.source:bincache
@@ -123,6 +126,7 @@ rg#github.com.BurntSushi.ripgrep:bincache
 rga#github.com.phiresky.ripgrep-all:bincache
 ripgrep#github.com.BurntSushi.ripgrep:bincache
 rsync#nixpkgs.rsync:bincache
+scopegen#github.com.pkgforge-security.scopegen:bincache
 scp#nixpkgs.openssh:bincache
 script#nixpkgs.util-linux:bincache
 sed#nixpkgs.gnused:bincache
@@ -150,6 +154,7 @@ sshd#nixpkgs.openssh:bincache
 sshd-session#nixpkgs.openssh:bincache
 strace#nixpkgs.strace:bincache
 sttr#github.com.abhimanyu003.sttr:bincache
+subxtract#github.com.pkgforge-security.subxtract:bincache
 tailscale#github.com.tailscale.tailscale:bincache
 tailscale-multi#github.com.tailscale.tailscale:bincache
 tailscaled#github.com.tailscale.tailscale:bincache
@@ -159,6 +164,7 @@ tar2sqfs#nixpkgs.squashfs-tools-ng:bincache
 tcpdump#nixpkgs.tcpdump:bincache
 tldr#github.com.tealdeer-rs.tealdeer:bincache
 tmux#nixpkgs.tmux:bincache
+tok#github.com.pkgforge-security.tok:bincache
 trufflehog#github.com.trufflesecurity.trufflehog:bincache
 trurl#github.com.stunnel.static-curl:bincache
 umount#nixpkgs.util-linux:bincache
@@ -197,9 +203,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-subxtract#github.com.pkgforge-security.subxtract:bincache
-crt#github.com.pkgforge-security.crt:bincache
-tok#github.com.pkgforge-security.tok:bincache
-scopegen#github.com.pkgforge-security.scopegen:bincache
-inscope#github.com.pkgforge-security.inscope:bincache
-comb#github.com.pkgforge-security.comb:bincache
