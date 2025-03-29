@@ -1,367 +1,379 @@
 ```mathematica
- 2.1G └─┬ main
- 1.1G   ├─┬ x86_64-Linux
-  60M   │ ├── rclone
-  41M   │ ├── gh
-  41M   │ ├── httpx
-  40M   │ ├── logdy
-  34M   │ ├── trufflehog
-  29M   │ ├── glab
-  29M   │ ├── tailscale-multi
-  28M   │ ├── tailscaled
-  25M   │ ├── noseyparker-cli
-  25M   │ ├── noseyparker
-  24M   │ ├── cloudflared
-  24M   │ ├── csvtk
-  22M   │ ├── huggingface-cli
-  21M   │ ├── jc
-  19M   │ ├── qsv
-  19M   │ ├── notify
-  18M   │ ├── glow
-  16M   │ ├── gost
-  15M   │ ├── gdu
-  15M   │ ├── tailscale
-  14M   │ ├── shellcheck
-  14M   │ ├── dwarfs-tools
-  14M   │ ├── freeze
-  13M   │ ├── chafa
-  13M   │ ├── micro
-  13M   │ ├── cntb
-  12M   │ ├── aria2
-  11M   │ ├── yq
-  11M   │ ├── dbin
-  10M   │ ├── aws-wire-lengths
-  10M   │ ├── soar
-  10M   │ ├── gitleaks
-  10M   │ ├── bita
-  10M   │ ├── ipinfo
-  10M   │ ├── dasel
-  10M   │ ├── sttr
-  10M   │ ├── archey
- 9.9M   │ ├── oras
- 9.1M   │ ├── miniserve
- 9.0M   │ ├── speedtest-go
- 9.0M   │ ├── croc
- 8.6M   │ ├── taplo
- 7.9M   │ ├── curl
- 7.9M   │ ├── tldr
- 7.7M   │ ├── trurl
- 7.7M   │ ├── eget
- 7.4M   │ ├── bsdtar
- 7.3M   │ ├── wget2
- 7.3M   │ ├── bsdcpio
- 7.3M   │ ├── wormhole-rs
- 7.0M   │ ├── pixterm
- 6.5M   │ ├── openssl
- 6.5M   │ ├── xq
- 6.2M   │ ├── unfurl
- 6.1M   │ ├── wget
- 6.0M   │ ├── socat
- 6.0M   │ ├── rsync
- 5.7M   │ ├── ripgrep
- 5.7M   │ ├── sshd-session
- 5.7M   │ ├── ssh
- 5.3M   │ ├── rga
- 5.3M   │ ├── ssh-keyscan
- 5.2M   │ ├── delta
- 5.2M   │ ├── sshd
- 5.2M   │ ├── ssh-keygen
- 5.0M   │ ├── bsdunzip
- 4.9M   │ ├── actionlint
- 4.8M   │ ├── ssh-keysign
- 4.8M   │ ├── ssh-add
- 4.8M   │ ├── askalono
- 4.8M   │ ├── ssh-agent
- 4.7M   │ ├── validtoml
- 4.7M   │ ├── ssh-pkcs11-helper
- 4.4M   │ ├── ouch
- 4.3M   │ ├── nmap
- 4.0M   │ ├── rg
- 3.8M   │ ├── vim
- 3.6M   │ ├── 7z
- 3.6M   │ ├── nping
- 3.5M   │ ├── fd-find
- 3.5M   │ ├── fd
- 3.4M   │ ├── yj
- 3.3M   │ ├── git-sizer
- 3.1M   │ ├── imgcat
- 2.8M   │ ├── ncat
- 2.8M   │ ├── duf
- 2.7M   │ ├── gs-netcat
- 2.5M   │ ├── wrappe
- 2.5M   │ ├── dust
- 2.4M   │ ├── btop
- 2.3M   │ ├── dysk
- 1.9M   │ ├── epoch
- 1.8M   │ ├── anew
- 1.7M   │ ├── fastfetch
- 1.7M   │ ├── tmux
- 1.7M   │ ├── coreutils
- 1.6M   │ ├── tcpdump
- 1.5M   │ ├── sqfstar
- 1.5M   │ ├── mksquashfs
- 1.5M   │ ├── flashfetch
- 1.5M   │ ├── grep
- 1.4M   │ ├── xhost
- 1.4M   │ ├── unsquashfs
- 1.4M   │ ├── strace
- 1.4M   │ ├── sqfscat
- 1.4M   │ ├── tar2sqfs
- 1.3M   │ ├── gensquashfs
- 1.3M   │ ├── sqfs2tar
- 1.3M   │ ├── rdsquashfs
- 1.3M   │ ├── gsocket
- 1.2M   │ ├── sqfsdiff
- 1.2M   │ ├── busybox
- 1.1M   │ ├── bash
- 1.0M   │ ├── zstdmt
- 1.0M   │ ├── zstdcat
- 1.0M   │ ├── zstd
- 1.0M   │ ├── unzstd
- 944K   │ ├── duplicut
- 928K   │ ├── b3sum
- 808K   │ ├── gawk
- 804K   │ ├── jq
- 792K   │ ├── tar
- 732K   │ ├── anew-rs
- 724K   │ ├── anewer
- 716K   │ ├── faketty
- 700K   │ ├── ncdu
- 644K   │ ├── sftp
- 640K   │ ├── mount
- 632K   │ ├── umount
- 620K   │ ├── findmnt
- 588K   │ ├── upx
- 560K   │ ├── neofetch
- 520K   │ ├── dash
- 428K   │ ├── bsdcat
- 356K   │ ├── base64
- 344K   │ ├── scp
- 320K   │ ├── xz
- 320K   │ ├── unxz
- 304K   │ ├── ps
- 276K   │ ├── minisign
- 256K   │ ├── sftp-server
- 256K   │ ├── sed
- 244K   │ ├── bwrap
- 236K   │ ├── hexdump
- 212K   │ ├── netstat
- 204K   │ ├── ping
- 196K   │ ├── column
- 192K   │ ├── reptyr
- 172K   │ ├── zapper
- 168K   │ ├── zapper-stealth
- 160K   │ ├── sponge
- 160K   │ ├── pipetty
- 144K   │ ├── script
- 140K   │ ├── awk
- 128K   │ ├── fuser
- 116K   │ ├── netcat
- 116K   │ ├── nc
- 112K   │ ├── fusermount3
- 104K   │ ├── unix2mac
- 104K   │ ├── unix2dos
- 104K   │ ├── mac2unix
- 104K   │ ├── dos2unix
-  76K   │ ├── hexedit
-  52K   │ ├── xxd
-  40K   │ ├── ansi2html
-  16K   │ ├── ssh-sk-helper
-  16K   │ ├── ssh-copy-id
-  12K   │ ├── zgrep
-  12K   │ ├── ansi2txt
- 8.0K   │ ├── znew
- 8.0K   │ ├── zdiff
- 8.0K   │ ├── gzexe
- 4.0K   │ ├── zstdless
- 4.0K   │ ├── zstdgrep
- 4.0K   │ ├── zmore
- 4.0K   │ ├── zless
- 4.0K   │ ├── zforce
- 4.0K   │ ├── zcmp
- 4.0K   │ ├── zcat
- 4.0K   │ ├── uncompress
- 4.0K   │ ├── gzip
- 4.0K   │ └── gunzip
-1023M   ├─┬ aarch64-Linux
-  56M   │ ├── rclone
-  41M   │ ├── gh
-  39M   │ ├── httpx
-  39M   │ ├── logdy
-  29M   │ ├── shellcheck
-  29M   │ ├── trufflehog
-  28M   │ ├── glab
-  28M   │ ├── tailscale-multi
-  26M   │ ├── tailscaled
-  23M   │ ├── cloudflared
-  23M   │ ├── csvtk
-  20M   │ ├── noseyparker-cli
-  20M   │ ├── noseyparker
-  18M   │ ├── notify
-  18M   │ ├── huggingface-cli
-  18M   │ ├── jc
-  17M   │ ├── glow
-  14M   │ ├── qsv
-  14M   │ ├── gdu
-  14M   │ ├── gost
-  14M   │ ├── tailscale
-  13M   │ ├── freeze
-  13M   │ ├── micro
-  13M   │ ├── chafa
-  12M   │ ├── dwarfs-tools
-  12M   │ ├── cntb
-  11M   │ ├── aria2
-  10M   │ ├── dbin
-  10M   │ ├── yq
-  10M   │ ├── dasel
-  10M   │ ├── sttr
-  10M   │ ├── archey
- 9.9M   │ ├── gitleaks
- 9.9M   │ ├── ipinfo
- 9.4M   │ ├── oras
- 8.6M   │ ├── croc
- 8.5M   │ ├── speedtest-go
- 8.5M   │ ├── bita
- 8.5M   │ ├── soar
- 7.7M   │ ├── aws-wire-lengths
- 7.3M   │ ├── eget
- 7.3M   │ ├── miniserve
- 7.3M   │ ├── curl
- 7.0M   │ ├── trurl
- 7.0M   │ ├── wget2
- 6.8M   │ ├── taplo
- 6.6M   │ ├── pixterm
- 6.3M   │ ├── tldr
- 6.2M   │ ├── xq
- 6.2M   │ ├── bsdtar
- 6.1M   │ ├── bsdcpio
- 5.9M   │ ├── wget
- 5.9M   │ ├── unfurl
- 5.9M   │ ├── wormhole-rs
- 5.5M   │ ├── socat
- 5.4M   │ ├── openssl
- 5.1M   │ ├── sshd-session
- 5.1M   │ ├── ssh
- 4.8M   │ ├── rsync
- 4.8M   │ ├── actionlint
- 4.7M   │ ├── ssh-keyscan
- 4.7M   │ ├── sshd
- 4.7M   │ ├── ssh-keygen
- 4.6M   │ ├── validtoml
- 4.6M   │ ├── nmap
- 4.5M   │ ├── delta
- 4.5M   │ ├── ripgrep
- 4.5M   │ ├── rga
- 4.3M   │ ├── ssh-keysign
- 4.2M   │ ├── ssh-add
- 4.2M   │ ├── ssh-agent
- 4.2M   │ ├── ssh-pkcs11-helper
- 4.1M   │ ├── ouch
- 4.0M   │ ├── askalono
- 3.9M   │ ├── vim
- 3.8M   │ ├── bsdunzip
- 3.8M   │ ├── nping
- 3.3M   │ ├── yj
- 3.3M   │ ├── git-sizer
- 3.1M   │ ├── rg
- 3.1M   │ ├── ncat
- 3.0M   │ ├── imgcat
- 3.0M   │ ├── 7z
- 2.8M   │ ├── fd-find
- 2.8M   │ ├── fd
- 2.7M   │ ├── duf
- 2.7M   │ ├── gs-netcat
- 2.2M   │ ├── btop
- 2.0M   │ ├── wrappe
- 2.0M   │ ├── dust
- 1.8M   │ ├── epoch
- 1.8M   │ ├── dysk
- 1.7M   │ ├── anew
- 1.7M   │ ├── tmux
- 1.6M   │ ├── coreutils
- 1.6M   │ ├── fastfetch
- 1.6M   │ ├── tcpdump
- 1.4M   │ ├── strace
- 1.4M   │ ├── flashfetch
- 1.4M   │ ├── sqfstar
- 1.4M   │ ├── mksquashfs
- 1.4M   │ ├── xhost
- 1.3M   │ ├── busybox
- 1.3M   │ ├── unsquashfs
- 1.3M   │ ├── sqfscat
- 1.3M   │ ├── grep
- 1.2M   │ ├── gsocket
- 1.2M   │ ├── tar2sqfs
- 1.2M   │ ├── sqfs2tar
- 1.2M   │ ├── gensquashfs
- 1.1M   │ ├── rdsquashfs
- 1.1M   │ ├── sqfsdiff
- 1.1M   │ ├── bash
- 936K   │ ├── zstdmt
- 936K   │ ├── zstdcat
- 936K   │ ├── zstd
- 936K   │ ├── unzstd
- 840K   │ ├── gawk
- 832K   │ ├── tar
- 804K   │ ├── jq
- 768K   │ ├── duplicut
- 744K   │ ├── b3sum
- 740K   │ ├── sftp
- 720K   │ ├── ncdu
- 624K   │ ├── anew-rs
- 612K   │ ├── anewer
- 600K   │ ├── faketty
- 596K   │ ├── upx
- 564K   │ ├── dash
- 560K   │ ├── neofetch
- 392K   │ ├── bsdcat
- 388K   │ ├── scp
- 364K   │ ├── base64
- 340K   │ ├── xz
- 340K   │ ├── unxz
- 340K   │ ├── ps
- 308K   │ ├── sftp-server
- 260K   │ ├── sed
- 260K   │ ├── bwrap
- 256K   │ ├── ping
- 248K   │ ├── netstat
- 228K   │ ├── minisign
- 216K   │ ├── reptyr
- 180K   │ ├── zapper-stealth
- 180K   │ ├── zapper
- 172K   │ ├── sponge
- 168K   │ ├── pipetty
- 164K   │ ├── fuser
- 140K   │ ├── unix2mac
- 140K   │ ├── unix2dos
- 140K   │ ├── mac2unix
- 140K   │ ├── dos2unix
- 140K   │ ├── awk
- 132K   │ ├── netcat
- 132K   │ ├── nc
- 132K   │ ├── fusermount3
-  92K   │ ├── hexedit
-  64K   │ ├── xxd
-  52K   │ ├── ansi2html
-  36K   │ ├── ssh-sk-helper
-  16K   │ ├── ssh-copy-id
-  12K   │ ├── zgrep
-  12K   │ ├── ansi2txt
- 8.0K   │ ├── znew
- 8.0K   │ ├── zdiff
- 8.0K   │ ├── gzexe
- 4.0K   │ ├── zstdless
- 4.0K   │ ├── zstdgrep
- 4.0K   │ ├── zmore
- 4.0K   │ ├── zless
- 4.0K   │ ├── zforce
- 4.0K   │ ├── zcmp
- 4.0K   │ ├── zcat
- 4.0K   │ ├── uncompress
- 4.0K   │ ├── gzip
- 4.0K   │ └── gunzip
-  12K   ├── PKG_LIST.txt
- 8.0K   ├── sync.sh
- 4.0K   ├── README.md
- 4.0K   └── LICENSE
+2.1G └─┬ main
+1.1G   ├─┬ x86_64-Linux
+ 60M   │ ├── rclone
+ 41M   │ ├── gh
+ 41M   │ ├── httpx
+ 40M   │ ├── logdy
+ 34M   │ ├── trufflehog
+ 29M   │ ├── glab
+ 29M   │ ├── tailscale-multi
+ 28M   │ ├── tailscaled
+ 25M   │ ├── noseyparker-cli
+ 25M   │ ├── noseyparker
+ 24M   │ ├── cloudflared
+ 24M   │ ├── csvtk
+ 22M   │ ├── huggingface-cli
+ 21M   │ ├── jc
+ 19M   │ ├── qsv
+ 19M   │ ├── notify
+ 18M   │ ├── glow
+ 16M   │ ├── gost
+ 15M   │ ├── gdu
+ 15M   │ ├── tailscale
+ 14M   │ ├── shellcheck
+ 14M   │ ├── dwarfs-tools
+ 14M   │ ├── freeze
+ 13M   │ ├── chafa
+ 13M   │ ├── micro
+ 13M   │ ├── cntb
+ 12M   │ ├── aria2
+ 11M   │ ├── yq
+ 11M   │ ├── dbin
+ 10M   │ ├── aws-wire-lengths
+ 10M   │ ├── soar
+ 10M   │ ├── gitleaks
+ 10M   │ ├── bita
+ 10M   │ ├── ipinfo
+ 10M   │ ├── dasel
+ 10M   │ ├── sttr
+ 10M   │ ├── archey
+9.9M   │ ├── oras
+9.1M   │ ├── miniserve
+9.0M   │ ├── speedtest-go
+9.0M   │ ├── croc
+8.6M   │ ├── taplo
+7.9M   │ ├── curl
+7.9M   │ ├── tldr
+7.7M   │ ├── trurl
+7.7M   │ ├── eget
+7.4M   │ ├── bsdtar
+7.3M   │ ├── wget2
+7.3M   │ ├── bsdcpio
+7.3M   │ ├── subxtract
+7.3M   │ ├── wormhole-rs
+7.0M   │ ├── pixterm
+6.5M   │ ├── openssl
+6.5M   │ ├── xq
+6.2M   │ ├── unfurl
+6.2M   │ ├── crt
+6.1M   │ ├── wget
+6.0M   │ ├── socat
+6.0M   │ ├── rsync
+5.7M   │ ├── ripgrep
+5.7M   │ ├── sshd-session
+5.7M   │ ├── ssh
+5.3M   │ ├── rga
+5.3M   │ ├── ssh-keyscan
+5.2M   │ ├── delta
+5.2M   │ ├── sshd
+5.2M   │ ├── ssh-keygen
+5.0M   │ ├── bsdunzip
+4.9M   │ ├── actionlint
+4.8M   │ ├── ssh-keysign
+4.8M   │ ├── ssh-add
+4.8M   │ ├── askalono
+4.8M   │ ├── ssh-agent
+4.7M   │ ├── validtoml
+4.7M   │ ├── ssh-pkcs11-helper
+4.4M   │ ├── ouch
+4.3M   │ ├── nmap
+4.0M   │ ├── rg
+3.8M   │ ├── vim
+3.6M   │ ├── 7z
+3.6M   │ ├── nping
+3.5M   │ ├── fd-find
+3.5M   │ ├── fd
+3.4M   │ ├── yj
+3.3M   │ ├── git-sizer
+3.1M   │ ├── imgcat
+2.8M   │ ├── ncat
+2.8M   │ ├── duf
+2.7M   │ ├── gs-netcat
+2.5M   │ ├── wrappe
+2.5M   │ ├── dust
+2.4M   │ ├── btop
+2.3M   │ ├── dysk
+2.1M   │ ├── inscope
+1.9M   │ ├── epoch
+1.8M   │ ├── scopegen
+1.8M   │ ├── anew
+1.7M   │ ├── fastfetch
+1.7M   │ ├── tmux
+1.7M   │ ├── tok
+1.7M   │ ├── comb
+1.7M   │ ├── coreutils
+1.6M   │ ├── tcpdump
+1.5M   │ ├── sqfstar
+1.5M   │ ├── mksquashfs
+1.5M   │ ├── flashfetch
+1.5M   │ ├── grep
+1.4M   │ ├── xhost
+1.4M   │ ├── unsquashfs
+1.4M   │ ├── strace
+1.4M   │ ├── sqfscat
+1.4M   │ ├── tar2sqfs
+1.3M   │ ├── gensquashfs
+1.3M   │ ├── sqfs2tar
+1.3M   │ ├── rdsquashfs
+1.3M   │ ├── gsocket
+1.2M   │ ├── sqfsdiff
+1.2M   │ ├── busybox
+1.1M   │ ├── bash
+1.0M   │ ├── zstdmt
+1.0M   │ ├── zstdcat
+1.0M   │ ├── zstd
+1.0M   │ ├── unzstd
+944K   │ ├── duplicut
+928K   │ ├── b3sum
+808K   │ ├── gawk
+804K   │ ├── jq
+792K   │ ├── tar
+732K   │ ├── anew-rs
+724K   │ ├── anewer
+716K   │ ├── faketty
+700K   │ ├── ncdu
+644K   │ ├── sftp
+640K   │ ├── mount
+632K   │ ├── umount
+620K   │ ├── findmnt
+588K   │ ├── upx
+560K   │ ├── neofetch
+520K   │ ├── dash
+428K   │ ├── bsdcat
+356K   │ ├── base64
+344K   │ ├── scp
+320K   │ ├── xz
+320K   │ ├── unxz
+304K   │ ├── ps
+276K   │ ├── minisign
+256K   │ ├── sftp-server
+256K   │ ├── sed
+244K   │ ├── bwrap
+236K   │ ├── hexdump
+212K   │ ├── netstat
+204K   │ ├── ping
+196K   │ ├── column
+192K   │ ├── reptyr
+172K   │ ├── zapper
+168K   │ ├── zapper-stealth
+160K   │ ├── sponge
+160K   │ ├── pipetty
+144K   │ ├── script
+140K   │ ├── awk
+128K   │ ├── fuser
+116K   │ ├── netcat
+116K   │ ├── nc
+112K   │ ├── fusermount3
+104K   │ ├── unix2mac
+104K   │ ├── unix2dos
+104K   │ ├── mac2unix
+104K   │ ├── dos2unix
+ 76K   │ ├── hexedit
+ 52K   │ ├── xxd
+ 40K   │ ├── ansi2html
+ 16K   │ ├── ssh-sk-helper
+ 16K   │ ├── ssh-copy-id
+ 12K   │ ├── zgrep
+ 12K   │ ├── ansi2txt
+8.0K   │ ├── znew
+8.0K   │ ├── zdiff
+8.0K   │ ├── gzexe
+4.0K   │ ├── zstdless
+4.0K   │ ├── zstdgrep
+4.0K   │ ├── zmore
+4.0K   │ ├── zless
+4.0K   │ ├── zforce
+4.0K   │ ├── zcmp
+4.0K   │ ├── zcat
+4.0K   │ ├── uncompress
+4.0K   │ ├── gzip
+4.0K   │ └── gunzip
+1.0G   ├─┬ aarch64-Linux
+ 56M   │ ├── rclone
+ 41M   │ ├── gh
+ 39M   │ ├── httpx
+ 39M   │ ├── logdy
+ 29M   │ ├── shellcheck
+ 29M   │ ├── trufflehog
+ 28M   │ ├── glab
+ 28M   │ ├── tailscale-multi
+ 26M   │ ├── tailscaled
+ 23M   │ ├── cloudflared
+ 23M   │ ├── csvtk
+ 20M   │ ├── noseyparker-cli
+ 20M   │ ├── noseyparker
+ 18M   │ ├── notify
+ 18M   │ ├── huggingface-cli
+ 18M   │ ├── jc
+ 17M   │ ├── glow
+ 14M   │ ├── qsv
+ 14M   │ ├── gdu
+ 14M   │ ├── gost
+ 14M   │ ├── tailscale
+ 13M   │ ├── freeze
+ 13M   │ ├── micro
+ 13M   │ ├── chafa
+ 12M   │ ├── dwarfs-tools
+ 12M   │ ├── cntb
+ 11M   │ ├── aria2
+ 10M   │ ├── dbin
+ 10M   │ ├── yq
+ 10M   │ ├── dasel
+ 10M   │ ├── sttr
+ 10M   │ ├── archey
+9.9M   │ ├── gitleaks
+9.9M   │ ├── ipinfo
+9.4M   │ ├── oras
+8.6M   │ ├── croc
+8.5M   │ ├── speedtest-go
+8.5M   │ ├── bita
+8.5M   │ ├── soar
+7.7M   │ ├── aws-wire-lengths
+7.3M   │ ├── eget
+7.3M   │ ├── miniserve
+7.3M   │ ├── curl
+7.0M   │ ├── trurl
+7.0M   │ ├── wget2
+6.8M   │ ├── taplo
+6.8M   │ ├── subxtract
+6.6M   │ ├── pixterm
+6.3M   │ ├── tldr
+6.2M   │ ├── xq
+6.2M   │ ├── bsdtar
+6.1M   │ ├── bsdcpio
+5.9M   │ ├── wget
+5.9M   │ ├── unfurl
+5.9M   │ ├── wormhole-rs
+5.8M   │ ├── crt
+5.5M   │ ├── socat
+5.4M   │ ├── openssl
+5.1M   │ ├── sshd-session
+5.1M   │ ├── ssh
+4.8M   │ ├── rsync
+4.8M   │ ├── actionlint
+4.7M   │ ├── ssh-keyscan
+4.7M   │ ├── sshd
+4.7M   │ ├── ssh-keygen
+4.6M   │ ├── validtoml
+4.6M   │ ├── nmap
+4.5M   │ ├── delta
+4.5M   │ ├── ripgrep
+4.5M   │ ├── rga
+4.3M   │ ├── ssh-keysign
+4.2M   │ ├── ssh-add
+4.2M   │ ├── ssh-agent
+4.2M   │ ├── ssh-pkcs11-helper
+4.1M   │ ├── ouch
+4.0M   │ ├── askalono
+3.9M   │ ├── vim
+3.8M   │ ├── bsdunzip
+3.8M   │ ├── nping
+3.3M   │ ├── yj
+3.3M   │ ├── git-sizer
+3.1M   │ ├── rg
+3.1M   │ ├── ncat
+3.0M   │ ├── imgcat
+3.0M   │ ├── 7z
+2.8M   │ ├── fd-find
+2.8M   │ ├── fd
+2.7M   │ ├── duf
+2.7M   │ ├── gs-netcat
+2.2M   │ ├── btop
+2.1M   │ ├── inscope
+2.0M   │ ├── wrappe
+2.0M   │ ├── dust
+1.8M   │ ├── epoch
+1.8M   │ ├── dysk
+1.7M   │ ├── scopegen
+1.7M   │ ├── anew
+1.7M   │ ├── tmux
+1.7M   │ ├── tok
+1.7M   │ ├── comb
+1.6M   │ ├── coreutils
+1.6M   │ ├── fastfetch
+1.6M   │ ├── tcpdump
+1.4M   │ ├── strace
+1.4M   │ ├── flashfetch
+1.4M   │ ├── sqfstar
+1.4M   │ ├── mksquashfs
+1.4M   │ ├── xhost
+1.3M   │ ├── busybox
+1.3M   │ ├── unsquashfs
+1.3M   │ ├── sqfscat
+1.3M   │ ├── grep
+1.2M   │ ├── gsocket
+1.2M   │ ├── tar2sqfs
+1.2M   │ ├── sqfs2tar
+1.2M   │ ├── gensquashfs
+1.1M   │ ├── rdsquashfs
+1.1M   │ ├── sqfsdiff
+1.1M   │ ├── bash
+936K   │ ├── zstdmt
+936K   │ ├── zstdcat
+936K   │ ├── zstd
+936K   │ ├── unzstd
+840K   │ ├── gawk
+832K   │ ├── tar
+804K   │ ├── jq
+768K   │ ├── duplicut
+744K   │ ├── b3sum
+740K   │ ├── sftp
+720K   │ ├── ncdu
+624K   │ ├── anew-rs
+612K   │ ├── anewer
+600K   │ ├── faketty
+596K   │ ├── upx
+564K   │ ├── dash
+560K   │ ├── neofetch
+392K   │ ├── bsdcat
+388K   │ ├── scp
+364K   │ ├── base64
+340K   │ ├── xz
+340K   │ ├── unxz
+340K   │ ├── ps
+308K   │ ├── sftp-server
+260K   │ ├── sed
+260K   │ ├── bwrap
+256K   │ ├── ping
+248K   │ ├── netstat
+228K   │ ├── minisign
+216K   │ ├── reptyr
+180K   │ ├── zapper-stealth
+180K   │ ├── zapper
+172K   │ ├── sponge
+168K   │ ├── pipetty
+164K   │ ├── fuser
+140K   │ ├── unix2mac
+140K   │ ├── unix2dos
+140K   │ ├── mac2unix
+140K   │ ├── dos2unix
+140K   │ ├── awk
+132K   │ ├── netcat
+132K   │ ├── nc
+132K   │ ├── fusermount3
+ 92K   │ ├── hexedit
+ 64K   │ ├── xxd
+ 52K   │ ├── ansi2html
+ 36K   │ ├── ssh-sk-helper
+ 16K   │ ├── ssh-copy-id
+ 12K   │ ├── zgrep
+ 12K   │ ├── ansi2txt
+8.0K   │ ├── znew
+8.0K   │ ├── zdiff
+8.0K   │ ├── gzexe
+4.0K   │ ├── zstdless
+4.0K   │ ├── zstdgrep
+4.0K   │ ├── zmore
+4.0K   │ ├── zless
+4.0K   │ ├── zforce
+4.0K   │ ├── zcmp
+4.0K   │ ├── zcat
+4.0K   │ ├── uncompress
+4.0K   │ ├── gzip
+4.0K   │ └── gunzip
+ 12K   ├── PKG_LIST.txt
+8.0K   ├── sync.sh
+4.0K   ├── README.md
+4.0K   └── LICENSE
 ```
