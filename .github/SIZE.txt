@@ -17,12 +17,12 @@
  19M   │ ├── qsv
  19M   │ ├── notify
  18M   │ ├── glow
+ 16M   │ ├── gdu
  16M   │ ├── gost
- 15M   │ ├── gdu
  15M   │ ├── tailscale
  14M   │ ├── shellcheck
- 14M   │ ├── dwarfs-tools
  14M   │ ├── freeze
+ 14M   │ ├── dwarfs-tools
  13M   │ ├── chafa
  13M   │ ├── micro
  13M   │ ├── cntb
@@ -157,7 +157,6 @@
 172K   │ ├── zapper
 168K   │ ├── zapper-stealth
 160K   │ ├── sponge
-160K   │ ├── pipetty
 144K   │ ├── script
 140K   │ ├── awk
 128K   │ ├── fuser
@@ -170,6 +169,7 @@
 104K   │ ├── dos2unix
  76K   │ ├── hexedit
  52K   │ ├── xxd
+ 40K   │ ├── pipetty
  40K   │ ├── ansi2html
  16K   │ ├── ssh-sk-helper
  16K   │ ├── ssh-copy-id
@@ -206,11 +206,11 @@
  18M   │ ├── huggingface-cli
  18M   │ ├── jc
  17M   │ ├── glow
+ 15M   │ ├── gdu
  14M   │ ├── qsv
- 14M   │ ├── gdu
  14M   │ ├── gost
+ 14M   │ ├── freeze
  14M   │ ├── tailscale
- 13M   │ ├── freeze
  13M   │ ├── micro
  13M   │ ├── chafa
  12M   │ ├── dwarfs-tools
@@ -341,7 +341,6 @@
 180K   │ ├── zapper-stealth
 180K   │ ├── zapper
 172K   │ ├── sponge
-168K   │ ├── pipetty
 164K   │ ├── fuser
 140K   │ ├── unix2mac
 140K   │ ├── unix2dos
@@ -353,6 +352,7 @@
 132K   │ ├── fusermount3
  92K   │ ├── hexedit
  64K   │ ├── xxd
+ 52K   │ ├── pipetty
  52K   │ ├── ansi2html
  36K   │ ├── ssh-sk-helper
  16K   │ ├── ssh-copy-id
