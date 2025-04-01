@@ -158,7 +158,7 @@ subxtract#github.com.pkgforge-security.subxtract:bincache
 svn#sharun.wrappe.alpine.subversion:pkgcache
 svn-lite#github.com.rofl0r.svn-lite.source:bincache
 svnadmin#sharun.wrappe.alpine.subversion:pkgcache
-svnrdump#sharun.wrappe.alpine.subversion:pkgcach
+svnrdump#sharun.wrappe.alpine.subversion:pkgcache
 svnserve#sharun.wrappe.alpine.subversion:pkgcache
 svnsync#sharun.wrappe.alpine.subversion:pkgcache
 tailscale#github.com.tailscale.tailscale:bincache
