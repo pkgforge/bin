@@ -155,6 +155,12 @@ sshd-session#nixpkgs.openssh:bincache
 strace#nixpkgs.strace:bincache
 sttr#github.com.abhimanyu003.sttr:bincache
 subxtract#github.com.pkgforge-security.subxtract:bincache
+svn#sharun.wrappe.alpine.subversion:pkgcache
+svn-lite#github.com.rofl0r.svn-lite.source:bincache
+svnadmin#sharun.wrappe.alpine.subversion:pkgcache
+svnrdump#sharun.wrappe.alpine.subversion:pkgcach
+svnserve#sharun.wrappe.alpine.subversion:pkgcache
+svnsync#sharun.wrappe.alpine.subversion:pkgcache
 tailscale#github.com.tailscale.tailscale:bincache
 tailscale-multi#github.com.tailscale.tailscale:bincache
 tailscaled#github.com.tailscale.tailscale:bincache
@@ -203,9 +209,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-svn-lite#github.com.rofl0r.svn-lite.source:bincache
-svn#sharun.wrappe.alpine.subversion:pkgcache
-svnadmin#sharun.wrappe.alpine.subversion:pkgcache
-svnrdump#sharun.wrappe.alpine.subversion:pkgcach
-svnsync#sharun.wrappe.alpine.subversion:pkgcache
-svnserve#sharun.wrappe.alpine.subversion:pkgcache
