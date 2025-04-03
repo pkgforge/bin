@@ -28,6 +28,8 @@ aws-wire-lengths#github.com.oxidecomputer.aws-wire-lengths:bincache
 b3sum#github.com.BLAKE3-team.BLAKE3:bincache
 base64#github.com.coreutils.coreutils.standalone:bincache
 bash#nixpkgs.bash:bincache
+bat#github.com.sharkdp.bat:bincache
+batcat#github.com.sharkdp.bat:bincache
 bita#github.com.oll3.bita:bincache
 bsdcat#nixpkgs.libarchive:bincache
 bsdcpio#nixpkgs.libarchive:bincache
@@ -69,6 +71,7 @@ freeze#github.com.charmbracelet.freeze:bincache
 fuser#nixpkgs.psmisc:bincache
 fusermount#nixpkgs.fuse3:bincache
 fusermount3#nixpkgs.fuse3:bincache
+fzf#github.com.junegunn.fzf:bincache
 gawk#nixpkgs.gawk:bincache
 gdu#github.com.dundee.gdu:bincache
 gensquashfs#nixpkgs.squashfs-tools-ng:bincache
@@ -171,6 +174,7 @@ tcpdump#nixpkgs.tcpdump:bincache
 tldr#github.com.tealdeer-rs.tealdeer:bincache
 tmux#nixpkgs.tmux:bincache
 tok#github.com.pkgforge-security.tok:bincache
+tree#ppkg.tree:bincache
 trufflehog#github.com.trufflesecurity.trufflehog:bincache
 trurl#github.com.stunnel.static-curl:bincache
 umount#nixpkgs.util-linux:bincache
