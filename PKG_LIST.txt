@@ -96,6 +96,7 @@ inscope#github.com.pkgforge-security.inscope:bincache
 ipinfo#github.com.ipinfo.cli.source:bincache
 jc#sharun.wrappe.pypi.jc:pkgcache
 jq#github.com.jqlang.jq.source:bincache
+less#nixpkgs.less:bincache
 logdy#github.com.logdyhq.logdy-core:bincache
 mac2unix#nixpkgs.dos2unix:bincache
 micro#github.com.zyedidia.micro:bincache
