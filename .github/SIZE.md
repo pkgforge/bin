@@ -31,8 +31,8 @@
  11M   │ ├── yq
  11M   │ ├── dbin
  10M   │ ├── aws-wire-lengths
- 10M   │ ├── soar
  10M   │ ├── gitleaks
+ 10M   │ ├── soar
  10M   │ ├── bita
  10M   │ ├── ipinfo
  10M   │ ├── dasel
@@ -133,6 +133,7 @@
 1.0M   │ ├── zstdcat
 1.0M   │ ├── zstd
 1.0M   │ ├── unzstd
+968K   │ ├── less
 944K   │ ├── duplicut
 928K   │ ├── b3sum
 808K   │ ├── gawk
@@ -328,6 +329,7 @@
 1.1M   │ ├── rdsquashfs
 1.1M   │ ├── sqfsdiff
 1.1M   │ ├── bash
+948K   │ ├── less
 936K   │ ├── zstdmt
 936K   │ ├── zstdcat
 936K   │ ├── zstd
