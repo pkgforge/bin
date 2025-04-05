@@ -214,8 +214,8 @@
  23M   │ ├── csvtk
  20M   │ ├── noseyparker-cli
  20M   │ ├── noseyparker
- 18M   │ ├── notify
  18M   │ ├── huggingface-cli
+ 18M   │ ├── notify
  18M   │ ├── jc
  17M   │ ├── glow
  15M   │ ├── gdu
