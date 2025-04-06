@@ -214,3 +214,5 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+usque#github.com.Diniboy1123.usque.source:bincache
+joker#github.com.txthinking.joker.source:bincache
