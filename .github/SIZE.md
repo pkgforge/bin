@@ -31,8 +31,8 @@
  11M   │ ├── yq
  11M   │ ├── dbin
  10M   │ ├── aws-wire-lengths
- 10M   │ ├── gitleaks
  10M   │ ├── soar
+ 10M   │ ├── gitleaks
  10M   │ ├── bita
  10M   │ ├── ipinfo
  10M   │ ├── dasel
