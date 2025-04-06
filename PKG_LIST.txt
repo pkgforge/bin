@@ -95,6 +95,7 @@ imgcat#github.com.danielgatis.imgcat:bincache
 inscope#github.com.pkgforge-security.inscope:bincache
 ipinfo#github.com.ipinfo.cli.source:bincache
 jc#sharun.wrappe.pypi.jc:pkgcache
+joker#github.com.txthinking.joker.source:bincache
 jq#github.com.jqlang.jq.source:bincache
 less#nixpkgs.less:bincache
 logdy#github.com.logdyhq.logdy-core:bincache
@@ -187,6 +188,7 @@ unsquashfs#nixpkgs.squashfstools:bincache
 unxz#nixpkgs.xz:bincache
 unzstd#nixpkgs.zstd:bincache
 upx#github.com.upx.upx:bincache
+usque#github.com.Diniboy1123.usque.source:bincache
 validtoml#github.com.martinlindhe.validtoml:bincache
 vim#nixpkgs.vim:bincache
 wget#ppkg.wget:bincache
@@ -214,5 +216,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-usque#github.com.Diniboy1123.usque.source:bincache
-joker#github.com.txthinking.joker.source:bincache

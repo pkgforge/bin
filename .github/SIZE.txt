@@ -26,6 +26,7 @@
  13M   │ ├── chafa
  13M   │ ├── micro
  13M   │ ├── cntb
+ 12M   │ ├── usque
  12M   │ ├── aria2
  11M   │ ├── yq
  11M   │ ├── dbin
@@ -179,6 +180,7 @@
 104K   │ ├── mac2unix
 104K   │ ├── dos2unix
  76K   │ ├── hexedit
+ 68K   │ ├── joker
  52K   │ ├── xxd
  40K   │ ├── pipetty
  40K   │ ├── ansi2html
@@ -373,6 +375,7 @@
 132K   │ ├── nc
 132K   │ ├── fusermount3
  92K   │ ├── hexedit
+ 80K   │ ├── joker
  64K   │ ├── xxd
  52K   │ ├── pipetty
  52K   │ ├── ansi2html
