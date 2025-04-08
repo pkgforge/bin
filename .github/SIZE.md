@@ -1,12 +1,12 @@
 ```mathematica
 2.2G └─┬ main
-1.1G   ├─┬ x86_64-Linux
+1.2G   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  41M   │ ├── gh
  41M   │ ├── httpx
  40M   │ ├── logdy
  34M   │ ├── trufflehog
- 29M   │ ├── glab
+ 30M   │ ├── glab
  29M   │ ├── tailscale-multi
  28M   │ ├── tailscaled
  25M   │ ├── noseyparker-cli
@@ -31,8 +31,8 @@
  12M   │ ├── aria2
  11M   │ ├── yq
  11M   │ ├── dbin
+ 11M   │ ├── soar
  10M   │ ├── aws-wire-lengths
- 10M   │ ├── soar
  10M   │ ├── gitleaks
  10M   │ ├── bita
  10M   │ ├── ipinfo
@@ -136,7 +136,7 @@
 1.0M   │ ├── unzstd
 968K   │ ├── less
 944K   │ ├── duplicut
-928K   │ ├── b3sum
+932K   │ ├── b3sum
 808K   │ ├── gawk
 804K   │ ├── jq
 792K   │ ├── tar
