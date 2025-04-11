@@ -216,3 +216,5 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+gocryptfs#github.com.rfjakob.gocryptfs:bincache
+fuse2fs#github.com.tytso.e2fsprogs.source:bincache
