@@ -148,6 +148,8 @@ sqfs2tar#nixpkgs.squashfs-tools-ng:bincache
 sqfscat#nixpkgs.squashfstools:bincache
 sqfsdiff#nixpkgs.squashfs-tools-ng:bincache
 sqfstar#nixpkgs.squashfstools:bincache
+squashfuse#nixpkgs.squashfuse:bincache
+squashfuse_ll#nixpkgs.squashfuse:bincache
 ssh#nixpkgs.openssh:bincache
 ssh-add#nixpkgs.openssh:bincache
 ssh-agent#nixpkgs.openssh:bincache
