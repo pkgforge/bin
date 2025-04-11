@@ -68,6 +68,7 @@ fd-find#github.com.sharkdp.fd:bincache
 findmnt#nixpkgs.util-linux:bincache
 flashfetch#github.com.fastfetch-cli.fastfetch:bincache
 freeze#github.com.charmbracelet.freeze:bincache
+fuse-overlayfs#github.com.containers.fuse-overlayfs:bincache
 fuse2fs#github.com.tytso.e2fsprogs.source:bincache
 fuser#nixpkgs.psmisc:bincache
 fusermount#nixpkgs.fuse3:bincache
@@ -220,4 +221,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-fuse-overlayfs#github.com.containers.fuse-overlayfs:bincache
