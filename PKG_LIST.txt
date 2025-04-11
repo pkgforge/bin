@@ -220,3 +220,4 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+fuse-overlayfs#github.com.containers.fuse-overlayfs:bincache
