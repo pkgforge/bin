@@ -96,6 +96,7 @@
 3.4M   │ ├── yj
 3.3M   │ ├── git-sizer
 3.1M   │ ├── imgcat
+2.9M   │ ├── file
 2.8M   │ ├── ncat
 2.8M   │ ├── duf
 2.7M   │ ├── gs-netcat
@@ -214,9 +215,9 @@
  39M   │ ├── logdy
  29M   │ ├── shellcheck
  29M   │ ├── trufflehog
- 28M   │ ├── glab
  28M   │ ├── tailscale-multi
  26M   │ ├── tailscaled
+ 23M   │ ├── glab
  23M   │ ├── cloudflared
  23M   │ ├── csvtk
  20M   │ ├── noseyparker-cli
@@ -307,6 +308,7 @@
 2.7M   │ ├── duf
 2.7M   │ ├── gs-netcat
 2.6M   │ ├── svnserve
+2.6M   │ ├── file
 2.4M   │ ├── svnadmin
 2.2M   │ ├── btop
 2.1M   │ ├── inscope
