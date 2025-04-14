@@ -188,6 +188,7 @@
  76K   │ ├── hexedit
  68K   │ ├── joker
  52K   │ ├── xxd
+ 44K   │ ├── sstrip
  40K   │ ├── pipetty
  40K   │ ├── ansi2html
  16K   │ ├── ssh-sk-helper
@@ -214,9 +215,9 @@
  39M   │ ├── logdy
  29M   │ ├── shellcheck
  29M   │ ├── trufflehog
+ 28M   │ ├── glab
  28M   │ ├── tailscale-multi
  26M   │ ├── tailscaled
- 23M   │ ├── glab
  23M   │ ├── cloudflared
  23M   │ ├── csvtk
  20M   │ ├── noseyparker-cli
