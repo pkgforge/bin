@@ -224,3 +224,6 @@ zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
 objcopy#nixpkgs.binutils:bincache
+readelf#nixpkgs.binutils:bincache
+objdump#nixpkgs.binutils:bincache
+strings#nixpkgs.binutils:bincache
