@@ -191,6 +191,7 @@
 104K   │ ├── dos2unix
  76K   │ ├── hexedit
  68K   │ ├── joker
+ 60K   │ ├── add-section
  52K   │ ├── xxd
  44K   │ ├── sstrip
  40K   │ ├── pipetty
