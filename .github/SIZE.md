@@ -1,5 +1,5 @@
 ```mathematica
-2.2G └─┬ main
+2.3G └─┬ main
 1.2G   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  41M   │ ├── gh
@@ -101,6 +101,7 @@
 2.8M   │ ├── duf
 2.7M   │ ├── gs-netcat
 2.6M   │ ├── svnserve
+2.5M   │ ├── objdump
 2.5M   │ ├── wrappe
 2.5M   │ ├── svnadmin
 2.5M   │ ├── dust
@@ -122,6 +123,7 @@
 1.5M   │ ├── flashfetch
 1.5M   │ ├── grep
 1.5M   │ ├── xhost
+1.4M   │ ├── objcopy
 1.4M   │ ├── unsquashfs
 1.4M   │ ├── strace
 1.4M   │ ├── sqfscat
@@ -132,6 +134,7 @@
 1.3M   │ ├── gsocket
 1.2M   │ ├── sqfsdiff
 1.2M   │ ├── busybox
+1.1M   │ ├── readelf
 1.1M   │ ├── bash
 1.0M   │ ├── zstdmt
 1.0M   │ ├── zstdcat

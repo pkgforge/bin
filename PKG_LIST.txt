@@ -121,6 +121,8 @@ noseyparker#github.com.praetorian-inc.noseyparker:bincache
 noseyparker-cli#github.com.praetorian-inc.noseyparker:bincache
 notify#github.com.projectdiscovery.notify:bincache
 nping#sharun.wrappe.alpine.nmap:pkgcache
+objcopy#nixpkgs.binutils:bincache
+objdump#nixpkgs.binutils:bincache
 openssl#nixpkgs.openssl:bincache
 oras#github.com.oras-project.oras.stable:bincache
 ouch#github.com.ouch-org.ouch:bincache
@@ -131,6 +133,7 @@ ps#nixpkgs.procps:bincache
 qsv#github.com.dathere.qsv:bincache
 rclone#github.com.rclone.rclone.stable:bincache
 rdsquashfs#nixpkgs.squashfs-tools-ng:bincache
+readelf#nixpkgs.binutils:bincache
 reptyr#github.com.nelhage.reptyr:bincache
 rg#github.com.BurntSushi.ripgrep:bincache
 rga#github.com.phiresky.ripgrep-all:bincache
@@ -165,6 +168,7 @@ ssh-sk-helper#nixpkgs.openssh:bincache
 sshd#nixpkgs.openssh:bincache
 sshd-session#nixpkgs.openssh:bincache
 strace#nixpkgs.strace:bincache
+strings#nixpkgs.binutils:bincache
 sttr#github.com.abhimanyu003.sttr:bincache
 subxtract#github.com.pkgforge-security.subxtract:bincache
 svn#sharun.wrappe.alpine.subversion:pkgcache
@@ -223,7 +227,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-objcopy#nixpkgs.binutils:bincache
-readelf#nixpkgs.binutils:bincache
-objdump#nixpkgs.binutils:bincache
-strings#nixpkgs.binutils:bincache
