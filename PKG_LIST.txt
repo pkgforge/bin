@@ -15,6 +15,7 @@
 #xxd#git.busybox.net.busybox.standalone.glibc:bincache
 7z#github.com.ip7z.7zip:bincache
 actionlint#github.com.rhysd.actionlint:bincache
+add-section#github.com.pkgforge-dev.elftools.source:bincache
 anew#github.com.tomnomnom.anew:bincache
 anew-rs#github.com.zer0yu.anew:bincache
 anewer#github.com.ysf.anewer:bincache
@@ -166,6 +167,7 @@ ssh-pkcs11-helper#nixpkgs.openssh:bincache
 ssh-sk-helper#nixpkgs.openssh:bincache
 sshd#nixpkgs.openssh:bincache
 sshd-session#nixpkgs.openssh:bincache
+sstrip#github.com.pkgforge-dev.super-strip:bincache
 strace#nixpkgs.strace:bincache
 strings#nixpkgs.binutils:bincache
 sttr#github.com.abhimanyu003.sttr:bincache
@@ -189,6 +191,7 @@ tok#github.com.pkgforge-security.tok:bincache
 tree#ppkg.tree:bincache
 trufflehog#github.com.trufflesecurity.trufflehog:bincache
 trurl#github.com.stunnel.static-curl:bincache
+ulexec#github.com.VHSgunzo.ulexec.source:bincache
 umount#nixpkgs.util-linux:bincache
 uncompress#nixpkgs.gzip:bincache
 unfurl#github.com.tomnomnom.unfurl:bincache
@@ -226,6 +229,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-ulexec#github.com.VHSgunzo.ulexec.source:bincache
-add-section#github.com.pkgforge-dev.elftools.source:bincache
-sstrip#github.com.pkgforge-dev.super-strip:bincache
