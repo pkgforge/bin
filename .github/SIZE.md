@@ -219,7 +219,7 @@
  41M   │ ├── gh
  39M   │ ├── httpx
  39M   │ ├── logdy
- 30M   │ ├── shellcheck
+ 29M   │ ├── shellcheck
  29M   │ ├── trufflehog
  28M   │ ├── glab
  28M   │ ├── tailscale-multi
