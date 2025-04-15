@@ -1,4 +1,3 @@
-#add-section#github.com.pkgforge-dev.elftools.source
 #base64#git.busybox.net.busybox.standalone.glibc:bincache
 #base64#git.busybox.net.busybox.standalone:bincache
 #base64#github.com.coreutils.coreutils.standalone.glibc:bincache
@@ -13,7 +12,6 @@
 #script#git.busybox.net.busybox.standalone.glibc:bincache
 #script#git.busybox.net.busybox.standalone:bincache
 #soar#github.com.pkgforge.soar.glibc:bincache
-#sstrip#github.com.pkgforge-dev.super-strip
 #xxd#git.busybox.net.busybox.standalone.glibc
 7z#github.com.ip7z.7zip:bincache
 actionlint#github.com.rhysd.actionlint:bincache
@@ -228,3 +226,6 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+ulexec#github.com.VHSgunzo.ulexec.source:bincache
+add-section#github.com.pkgforge-dev.elftools.source
+sstrip#github.com.pkgforge-dev.super-strip
