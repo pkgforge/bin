@@ -1,6 +1,7 @@
 ```mathematica
-2.3G └─┬ main
+2.4G └─┬ main
 1.2G   ├─┬ x86_64-Linux
+ 66M   │ ├── huggingface-cli
  60M   │ ├── rclone
  41M   │ ├── gh
  41M   │ ├── httpx
@@ -13,7 +14,6 @@
  25M   │ ├── noseyparker
  24M   │ ├── cloudflared
  24M   │ ├── csvtk
- 22M   │ ├── huggingface-cli
  21M   │ ├── jc
  19M   │ ├── qsv
  19M   │ ├── notify
@@ -54,6 +54,7 @@
 7.3M   │ ├── bsdcpio
 7.3M   │ ├── subxtract
 7.3M   │ ├── wormhole-rs
+7.1M   │ ├── ulexec
 7.0M   │ ├── pixterm
 6.5M   │ ├── openssl
 6.5M   │ ├── xq
@@ -215,6 +216,7 @@
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
 1.1G   ├─┬ aarch64-Linux
+ 61M   │ ├── huggingface-cli
  56M   │ ├── rclone
  41M   │ ├── gh
  39M   │ ├── httpx
@@ -228,7 +230,6 @@
  23M   │ ├── csvtk
  20M   │ ├── noseyparker-cli
  20M   │ ├── noseyparker
- 18M   │ ├── huggingface-cli
  18M   │ ├── notify
  18M   │ ├── jc
  17M   │ ├── glow
@@ -272,6 +273,7 @@
 5.9M   │ ├── wget
 5.9M   │ ├── unfurl
 5.9M   │ ├── wormhole-rs
+5.9M   │ ├── ulexec
 5.8M   │ ├── crt
 5.5M   │ ├── socat
 5.4M   │ ├── openssl
@@ -401,6 +403,8 @@
  92K   │ ├── hexedit
  80K   │ ├── joker
  64K   │ ├── xxd
+ 60K   │ ├── add-section
+ 52K   │ ├── sstrip
  52K   │ ├── pipetty
  52K   │ ├── ansi2html
  36K   │ ├── ssh-sk-helper
