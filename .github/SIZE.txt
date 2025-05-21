@@ -5,6 +5,7 @@
  41M   │ ├── httpx
  40M   │ ├── logdy
  34M   │ ├── trufflehog
+ 34M   │ ├── huggingface-cli
  30M   │ ├── glab
  29M   │ ├── tailscale-multi
  28M   │ ├── tailscaled
@@ -12,7 +13,6 @@
  25M   │ ├── noseyparker
  24M   │ ├── cloudflared
  24M   │ ├── csvtk
- 22M   │ ├── huggingface-cli
  21M   │ ├── jc
  19M   │ ├── qsv
  19M   │ ├── notify
@@ -223,12 +223,12 @@
  29M   │ ├── trufflehog
  28M   │ ├── glab
  28M   │ ├── tailscale-multi
+ 26M   │ ├── huggingface-cli
  26M   │ ├── tailscaled
  23M   │ ├── cloudflared
  23M   │ ├── csvtk
  20M   │ ├── noseyparker-cli
  20M   │ ├── noseyparker
- 18M   │ ├── huggingface-cli
  18M   │ ├── notify
  18M   │ ├── jc
  17M   │ ├── glow
