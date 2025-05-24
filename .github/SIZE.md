@@ -5,8 +5,8 @@
  41M   │ ├── gh
  41M   │ ├── httpx
  40M   │ ├── logdy
+ 38M   │ ├── huggingface-cli
  34M   │ ├── trufflehog
- 34M   │ ├── huggingface-cli
  30M   │ ├── glab
  29M   │ ├── tailscale-multi
  28M   │ ├── tailscaled
@@ -24,7 +24,7 @@
  14M   │ ├── shellcheck
  14M   │ ├── freeze
  14M   │ ├── dwarfs-tools
- 13M   │ ├── chafa
+ 14M   │ ├── chafa
  13M   │ ├── micro
  13M   │ ├── cntb
  12M   │ ├── usque
@@ -220,11 +220,11 @@
  41M   │ ├── gh
  39M   │ ├── httpx
  39M   │ ├── logdy
+ 31M   │ ├── huggingface-cli
  29M   │ ├── shellcheck
  29M   │ ├── trufflehog
  28M   │ ├── glab
  28M   │ ├── tailscale-multi
- 26M   │ ├── huggingface-cli
  26M   │ ├── tailscaled
  23M   │ ├── cloudflared
  23M   │ ├── csvtk
