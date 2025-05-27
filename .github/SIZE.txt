@@ -27,9 +27,9 @@
  13M   │ ├── micro
  13M   │ ├── cntb
  12M   │ ├── usque
+ 12M   │ ├── dbin
  12M   │ ├── aria2
  11M   │ ├── yq
- 11M   │ ├── dbin
  11M   │ ├── soar
  10M   │ ├── aws-wire-lengths
  10M   │ ├── gitleaks
@@ -242,8 +242,8 @@
  12M   │ ├── dwarfs-tools
  12M   │ ├── cntb
  11M   │ ├── usque
+ 11M   │ ├── dbin
  11M   │ ├── aria2
- 10M   │ ├── dbin
  10M   │ ├── yq
  10M   │ ├── dasel
  10M   │ ├── sttr
