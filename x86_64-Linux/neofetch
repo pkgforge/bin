@@ -1198,7 +1198,15 @@ get_distro() {
             elif type -p lsb_release >/dev/null; then
                 # Debian does not include .x versions in /etc/os-version, but does in debian_version
                 # So if that file exists, and we are not *buntu, build name from there
-                if [[ -f /etc/debian_version ]] && [[ $(lsb_release -si) != *"buntu"* ]] && [[ $(lsb_release -si) != *"neon"* ]]; then
+                if [[ $(lsb_release -si) = *"KSLinux"* ]]
+                then
+                    . /etc/os-release
+                    case $distro_shorthand in
+                        on)   distro=${NAME} ;;
+                        tiny) distro=${NAME} ;;
+                        *)    distro="${NAME} ${VERSION}" ;;
+                    esac
+                elif [[ -f /etc/debian_version ]] && [[ $(lsb_release -si) != *"buntu"* ]] && [[ $(lsb_release -si) != *"neon"* ]]; then
                     . /etc/os-release
                     case $distro_shorthand in
                         on)   distro="${NAME}" ;;
@@ -1256,10 +1264,6 @@ get_distro() {
 
             elif type -p tazpkg >/dev/null; then
                 distro="SliTaz $(< /etc/slitaz-release)"
-
-            elif type -p kpt >/dev/null && \
-                 type -p kpm >/dev/null; then
-                distro=KSLinux
 
             elif [[ -d /system/app/ && -d /system/priv-app ]]; then
                 distro="Android $(getprop ro.build.version.release)"
@@ -2237,7 +2241,6 @@ get_packages() {
             fi
 
             # Other (Needs complex command)
-            has kpm-pkg && ((packages+=$(kpm  --get-selections | grep -cv deinstall$)))
 
             nix-user-pkgs() {
                 if [ -d ~/.nix-profile ]; then
@@ -4579,7 +4582,7 @@ get_python_ver() {
     if command -v python &> /dev/null; then
         python_ver=$(python -VVV)
         python_ver=${python_ver//$'\n'/}
-        python_ver=${python_ver//\(+([^\)])\)}
+        python_ver=${python_ver//+([[:space:]])\(+([^\)])\)}
         python_ver=$(echo "$python_ver" | awk '$1=$1')
     fi
 }
@@ -8221,6 +8224,31 @@ ${c1}--------------------------------------
 EOF
         ;;
 
+        "Bazzite"*)
+            set_colors 5 5
+            read -rd '' ascii_data <<'EOF'
+${c1}     %%%%%%====%%%%%%%%%%
+   %%%%%%%%    %%%%%%%%%%%%%%
+  %%%%%%%%%    %%%%%%%%%%%%%%%%
+  %%%%%%%%%    %%%%%%%%%%%%%%%###
+  %%%%%%%%%    %%%%%%%%%%%%%######
+  ==                  =======######
+  ==                  =========#####
+  %%%%%%%%%    %%%%%%%####======#####
+  %%%%%%%%%    %%%%%#######=====#####
+  %%%%%%%%%    %%%#########=====#####
+  %%%%%%%%%    %%##########=====#####
+  %%%%%%%%%====###########=====######
+   %%%%%%%%====#########======######
+    %%%%%%%=====#####========######
+     %%%%###===============#######
+      %#######==========#########
+        #######################
+          ###################
+              ###########
+EOF
+        ;;
+
         "BigLinux_large"*)
             set_colors 2 3 4 7
             read -rd '' ascii_data <<'EOF'
@@ -8737,6 +8765,8 @@ ${c1}                    .
             ..::---================-=-
 EOF
         ;;
+
+
 
         "CelOS"*)
             set_colors 4 6 0 5
@@ -13699,6 +13729,33 @@ ${c1}
 #######################################
 EOF
         ;;
+
+                "Rhino Linux"*)
+            set_colors 5 4
+            read -rd '' ascii_data <<'EOF'
+${c1}
+${c1}            ..','..      l.
+        .,coooooooooc,..ool
+      ;oooooooooooooooooooo.,coo.
+    ;oooooooooooooooooooooooooo      ,
+  .ooooooooooooooooooooooooooo   .  ,o
+  oollcccccccccllloooooooooooolcoo..oo
+ ll;':::::::::::::::ccloooooooooooooo:
+.;''';::::::::::::::::::ccloooooooooo
+''''',:::::::::::::::::::::::cclllllc
+'''''';::::::::::::::::::::::::::::::
+${c1}.'''''';::::::::::::::::${c2}ll${c1}:::::::::::
+${c1} ''''''';:::::::::::::::${c2}d0${c1}::
+ ${c1}.''''''',;:::::::${c2}cc${c1}::::${c2}0N:'
+  ${c1}''''''''',,;::::${c2}cK${c1}:::${c2}dMX,
+   ${c1}'''''''''''',,,${c2}dMccOMM${c1}:
+    ${c1}.''''''''''''${c2}cWM0WMM${c1}.
+      ${c1}'''''''':${c2}kMMMMM${c1}.
+         ${c2}odxONMMMM
+            ;Kl
+EOF
+        ;;
+
 
         "rocky_small"*)
             set_colors 2
