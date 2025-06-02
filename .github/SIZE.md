@@ -31,8 +31,8 @@
  12M   │ ├── dbin
  12M   │ ├── aria2
  11M   │ ├── yq
- 11M   │ ├── bita
  11M   │ ├── soar
+ 11M   │ ├── bita
  10M   │ ├── gitleaks
  10M   │ ├── aws-wire-lengths
  10M   │ ├── ipinfo
@@ -220,7 +220,7 @@
  41M   │ ├── gh
  40M   │ ├── httpx
  39M   │ ├── logdy
- 29M   │ ├── shellcheck
+ 30M   │ ├── shellcheck
  29M   │ ├── trufflehog
  28M   │ ├── glab
  28M   │ ├── tailscale-multi
@@ -253,8 +253,8 @@
 9.9M   │ ├── ipinfo
 9.4M   │ ├── oras
 9.1M   │ ├── gocryptfs
+9.1M   │ ├── soar
 9.1M   │ ├── bita
-9.0M   │ ├── soar
 8.6M   │ ├── croc
 8.5M   │ ├── speedtest-go
 7.7M   │ ├── aws-wire-lengths
