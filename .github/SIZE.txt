@@ -431,9 +431,10 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
- 17M   ├─┬ riscv64-Linux
+ 22M   ├─┬ riscv64-Linux
  11M   │ ├── croc
-6.5M   │ └── soar
+6.5M   │ ├── soar
+4.5M   │ └── askalono
  12K   ├── PKG_LIST.txt
 8.0K   ├── sync.sh
 4.0K   ├── README.md
