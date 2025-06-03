@@ -1,4 +1,4 @@
-2.3G └─┬ main
+2.4G └─┬ main
 1.2G   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  42M   │ ├── httpx
@@ -26,10 +26,13 @@
  14M   │ ├── chafa
  13M   │ ├── micro
  13M   │ ├── cntb
+ 13M   │ ├── mkdwarfs
  12M   │ ├── usque
  12M   │ ├── dbin
+ 12M   │ ├── dwarfsextract
  12M   │ ├── aria2
  11M   │ ├── yq
+ 11M   │ ├── dwarfs
  11M   │ ├── soar
  11M   │ ├── bita
  10M   │ ├── gitleaks
@@ -167,6 +170,7 @@
 320K   │ ├── unxz
 304K   │ ├── ps
 276K   │ ├── minisign
+272K   │ ├── mawk
 256K   │ ├── sftp-server
 256K   │ ├── sed
 236K   │ ├── hexdump
@@ -233,6 +237,7 @@
  18M   │ ├── qsv
  18M   │ ├── jc
  17M   │ ├── glow
+ 15M   │ ├── gitleaks
  15M   │ ├── gdu
  14M   │ ├── gost
  14M   │ ├── freeze
@@ -241,13 +246,14 @@
  13M   │ ├── micro
  12M   │ ├── dwarfs-tools
  12M   │ ├── cntb
+ 12M   │ ├── mkdwarfs
  11M   │ ├── usque
  11M   │ ├── dbin
  11M   │ ├── aria2
+ 10M   │ ├── dwarfsextract
  10M   │ ├── yq
+ 10M   │ ├── dwarfs
  10M   │ ├── dasel
- 10M   │ ├── gitleaks
- 10M   │ ├── sttr
  10M   │ ├── archey
 9.9M   │ ├── ipinfo
 9.4M   │ ├── oras
@@ -255,6 +261,7 @@
 9.1M   │ ├── soar
 9.1M   │ ├── bita
 8.6M   │ ├── croc
+8.6M   │ ├── sttr
 8.5M   │ ├── speedtest-go
 7.7M   │ ├── aws-wire-lengths
 7.4M   │ ├── miniserve
@@ -274,7 +281,7 @@
 5.9M   │ ├── wormhole-rs
 5.9M   │ ├── ulexec
 5.8M   │ ├── crt
-5.5M   │ ├── socat
+5.7M   │ ├── socat
 5.4M   │ ├── svn
 5.4M   │ ├── openssl
 5.3M   │ ├── svnrdump
@@ -334,8 +341,8 @@
 1.6M   │ ├── flashfetch
 1.6M   │ ├── tcpdump
 1.5M   │ ├── objcopy
-1.4M   │ ├── xhost
 1.4M   │ ├── strace
+1.4M   │ ├── xhost
 1.4M   │ ├── sqfstar
 1.4M   │ ├── mksquashfs
 1.4M   │ ├── strings
@@ -360,14 +367,14 @@
 904K   │ ├── gawk
 832K   │ ├── tar
 816K   │ ├── jq
+804K   │ ├── squashfuse_ll
+788K   │ ├── squashfuse
 772K   │ ├── duplicut
 748K   │ ├── b3sum
 740K   │ ├── sftp
 720K   │ ├── ncdu
 712K   │ ├── fuse2fs
 620K   │ ├── anew-rs
-612K   │ ├── squashfuse_ll
-612K   │ ├── squashfuse
 612K   │ ├── anewer
 600K   │ ├── faketty
 596K   │ ├── upx
@@ -379,6 +386,7 @@
 340K   │ ├── unxz
 340K   │ ├── ps
 308K   │ ├── sftp-server
+308K   │ ├── mawk
 260K   │ ├── sed
 256K   │ ├── ping
 248K   │ ├── netstat

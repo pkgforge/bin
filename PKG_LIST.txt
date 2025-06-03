@@ -1,7 +1,9 @@
 #base64#git.busybox.net.busybox.standalone.glibc:bincache
 #base64#git.busybox.net.busybox.standalone:bincache
 #base64#github.com.coreutils.coreutils.standalone.glibc:bincache
+#bwrap#github.com.containers.bubblewrap.patched:bincache
 #coreutils#nixpkgs.coreutils:bincache
+#dash#ppkg.dash:bincache
 #duplicut#github.com.pkgforge-security.duplicut.musl:bincache
 #grep#git.savannah.gnu.org.cgit.grep:bincache
 #hexedit#git.busybox.net.busybox.standalone.glibc:bincache
@@ -38,7 +40,6 @@ bsdtar#nixpkgs.libarchive:bincache
 bsdunzip#nixpkgs.libarchive:bincache
 btop#github.com.aristocratos.btop:bincache
 busybox#nixpkgs.busybox:bincache
-#bwrap#github.com.containers.bubblewrap.patched:bincache
 bwrap#github.com.containers.bubblewrap:bincache
 chafa#sharun.wrappe.alpine.chafa:pkgcache
 cloudflared#github.com.cloudflare.cloudflared:bincache
@@ -58,10 +59,9 @@ dos2unix#nixpkgs.dos2unix:bincache
 duf#github.com.muesli.duf:bincache
 duplicut#github.com.pkgforge-security.duplicut.glibc:bincache
 dust#github.com.bootandy.dust:bincache
-dwarfs-tools#github.com.mhx.dwarfs.multicall:bincache
 dwarfs#github.com.mhx.dwarfs.standalone:bincache
+dwarfs-tools#github.com.mhx.dwarfs.multicall:bincache
 dwarfsextract#github.com.mhx.dwarfs.standalone:bincache
-mkdwarfs#github.com.mhx.dwarfs.standalone:bincache
 dysk#github.com.Canop.dysk:bincache
 eget#github.com.zyedidia.eget:bincache
 epoch#github.com.sj14.epoch:bincache
@@ -108,9 +108,11 @@ jq#github.com.jqlang.jq.source:bincache
 less#nixpkgs.less:bincache
 logdy#github.com.logdyhq.logdy-core:bincache
 mac2unix#nixpkgs.dos2unix:bincache
+mawk#nixpkgs.mawk:bincache
 micro#github.com.zyedidia.micro:bincache
 miniserve#github.com.svenstaro.miniserve:bincache
 minisign#github.com.jedisct1.minisign:bincache
+mkdwarfs#github.com.mhx.dwarfs.standalone:bincache
 mksquashfs#nixpkgs.squashfstools:bincache
 mount#nixpkgs.util-linux:bincache
 nc#nixpkgs.netcat-gnu:bincache
@@ -232,6 +234,3 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
-dash#nixpkgs.bash:bincache
-#dash#ppkg.dash:bincache
-mawk#nixpkgs.mawk:bincache
