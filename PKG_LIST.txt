@@ -38,7 +38,7 @@ bsdtar#nixpkgs.libarchive:bincache
 bsdunzip#nixpkgs.libarchive:bincache
 btop#github.com.aristocratos.btop:bincache
 busybox#nixpkgs.busybox:bincache
-bwrap#github.com.containers.bubblewrap.patched:bincache
+#bwrap#github.com.containers.bubblewrap.patched:bincache
 bwrap#github.com.containers.bubblewrap:bincache
 chafa#sharun.wrappe.alpine.chafa:pkgcache
 cloudflared#github.com.cloudflare.cloudflared:bincache
@@ -59,6 +59,9 @@ duf#github.com.muesli.duf:bincache
 duplicut#github.com.pkgforge-security.duplicut.glibc:bincache
 dust#github.com.bootandy.dust:bincache
 dwarfs-tools#github.com.mhx.dwarfs.multicall:bincache
+dwarfs#github.com.mhx.dwarfs.standalone:bincache
+dwarfsextract#github.com.mhx.dwarfs.standalone:bincache
+mkdwarfs#github.com.mhx.dwarfs.standalone:bincache
 dysk#github.com.Canop.dysk:bincache
 eget#github.com.zyedidia.eget:bincache
 epoch#github.com.sj14.epoch:bincache
@@ -229,3 +232,6 @@ zstdcat#nixpkgs.zstd:bincache
 zstdgrep#nixpkgs.zstd:bincache
 zstdless#nixpkgs.zstd:bincache
 zstdmt#nixpkgs.zstd:bincache
+dash#nixpkgs.bash:bincache
+#dash#ppkg.dash:bincache
+mawk#nixpkgs.mawk:bincache
