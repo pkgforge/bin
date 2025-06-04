@@ -1,5 +1,5 @@
 ```mathematica
-2.8G └─┬ main
+2.9G └─┬ main
 1.2G   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  42M   │ ├── httpx
@@ -432,17 +432,22 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-383M   ├─┬ riscv64-Linux
+464M   ├─┬ riscv64-Linux
  55M   │ ├── rclone
  38M   │ ├── gh
  36M   │ ├── shellcheck
+ 26M   │ ├── tailscale-multi
  25M   │ ├── glab
+ 25M   │ ├── tailscaled
+ 14M   │ ├── tailscale
  13M   │ ├── micro
  11M   │ ├── yq
  11M   │ ├── croc
  11M   │ ├── oras
 8.5M   │ ├── speedtest-go
 7.5M   │ ├── eget
+6.7M   │ ├── wormhole-rs
+6.7M   │ ├── wormhole
 6.2M   │ ├── curl
 6.0M   │ ├── trurl
 5.9M   │ ├── soar
