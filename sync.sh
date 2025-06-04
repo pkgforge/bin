@@ -14,7 +14,9 @@ if [[ -z "${USER_AGENT+x}" ]]; then
  USER_AGENT="$(curl -qfsSL 'https://raw.githubusercontent.com/pkgforge/devscripts/refs/heads/main/Misc/User-Agents/ua_firefox_macos_latest.txt')"
 fi
 ##Host
-HOST_TRIPLET="$(uname -m)-$(uname -s)"
+if [[ -z ${HOST_TRIPLET+x} || -z ${HOST_TRIPLET##*[[:space:]]} ]]; then
+  HOST_TRIPLET="$(uname -m)-$(uname -s)"
+fi
 export HOST_TRIPLET="$(echo "${HOST_TRIPLET}" | tr -d '[:space:]')"
 export HOST_TRIPLET_L="${HOST_TRIPLET,,}"
 ##Sanity
