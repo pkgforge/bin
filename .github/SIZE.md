@@ -432,7 +432,7 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-464M   ├─┬ riscv64-Linux
+479M   ├─┬ riscv64-Linux
  55M   │ ├── rclone
  38M   │ ├── gh
  36M   │ ├── shellcheck
@@ -445,6 +445,8 @@
  11M   │ ├── croc
  11M   │ ├── oras
 8.5M   │ ├── speedtest-go
+7.6M   │ ├── aria2c
+7.6M   │ ├── aria2
 7.5M   │ ├── eget
 6.7M   │ ├── wormhole-rs
 6.7M   │ ├── wormhole
