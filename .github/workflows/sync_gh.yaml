@@ -27,6 +27,11 @@ jobs:
             script: "https://raw.githubusercontent.com/pkgforge/bin/refs/heads/main/sync.sh"
 
           - runner: "ubuntu-latest"
+            pkg-dir: "riscv64-Linux"
+            repo: "bincache"
+            script: "https://raw.githubusercontent.com/pkgforge/bin/refs/heads/main/sync.sh"
+
+          - runner: "ubuntu-latest"
             pkg-dir: "x86_64-Linux"
             repo: "bincache"
             script: "https://raw.githubusercontent.com/pkgforge/bin/refs/heads/main/sync.sh"
@@ -36,6 +41,11 @@ jobs:
             repo: "pkgcache"
             script: "https://raw.githubusercontent.com/pkgforge/bin/refs/heads/main/sync.sh"
           
+          - runner: "ubuntu-latest"
+            pkg-dir: "riscv64-Linux"
+            repo: "pkgcache"
+            script: "https://raw.githubusercontent.com/pkgforge/bin/refs/heads/main/sync.sh"
+
           - runner: "ubuntu-latest"
             pkg-dir: "x86_64-Linux"
             repo: "pkgcache"
