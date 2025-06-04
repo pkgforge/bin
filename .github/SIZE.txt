@@ -1,14 +1,14 @@
-2.4G └─┬ main
+2.6G └─┬ main
 1.2G   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  42M   │ ├── httpx
  41M   │ ├── gh
  40M   │ ├── logdy
+ 38M   │ ├── huggingface-cli
  34M   │ ├── trufflehog
  30M   │ ├── glab
  29M   │ ├── tailscale-multi
  28M   │ ├── tailscaled
- 26M   │ ├── huggingface-cli
  26M   │ ├── noseyparker-cli
  26M   │ ├── noseyparker
  24M   │ ├── cloudflared
@@ -17,6 +17,7 @@
  21M   │ ├── jc
  19M   │ ├── notify
  18M   │ ├── glow
+ 16M   │ ├── gitleaks
  16M   │ ├── gdu
  16M   │ ├── gost
  15M   │ ├── tailscale
@@ -35,17 +36,16 @@
  11M   │ ├── dwarfs
  11M   │ ├── soar
  11M   │ ├── bita
- 10M   │ ├── gitleaks
  10M   │ ├── aws-wire-lengths
  10M   │ ├── ipinfo
  10M   │ ├── dasel
- 10M   │ ├── sttr
  10M   │ ├── archey
 9.9M   │ ├── oras
 9.9M   │ ├── gocryptfs
 9.2M   │ ├── miniserve
 9.0M   │ ├── speedtest-go
 9.0M   │ ├── croc
+8.9M   │ ├── sttr
 8.6M   │ ├── taplo
 7.9M   │ ├── curl
 7.9M   │ ├── tldr
@@ -62,8 +62,8 @@
 6.5M   │ ├── xq
 6.2M   │ ├── unfurl
 6.2M   │ ├── crt
+6.1M   │ ├── socat
 6.1M   │ ├── wget
-6.0M   │ ├── socat
 6.0M   │ ├── rsync
 5.8M   │ ├── sshd-session
 5.8M   │ ├── ssh
@@ -127,8 +127,8 @@
 1.5M   │ ├── grep
 1.5M   │ ├── xhost
 1.4M   │ ├── objcopy
-1.4M   │ ├── unsquashfs
 1.4M   │ ├── strace
+1.4M   │ ├── unsquashfs
 1.4M   │ ├── sqfscat
 1.4M   │ ├── tar2sqfs
 1.3M   │ ├── gensquashfs
@@ -148,7 +148,9 @@
 948K   │ ├── duplicut
 928K   │ ├── b3sum
 888K   │ ├── gawk
+820K   │ ├── squashfuse
 820K   │ ├── jq
+812K   │ ├── squashfuse_ll
 792K   │ ├── tar
 724K   │ ├── anewer
 720K   │ ├── anew-rs
@@ -157,9 +159,7 @@
 664K   │ ├── fuse2fs
 652K   │ ├── sftp
 640K   │ ├── mount
-636K   │ ├── squashfuse_ll
 632K   │ ├── umount
-632K   │ ├── squashfuse
 620K   │ ├── findmnt
 588K   │ ├── upx
 560K   │ ├── neofetch
@@ -218,18 +218,18 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-1.1G   ├─┬ aarch64-Linux
+1.2G   ├─┬ aarch64-Linux
  56M   │ ├── rclone
  41M   │ ├── gh
  40M   │ ├── httpx
  39M   │ ├── logdy
+ 31M   │ ├── huggingface-cli
  29M   │ ├── shellcheck
  29M   │ ├── trufflehog
  28M   │ ├── glab
  28M   │ ├── tailscale-multi
  26M   │ ├── tailscaled
  23M   │ ├── cloudflared
- 23M   │ ├── huggingface-cli
  23M   │ ├── csvtk
  20M   │ ├── noseyparker-cli
  20M   │ ├── noseyparker
@@ -431,9 +431,13 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
- 62M   ├─┬ riscv64-Linux
+204M   ├─┬ riscv64-Linux
+ 55M   │ ├── rclone
+ 38M   │ ├── gh
+ 36M   │ ├── shellcheck
  13M   │ ├── micro
  11M   │ ├── croc
+ 11M   │ ├── oras
 8.5M   │ ├── speedtest-go
 7.5M   │ ├── eget
 5.9M   │ ├── soar
@@ -444,6 +448,7 @@
 836K   │ ├── 7zr
 560K   │ ├── neofetch
 500K   │ ├── 7z
+188K   │ ├── minisign
 132K   │ ├── bwrap
 112K   │ └── tree
  12K   ├── PKG_LIST.txt
