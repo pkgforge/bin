@@ -1,4 +1,4 @@
-2.6G └─┬ main
+2.8G └─┬ main
 1.2G   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  42M   │ ├── httpx
@@ -431,26 +431,241 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-204M   ├─┬ riscv64-Linux
+383M   ├─┬ riscv64-Linux
  55M   │ ├── rclone
  38M   │ ├── gh
  36M   │ ├── shellcheck
+ 25M   │ ├── glab
  13M   │ ├── micro
+ 11M   │ ├── yq
  11M   │ ├── croc
  11M   │ ├── oras
 8.5M   │ ├── speedtest-go
 7.5M   │ ├── eget
+6.2M   │ ├── curl
+6.0M   │ ├── trurl
 5.9M   │ ├── soar
+5.6M   │ ├── bsdtar
+5.5M   │ ├── bsdcpio
+4.6M   │ ├── openssl
 4.5M   │ ├── wget
+4.5M   │ ├── rsync
 4.5M   │ ├── askalono
+4.3M   │ ├── socat1
+4.1M   │ ├── sshd-session
+4.0M   │ ├── sshd-auth
+4.0M   │ ├── ssh
+3.7M   │ ├── ssh-keyscan
+3.6M   │ ├── sshd
+3.6M   │ ├── ssh-keygen
+3.4M   │ ├── bsdunzip
+3.3M   │ ├── vim
+3.3M   │ ├── ssh-keysign
+3.3M   │ ├── ssh-add
+3.3M   │ ├── ssh-agent
+3.2M   │ ├── ssh-pkcs11-helper
+3.1M   │ ├── yj
 2.8M   │ ├── 7za
+1.6M   │ ├── coreutils
 1.5M   │ ├── fastfetch
+1.5M   │ ├── tmux
+1.4M   │ ├── lslogins
+1.4M   │ ├── mksquashfs
+1.4M   │ ├── tcpdump
+1.3M   │ ├── unsquashfs
+1.3M   │ ├── bash
+1.3M   │ ├── lastlog2
+1.3M   │ ├── tar2sqfs
+1.2M   │ ├── zstd
+1.2M   │ ├── gensquashfs
+1.2M   │ ├── sqfs2tar
+1.2M   │ ├── strace
+1.2M   │ ├── rdsquashfs
+1.2M   │ ├── busybox
+1.1M   │ ├── sqfsdiff
+1.1M   │ ├── cfdisk
+864K   │ ├── fdisk
+860K   │ ├── sfdisk
+852K   │ ├── less
 836K   │ ├── 7zr
+812K   │ ├── lsblk
+780K   │ ├── b3sum
+752K   │ ├── gawk
+740K   │ ├── jq
+700K   │ ├── tar
+684K   │ ├── nano
+668K   │ ├── squashfuse_ll
+664K   │ ├── squashfuse
+656K   │ ├── findmnt
+644K   │ ├── lsns
+576K   │ ├── lslocks
 560K   │ ├── neofetch
+552K   │ ├── sftp
+500K   │ ├── fsck
+500K   │ ├── eject
 500K   │ ├── 7z
+496K   │ ├── fstrim
+492K   │ ├── mountpoint
+464K   │ ├── partx
+464K   │ ├── dash
+456K   │ ├── irqtop
+436K   │ ├── wipefs
+416K   │ ├── mkswap
+408K   │ ├── blkid
+404K   │ ├── mount.fuse3
+396K   │ ├── lsfd
+388K   │ ├── top
+360K   │ ├── swaplabel
+360K   │ ├── findfs
+360K   │ ├── blkdiscard
+356K   │ ├── watch
+348K   │ ├── slabtop
+344K   │ ├── bsdcat
+328K   │ ├── login
+324K   │ ├── runuser
+300K   │ ├── chfn
+296K   │ ├── scp
+296K   │ ├── chsh
+284K   │ ├── xz
+284K   │ ├── ps
+268K   │ ├── zramctl
+268K   │ ├── more
+268K   │ ├── lscpu
+268K   │ ├── dmesg
+264K   │ ├── losetup
+256K   │ ├── lsipc
+256K   │ ├── cal
+244K   │ ├── mawk
+228K   │ ├── hexdump
+224K   │ ├── sftp-server
+224K   │ ├── lsclocks
+216K   │ ├── setterm
+216K   │ ├── sed
+212K   │ ├── pstree
+208K   │ ├── wdctl
+208K   │ ├── ping
+208K   │ ├── lsmem
+204K   │ ├── rfkill
+204K   │ ├── pkill
+204K   │ ├── pidwait
+204K   │ ├── pgrep
+204K   │ ├── fsck.minix
+200K   │ ├── netstat
+200K   │ ├── agetty
+196K   │ ├── uuidparse
+196K   │ ├── mkfs.minix
 188K   │ ├── minisign
+188K   │ ├── lsirq
+188K   │ ├── column
+184K   │ ├── ul
+184K   │ ├── awk
+176K   │ ├── vmstat
+176K   │ ├── prlimit
+176K   │ ├── fincore
+168K   │ ├── pmap
+168K   │ ├── hwclock
+164K   │ ├── setpriv
+156K   │ ├── unshare
+156K   │ ├── pidof
+152K   │ ├── hardlink
+148K   │ ├── setarch
+148K   │ ├── ipcs
+148K   │ ├── blockdev
+148K   │ ├── blkzone
+144K   │ ├── script
+144K   │ ├── nsenter
+144K   │ ├── logger
+140K   │ ├── resizepart
+140K   │ ├── mkfs.cramfs
+140K   │ ├── last
+140K   │ ├── ifconfig
+136K   │ ├── uuidd
+136K   │ ├── route
+136K   │ ├── ipcrm
+132K   │ ├── killall
 132K   │ ├── bwrap
-112K   │ └── tree
+128K   │ ├── kill
+128K   │ ├── fsck.cramfs
+128K   │ ├── chrt
+128K   │ ├── arp
+124K   │ ├── wall
+124K   │ ├── uclampset
+124K   │ ├── taskset
+124K   │ ├── scriptlive
+124K   │ ├── rtcwake
+124K   │ ├── fuser
+124K   │ ├── chmem
+120K   │ ├── xzdec
+120K   │ ├── sysctl
+120K   │ ├── clockdiff
+116K   │ ├── uuidgen
+116K   │ ├── pipesz
+116K   │ ├── choom
+112K   │ ├── tree
+112K   │ ├── arping
+108K   │ ├── netcat
+108K   │ ├── fusermount3
+104K   │ ├── utmpdump
+104K   │ ├── scriptreplay
+104K   │ ├── rarp
+104K   │ ├── namei
+104K   │ ├── chcpu
+100K   │ ├── unix2dos
+100K   │ ├── readprofile
+100K   │ ├── lzmainfo
+100K   │ ├── flock
+100K   │ ├── enosys
+100K   │ ├── dos2unix
+100K   │ ├── ctrlaltdel
+ 96K   │ ├── whereis
+ 96K   │ ├── slattach
+ 96K   │ ├── mii-tool
+ 96K   │ ├── ldattach
+ 96K   │ ├── free
+ 96K   │ ├── bits
+ 92K   │ ├── tracepath
+ 92K   │ ├── mkfs.bfs
+ 92K   │ ├── mcookie
+ 92K   │ ├── ipcmk
+ 92K   │ ├── colrm
+ 88K   │ ├── uptime
+ 88K   │ ├── nameif
+ 88K   │ ├── ionice
+ 88K   │ ├── getopt
+ 88K   │ ├── fallocate
+ 88K   │ ├── coresched
+ 88K   │ ├── blkpr
+ 84K   │ ├── waitpid
+ 84K   │ ├── tload
+ 84K   │ ├── pslog
+ 84K   │ ├── prtstat
+ 84K   │ ├── isosize
+ 84K   │ ├── fadvise
+ 84K   │ ├── delpart
+ 84K   │ ├── addpart
+ 80K   │ ├── write
+ 80K   │ ├── hostname
+ 76K   │ ├── lzmadec
+ 72K   │ ├── rename
+ 68K   │ ├── plipconfig
+ 60K   │ ├── rev
+ 60K   │ ├── renice
+ 60K   │ ├── lesskey
+ 60K   │ ├── colcrt
+ 56K   │ ├── switch_root
+ 56K   │ ├── pwdx
+ 56K   │ ├── mesg
+ 56K   │ ├── look
+ 52K   │ ├── setsid
+ 52K   │ ├── mkfs
+ 48K   │ ├── setpgid
+ 48K   │ ├── pivot_root
+ 48K   │ ├── fsfreeze
+ 48K   │ ├── exch
+ 48K   │ ├── ansi2html
+ 44K   │ ├── lessecho
+ 12K   │ ├── ssh-sk-helper
+ 12K   │ └── ansi2txt
  12K   ├── PKG_LIST.txt
 8.0K   ├── sync.sh
 4.0K   ├── README.md
