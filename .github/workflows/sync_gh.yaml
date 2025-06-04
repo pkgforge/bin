@@ -131,6 +131,9 @@ jobs:
           curl -qfsSL "${{ matrix.script }}" -o "./sync.sh"
           dos2unix --quiet "./sync.sh"
           chmod +x "./sync.sh"
+          if [[ "${{ matrix.pkg-dir }}" == "riscv64-Linux" ]] ; then
+            export HOST_TRIPLET="riscv64-Linux"
+          fi
           PARALLEL_LIMIT="$(($(nproc)+1))" bash "./sync.sh"
           wait ; echo
         continue-on-error: true
