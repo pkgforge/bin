@@ -4,11 +4,11 @@
  42M   │ ├── httpx
  41M   │ ├── gh
  40M   │ ├── logdy
- 38M   │ ├── huggingface-cli
  34M   │ ├── trufflehog
  30M   │ ├── glab
  29M   │ ├── tailscale-multi
  28M   │ ├── tailscaled
+ 26M   │ ├── huggingface-cli
  26M   │ ├── noseyparker-cli
  26M   │ ├── noseyparker
  24M   │ ├── cloudflared
@@ -431,7 +431,7 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-479M   ├─┬ riscv64-Linux
+485M   ├─┬ riscv64-Linux
  55M   │ ├── rclone
  38M   │ ├── gh
  36M   │ ├── shellcheck
@@ -453,6 +453,7 @@
 6.0M   │ ├── trurl
 5.9M   │ ├── soar
 5.6M   │ ├── bsdtar
+5.6M   │ ├── wget2
 5.5M   │ ├── bsdcpio
 4.6M   │ ├── openssl
 4.5M   │ ├── wget
@@ -655,22 +656,31 @@
  76K   │ ├── lzmadec
  72K   │ ├── rename
  68K   │ ├── plipconfig
+ 64K   │ ├── ifdata
  60K   │ ├── rev
  60K   │ ├── renice
  60K   │ ├── lesskey
  60K   │ ├── colcrt
  56K   │ ├── switch_root
  56K   │ ├── pwdx
+ 56K   │ ├── parallel
  56K   │ ├── mesg
  56K   │ ├── look
  52K   │ ├── setsid
  52K   │ ├── mkfs
+ 52K   │ ├── errno
+ 48K   │ ├── sponge
  48K   │ ├── setpgid
  48K   │ ├── pivot_root
+ 48K   │ ├── isutf8
  48K   │ ├── fsfreeze
  48K   │ ├── exch
  48K   │ ├── ansi2html
  44K   │ ├── lessecho
+ 40K   │ ├── pee
+ 40K   │ ├── lckdo
+ 36K   │ ├── mispipe
+ 24K   │ ├── ifne
  12K   │ ├── ssh-sk-helper
  12K   │ └── ansi2txt
  12K   ├── PKG_LIST.txt
