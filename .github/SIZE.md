@@ -432,7 +432,7 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-489M   ├─┬ riscv64-Linux
+490M   ├─┬ riscv64-Linux
  55M   │ ├── rclone
  38M   │ ├── gh
  36M   │ ├── shellcheck
@@ -480,6 +480,7 @@
 1.5M   │ ├── fastfetch
 1.5M   │ ├── tmux
 1.4M   │ ├── lslogins
+1.4M   │ ├── 7z
 1.4M   │ ├── mksquashfs
 1.4M   │ ├── tcpdump
 1.3M   │ ├── unsquashfs
@@ -513,7 +514,6 @@
 552K   │ ├── sftp
 500K   │ ├── fsck
 500K   │ ├── eject
-500K   │ ├── 7z
 496K   │ ├── fstrim
 492K   │ ├── mountpoint
 464K   │ ├── partx
