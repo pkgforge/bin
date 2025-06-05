@@ -432,7 +432,7 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-485M   ├─┬ riscv64-Linux
+489M   ├─┬ riscv64-Linux
  55M   │ ├── rclone
  38M   │ ├── gh
  36M   │ ├── shellcheck
@@ -460,6 +460,7 @@
 4.5M   │ ├── wget
 4.5M   │ ├── rsync
 4.5M   │ ├── askalono
+4.4M   │ ├── ouch
 4.3M   │ ├── socat1
 4.1M   │ ├── sshd-session
 4.0M   │ ├── sshd-auth
