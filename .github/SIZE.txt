@@ -1,4 +1,4 @@
-2.9G └─┬ main
+2.8G └─┬ main
 1.2G   ├─┬ x86_64-Linux
  60M   │ ├── rclone
  42M   │ ├── httpx
@@ -218,17 +218,17 @@
 4.0K   │ ├── uncompress
 4.0K   │ ├── gzip
 4.0K   │ └── gunzip
-1.2G   ├─┬ aarch64-Linux
- 56M   │ ├── rclone
- 41M   │ ├── gh
+1.1G   ├─┬ aarch64-Linux
+ 57M   │ ├── rclone
  40M   │ ├── httpx
  39M   │ ├── logdy
+ 34M   │ ├── gh
  31M   │ ├── huggingface-cli
  29M   │ ├── shellcheck
- 29M   │ ├── trufflehog
  28M   │ ├── glab
  28M   │ ├── tailscale-multi
- 26M   │ ├── tailscaled
+ 28M   │ ├── trufflehog
+ 27M   │ ├── tailscaled
  23M   │ ├── cloudflared
  23M   │ ├── csvtk
  20M   │ ├── noseyparker-cli
@@ -240,42 +240,40 @@
  15M   │ ├── gitleaks
  15M   │ ├── gdu
  14M   │ ├── gost
- 14M   │ ├── freeze
  14M   │ ├── tailscale
+ 14M   │ ├── freeze
  13M   │ ├── chafa
  13M   │ ├── micro
- 12M   │ ├── dwarfs-tools
  12M   │ ├── cntb
- 12M   │ ├── mkdwarfs
  11M   │ ├── usque
  11M   │ ├── dbin
  11M   │ ├── aria2
- 10M   │ ├── dwarfsextract
  10M   │ ├── yq
- 10M   │ ├── dwarfs
  10M   │ ├── dasel
  10M   │ ├── archey
 9.9M   │ ├── ipinfo
-9.4M   │ ├── oras
+9.9M   │ ├── oras
 9.1M   │ ├── gocryptfs
 9.1M   │ ├── soar
 9.1M   │ ├── bita
 8.6M   │ ├── croc
 8.6M   │ ├── sttr
 8.5M   │ ├── speedtest-go
+7.9M   │ ├── curl
+7.7M   │ ├── trurl
 7.7M   │ ├── aws-wire-lengths
 7.4M   │ ├── miniserve
 7.3M   │ ├── eget
-7.3M   │ ├── curl
-7.0M   │ ├── trurl
+7.2M   │ ├── taplo
 7.0M   │ ├── wget2
-6.8M   │ ├── taplo
 6.8M   │ ├── subxtract
+6.8M   │ ├── tldr
 6.6M   │ ├── pixterm
-6.3M   │ ├── tldr
+6.6M   │ ├── mkdwarfs
 6.3M   │ ├── bsdtar
 6.2M   │ ├── bsdcpio
 6.2M   │ ├── xq
+5.9M   │ ├── dwarfs-tools
 5.9M   │ ├── wget
 5.9M   │ ├── unfurl
 5.9M   │ ├── wormhole-rs
@@ -288,6 +286,7 @@
 5.1M   │ ├── sshd-session
 5.1M   │ ├── ssh
 4.9M   │ ├── svnsync
+4.8M   │ ├── ouch
 4.8M   │ ├── batcat
 4.8M   │ ├── bat
 4.8M   │ ├── rsync
@@ -304,7 +303,6 @@
 4.2M   │ ├── ssh-add
 4.2M   │ ├── ssh-agent
 4.2M   │ ├── ssh-pkcs11-helper
-4.1M   │ ├── ouch
 4.0M   │ ├── svn-lite
 4.0M   │ ├── askalono
 4.0M   │ ├── nping
@@ -318,6 +316,7 @@
 3.0M   │ ├── 7z
 3.0M   │ ├── objdump
 2.9M   │ ├── imgcat
+2.7M   │ ├── dwarfsextract
 2.7M   │ ├── duf
 2.7M   │ ├── gs-netcat
 2.6M   │ ├── fd-find
@@ -325,6 +324,7 @@
 2.6M   │ ├── svnserve
 2.6M   │ ├── file
 2.4M   │ ├── svnadmin
+2.3M   │ ├── dwarfs
 2.2M   │ ├── btop
 2.1M   │ ├── inscope
 2.0M   │ ├── wrappe
