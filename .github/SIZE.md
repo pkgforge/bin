@@ -627,6 +627,7 @@
  112K   │ ├── tree
  112K   │ ├── arping
  108K   │ ├── netcat
+ 108K   │ ├── nc
  108K   │ ├── fusermount3
  104K   │ ├── utmpdump
  104K   │ ├── scriptreplay
@@ -700,8 +701,20 @@
   24K   │ ├── ifne
   12K   │ ├── ssh-sk-helper
   12K   │ ├── ansi2txt
+ 8.0K   │ ├── znew
+ 8.0K   │ ├── zgrep
+ 8.0K   │ ├── zdiff
+ 8.0K   │ ├── gzexe
  4.0K   │ ├── zstdless
- 4.0K   │ └── zstdgrep
+ 4.0K   │ ├── zstdgrep
+ 4.0K   │ ├── zmore
+ 4.0K   │ ├── zless
+ 4.0K   │ ├── zforce
+ 4.0K   │ ├── zcmp
+ 4.0K   │ ├── zcat
+ 4.0K   │ ├── uncompress
+ 4.0K   │ ├── gzip
+ 4.0K   │ └── gunzip
   12K   ├── PKG_LIST.txt
  8.0K   ├── sync.sh
  4.0K   ├── README.md
