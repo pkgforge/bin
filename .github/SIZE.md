@@ -255,8 +255,8 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── soar
  9.1M   │ ├── bita
+ 9.1M   │ ├── soar
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
@@ -443,7 +443,7 @@
   13M   │ ├── micro
   11M   │ ├── yq
   11M   │ ├── croc
-  11M   │ ├── oras
+ 9.9M   │ ├── oras
  8.5M   │ ├── speedtest-go
  7.6M   │ ├── aria2c
  7.6M   │ ├── aria2
@@ -494,6 +494,7 @@
  1.2M   │ ├── gensquashfs
  1.2M   │ ├── sqfs2tar
  1.2M   │ ├── strace
+ 1.2M   │ ├── fuse-overlayfs
  1.2M   │ ├── rdsquashfs
  1.2M   │ ├── busybox
  1.1M   │ ├── sqfsdiff
