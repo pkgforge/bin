@@ -11,7 +11,7 @@
   26M   │ ├── huggingface-cli
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
-  24M   │ ├── cloudflared
+  26M   │ ├── cloudflared
   24M   │ ├── csvtk
   23M   │ ├── qsv
   21M   │ ├── jc
@@ -183,7 +183,6 @@
  192K   │ ├── reptyr
  172K   │ ├── zapper
  168K   │ ├── zapper-stealth
- 160K   │ ├── sponge
  144K   │ ├── script
  136K   │ ├── bwrap
  128K   │ ├── fuser
@@ -198,6 +197,7 @@
   68K   │ ├── joker
   60K   │ ├── add-section
   52K   │ ├── xxd
+  52K   │ ├── sponge
   44K   │ ├── sstrip
   40K   │ ├── pipetty
   40K   │ ├── ansi2html
@@ -229,7 +229,7 @@
   28M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
-  23M   │ ├── cloudflared
+  24M   │ ├── cloudflared
   23M   │ ├── csvtk
   20M   │ ├── noseyparker-cli
   20M   │ ├── noseyparker
@@ -254,8 +254,8 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── bita
  9.1M   │ ├── soar
+ 9.1M   │ ├── bita
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
@@ -398,7 +398,6 @@
  180K   │ ├── zapper-stealth
  180K   │ ├── zapper
  180K   │ ├── bwrap
- 172K   │ ├── sponge
  164K   │ ├── fuser
  140K   │ ├── unix2mac
  140K   │ ├── unix2dos
@@ -409,6 +408,7 @@
  132K   │ ├── fusermount3
   92K   │ ├── hexedit
   80K   │ ├── joker
+  68K   │ ├── sponge
   64K   │ ├── xxd
   60K   │ ├── add-section
   52K   │ ├── sstrip
