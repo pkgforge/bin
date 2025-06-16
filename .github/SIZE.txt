@@ -26,8 +26,8 @@
   14M   │ ├── chafa
   13M   │ ├── micro
   13M   │ ├── cntb
-  12M   │ ├── dbin
   12M   │ ├── usque
+  12M   │ ├── dbin
   12M   │ ├── aria2
   11M   │ ├── yq
   11M   │ ├── soar
@@ -51,17 +51,17 @@
  7.5M   │ ├── bsdtar
  7.5M   │ ├── bsdcpio
  7.3M   │ ├── wget2
- 7.3M   │ ├── subxtract
  7.3M   │ ├── wormhole-rs
+ 7.3M   │ ├── subxtract
  7.1M   │ ├── ulexec
  7.0M   │ ├── pixterm
+ 6.6M   │ ├── wget
  6.5M   │ ├── openssl
  6.5M   │ ├── xq
  6.4M   │ ├── dwarfs-tools
  6.2M   │ ├── unfurl
  6.2M   │ ├── crt
  6.1M   │ ├── socat
- 6.1M   │ ├── wget
  6.0M   │ ├── rsync
  5.8M   │ ├── sshd-session
  5.8M   │ ├── ssh
@@ -88,7 +88,7 @@
  4.5M   │ ├── nmap
  4.4M   │ ├── svn-lite
  4.0M   │ ├── rg
- 3.8M   │ ├── vim
+ 3.9M   │ ├── vim
  3.8M   │ ├── nping
  3.7M   │ ├── fzf
  3.6M   │ ├── 7z
@@ -152,38 +152,38 @@
  820K   │ ├── jq
  812K   │ ├── squashfuse_ll
  792K   │ ├── tar
+ 728K   │ ├── findmnt
  724K   │ ├── anewer
  720K   │ ├── anew-rs
  704K   │ ├── faketty
  700K   │ ├── ncdu
+ 664K   │ ├── mount
  664K   │ ├── fuse2fs
+ 660K   │ ├── umount
  652K   │ ├── sftp
- 640K   │ ├── mount
- 632K   │ ├── umount
- 620K   │ ├── findmnt
  588K   │ ├── upx
  560K   │ ├── neofetch
  520K   │ ├── dash
  432K   │ ├── bsdcat
  344K   │ ├── scp
- 320K   │ ├── xz
- 320K   │ ├── unxz
+ 328K   │ ├── xz
+ 328K   │ ├── unxz
  304K   │ ├── ps
  276K   │ ├── minisign
  272K   │ ├── mawk
  256K   │ ├── sftp-server
  256K   │ ├── sed
- 236K   │ ├── hexdump
+ 244K   │ ├── hexdump
  236K   │ ├── base64
  228K   │ ├── tree
  212K   │ ├── netstat
  204K   │ ├── ping
- 196K   │ ├── column
+ 204K   │ ├── column
  196K   │ ├── awk
  192K   │ ├── reptyr
  172K   │ ├── zapper
  168K   │ ├── zapper-stealth
- 144K   │ ├── script
+ 148K   │ ├── script
  136K   │ ├── bwrap
  128K   │ ├── fuser
  116K   │ ├── netcat
@@ -225,8 +225,8 @@
   34M   │ ├── gh
   31M   │ ├── huggingface-cli
   29M   │ ├── shellcheck
-  28M   │ ├── glab
   28M   │ ├── tailscale-multi
+  28M   │ ├── glab
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
   24M   │ ├── cloudflared
@@ -248,14 +248,14 @@
   11M   │ ├── usque
   11M   │ ├── dbin
   11M   │ ├── aria2
-  10M   │ ├── yq
+  11M   │ ├── yq
   10M   │ ├── dasel
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── bita
  9.1M   │ ├── soar
+ 9.1M   │ ├── bita
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
@@ -270,13 +270,13 @@
  6.8M   │ ├── tldr
  6.6M   │ ├── pixterm
  6.6M   │ ├── mkdwarfs
+ 6.4M   │ ├── wget
  6.3M   │ ├── bsdtar
  6.2M   │ ├── bsdcpio
  6.2M   │ ├── xq
  5.9M   │ ├── dwarfs-tools
- 5.9M   │ ├── wget
- 5.9M   │ ├── unfurl
  5.9M   │ ├── wormhole-rs
+ 5.9M   │ ├── unfurl
  5.9M   │ ├── ulexec
  5.8M   │ ├── crt
  5.7M   │ ├── socat
@@ -368,10 +368,13 @@
  832K   │ ├── tar
  816K   │ ├── jq
  804K   │ ├── squashfuse_ll
+ 792K   │ ├── findmnt
  788K   │ ├── squashfuse
  772K   │ ├── duplicut
  748K   │ ├── b3sum
  740K   │ ├── sftp
+ 740K   │ ├── mount
+ 724K   │ ├── umount
  720K   │ ├── ncdu
  712K   │ ├── fuse2fs
  620K   │ ├── anew-rs
@@ -382,19 +385,22 @@
  560K   │ ├── neofetch
  392K   │ ├── bsdcat
  388K   │ ├── scp
- 340K   │ ├── xz
- 340K   │ ├── unxz
+ 356K   │ ├── xz
+ 356K   │ ├── unxz
  340K   │ ├── ps
  308K   │ ├── sftp-server
  308K   │ ├── mawk
+ 276K   │ ├── hexdump
  260K   │ ├── sed
  256K   │ ├── ping
  248K   │ ├── netstat
  248K   │ ├── base64
+ 244K   │ ├── column
  240K   │ ├── tree
  228K   │ ├── minisign
  216K   │ ├── reptyr
  212K   │ ├── awk
+ 196K   │ ├── script
  180K   │ ├── zapper-stealth
  180K   │ ├── zapper
  180K   │ ├── bwrap
