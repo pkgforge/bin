@@ -224,7 +224,7 @@
   39M   │ ├── logdy
   34M   │ ├── gh
   31M   │ ├── huggingface-cli
-  29M   │ ├── shellcheck
+  30M   │ ├── shellcheck
   28M   │ ├── tailscale-multi
   28M   │ ├── glab
   28M   │ ├── trufflehog
