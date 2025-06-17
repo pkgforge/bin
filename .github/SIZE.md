@@ -221,13 +221,13 @@
  4.0K   │ └── gunzip
  1.1G   ├─┬ aarch64-Linux
   57M   │ ├── rclone
+  43M   │ ├── glab
   40M   │ ├── httpx
   39M   │ ├── logdy
   34M   │ ├── gh
   31M   │ ├── huggingface-cli
   29M   │ ├── shellcheck
   28M   │ ├── tailscale-multi
-  28M   │ ├── glab
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
   24M   │ ├── cloudflared
