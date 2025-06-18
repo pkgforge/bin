@@ -1,12 +1,12 @@
- 2.8G └─┬ main
+ 2.9G └─┬ main
  1.2G   ├─┬ x86_64-Linux
   60M   │ ├── rclone
+  44M   │ ├── glab
   42M   │ ├── httpx
   40M   │ ├── logdy
   35M   │ ├── gh
   32M   │ ├── trufflehog
   30M   │ ├── tailscale-multi
-  30M   │ ├── glab
   28M   │ ├── tailscaled
   26M   │ ├── huggingface-cli
   26M   │ ├── noseyparker-cli
