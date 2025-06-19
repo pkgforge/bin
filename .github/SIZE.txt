@@ -1,17 +1,17 @@
  2.9G └─┬ main
  1.2G   ├─┬ x86_64-Linux
-  60M   │ ├── rclone
+  64M   │ ├── rclone
   44M   │ ├── glab
   42M   │ ├── httpx
   40M   │ ├── logdy
   35M   │ ├── gh
   32M   │ ├── trufflehog
   30M   │ ├── tailscale-multi
-  28M   │ ├── tailscaled
+  29M   │ ├── tailscaled
+  26M   │ ├── cloudflared
   26M   │ ├── huggingface-cli
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
-  26M   │ ├── cloudflared
   24M   │ ├── csvtk
   23M   │ ├── qsv
   21M   │ ├── jc
@@ -219,20 +219,20 @@
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
  1.1G   ├─┬ aarch64-Linux
-  57M   │ ├── rclone
+  60M   │ ├── rclone
   43M   │ ├── glab
   40M   │ ├── httpx
   39M   │ ├── logdy
   34M   │ ├── gh
   31M   │ ├── huggingface-cli
   29M   │ ├── shellcheck
-  28M   │ ├── tailscale-multi
+  29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
-  24M   │ ├── cloudflared
+  25M   │ ├── cloudflared
   23M   │ ├── csvtk
-  20M   │ ├── noseyparker-cli
-  20M   │ ├── noseyparker
+  21M   │ ├── noseyparker-cli
+  21M   │ ├── noseyparker
   18M   │ ├── notify
   18M   │ ├── qsv
   18M   │ ├── jc
