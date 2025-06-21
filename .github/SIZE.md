@@ -31,8 +31,8 @@
   12M   │ ├── dbin
   12M   │ ├── aria2
   11M   │ ├── yq
-  11M   │ ├── soar
   11M   │ ├── bita
+  11M   │ ├── soar
   10M   │ ├── aws-wire-lengths
   10M   │ ├── oras
   10M   │ ├── ipinfo
@@ -227,7 +227,7 @@
   39M   │ ├── logdy
   34M   │ ├── gh
   31M   │ ├── huggingface-cli
-  30M   │ ├── shellcheck
+  29M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
