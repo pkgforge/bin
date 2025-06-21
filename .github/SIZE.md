@@ -48,6 +48,7 @@
  8.6M   │ ├── curl
  8.5M   │ ├── tldr
  8.4M   │ ├── trurl
+ 7.9M   │ ├── crates-dumper
  7.8M   │ ├── mkdwarfs
  7.7M   │ ├── eget
  7.5M   │ ├── bsdtar
@@ -274,6 +275,7 @@
  6.6M   │ ├── pixterm
  6.6M   │ ├── mkdwarfs
  6.4M   │ ├── wget
+ 6.4M   │ ├── crates-dumper
  6.3M   │ ├── bsdtar
  6.2M   │ ├── bsdcpio
  6.2M   │ ├── xq
@@ -440,7 +442,7 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
- 512M   ├─┬ riscv64-Linux
+ 518M   ├─┬ riscv64-Linux
   55M   │ ├── rclone
   38M   │ ├── gh
   36M   │ ├── shellcheck
@@ -465,6 +467,7 @@
  5.6M   │ ├── bsdtar
  5.6M   │ ├── wget2
  5.5M   │ ├── bsdcpio
+ 5.2M   │ ├── crates-dumper
  4.6M   │ ├── openssl
  4.5M   │ ├── wget
  4.5M   │ ├── rsync
