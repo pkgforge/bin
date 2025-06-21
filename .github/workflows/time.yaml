@@ -27,7 +27,7 @@ jobs:
           echo "${UTC_TIME}" | tr -d '[:space:]' > "${GITHUB_WORKSPACE}/main/.github/TIME"
         continue-on-error: true
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v6
         with:
           repository: ./main        
           commit_user_name: Azathothas
