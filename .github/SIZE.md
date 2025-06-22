@@ -1,6 +1,6 @@
 ```mathematica
  2.9G └─┬ main
- 1.2G   ├─┬ x86_64-Linux
+ 1.3G   ├─┬ x86_64-Linux
   64M   │ ├── rclone
   44M   │ ├── glab
   42M   │ ├── httpx
@@ -63,6 +63,7 @@
  6.5M   │ ├── openssl
  6.5M   │ ├── xq
  6.4M   │ ├── dwarfs-tools
+ 6.4M   │ ├── script-parser
  6.2M   │ ├── unfurl
  6.2M   │ ├── crt
  6.1M   │ ├── socat
