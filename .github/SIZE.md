@@ -52,6 +52,7 @@
  7.8M   │ ├── mkdwarfs
  7.7M   │ ├── eget
  7.5M   │ ├── bsdtar
+ 7.5M   │ ├── go-enricher
  7.5M   │ ├── bsdcpio
  7.3M   │ ├── wget2
  7.3M   │ ├── wormhole-rs
@@ -279,6 +280,7 @@
  6.3M   │ ├── bsdtar
  6.2M   │ ├── bsdcpio
  6.2M   │ ├── xq
+ 6.1M   │ ├── go-enricher
  5.9M   │ ├── dwarfs-tools
  5.9M   │ ├── wormhole-rs
  5.9M   │ ├── unfurl
@@ -442,7 +444,7 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
- 518M   ├─┬ riscv64-Linux
+ 523M   ├─┬ riscv64-Linux
   55M   │ ├── rclone
   38M   │ ├── gh
   36M   │ ├── shellcheck
@@ -468,6 +470,7 @@
  5.6M   │ ├── wget2
  5.5M   │ ├── bsdcpio
  5.2M   │ ├── crates-dumper
+ 4.9M   │ ├── go-enricher
  4.6M   │ ├── openssl
  4.5M   │ ├── wget
  4.5M   │ ├── rsync
