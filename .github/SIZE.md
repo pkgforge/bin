@@ -230,7 +230,7 @@
   39M   │ ├── logdy
   34M   │ ├── gh
   31M   │ ├── huggingface-cli
-  30M   │ ├── shellcheck
+  29M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
@@ -333,7 +333,7 @@
  2.6M   │ ├── file
  2.4M   │ ├── svnadmin
  2.3M   │ ├── dwarfs
- 2.2M   │ ├── btop
+ 2.3M   │ ├── btop
  2.1M   │ ├── inscope
  2.0M   │ ├── wrappe
  2.0M   │ ├── dust
