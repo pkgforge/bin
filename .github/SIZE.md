@@ -445,7 +445,7 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
- 523M   ├─┬ riscv64-Linux
+ 524M   ├─┬ riscv64-Linux
   55M   │ ├── rclone
   38M   │ ├── gh
   36M   │ ├── shellcheck
@@ -463,17 +463,17 @@
  7.5M   │ ├── eget
  6.7M   │ ├── wormhole-rs
  6.7M   │ ├── wormhole
+ 6.3M   │ ├── wget2
  6.2M   │ ├── curl
  6.0M   │ ├── go-indexer
  6.0M   │ ├── trurl
  5.9M   │ ├── soar
  5.6M   │ ├── bsdtar
- 5.6M   │ ├── wget2
  5.5M   │ ├── bsdcpio
  5.2M   │ ├── crates-dumper
+ 5.2M   │ ├── wget
  4.9M   │ ├── go-enricher
  4.6M   │ ├── openssl
- 4.5M   │ ├── wget
  4.5M   │ ├── rsync
  4.5M   │ ├── askalono
  4.4M   │ ├── ouch
@@ -624,6 +624,7 @@
  136K   │ ├── ipcrm
  132K   │ ├── killall
  132K   │ ├── bwrap
+ 128K   │ ├── tree
  128K   │ ├── kill
  128K   │ ├── fsck.cramfs
  128K   │ ├── chrt
@@ -641,7 +642,6 @@
  116K   │ ├── uuidgen
  116K   │ ├── pipesz
  116K   │ ├── choom
- 112K   │ ├── tree
  112K   │ ├── arping
  108K   │ ├── netcat
  108K   │ ├── nc
@@ -701,10 +701,10 @@
   56K   │ ├── parallel
   56K   │ ├── mesg
   56K   │ ├── look
+  52K   │ ├── sponge
   52K   │ ├── setsid
   52K   │ ├── mkfs
   52K   │ ├── errno
-  48K   │ ├── sponge
   48K   │ ├── setpgid
   48K   │ ├── pivot_root
   48K   │ ├── isutf8
