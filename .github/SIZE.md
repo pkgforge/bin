@@ -153,18 +153,18 @@
  948K   │ ├── duplicut
  928K   │ ├── b3sum
  888K   │ ├── gawk
+ 824K   │ ├── findmnt
  820K   │ ├── squashfuse
  820K   │ ├── jq
  812K   │ ├── squashfuse_ll
  792K   │ ├── tar
- 728K   │ ├── findmnt
+ 752K   │ ├── mount
+ 744K   │ ├── umount
  724K   │ ├── anewer
  720K   │ ├── anew-rs
  704K   │ ├── faketty
  700K   │ ├── ncdu
- 664K   │ ├── mount
  664K   │ ├── fuse2fs
- 656K   │ ├── umount
  652K   │ ├── sftp
  588K   │ ├── upx
  560K   │ ├── neofetch
@@ -175,20 +175,20 @@
  328K   │ ├── unxz
  304K   │ ├── ps
  276K   │ ├── minisign
+ 276K   │ ├── hexdump
  272K   │ ├── mawk
  256K   │ ├── sftp-server
  256K   │ ├── sed
- 248K   │ ├── hexdump
+ 236K   │ ├── column
  236K   │ ├── base64
  228K   │ ├── tree
  212K   │ ├── netstat
  204K   │ ├── ping
- 204K   │ ├── column
  196K   │ ├── awk
  192K   │ ├── reptyr
+ 176K   │ ├── script
  172K   │ ├── zapper
  168K   │ ├── zapper-stealth
- 152K   │ ├── script
  136K   │ ├── bwrap
  128K   │ ├── fuser
  116K   │ ├── netcat
@@ -230,7 +230,7 @@
   39M   │ ├── logdy
   34M   │ ├── gh
   31M   │ ├── huggingface-cli
-  29M   │ ├── shellcheck
+  30M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
@@ -368,21 +368,21 @@
  1.1M   │ ├── sqfsdiff
  1.1M   │ ├── bash
  948K   │ ├── less
+ 940K   │ ├── findmnt
  936K   │ ├── zstdmt
  936K   │ ├── zstdcat
  936K   │ ├── zstd
  936K   │ ├── unzstd
  904K   │ ├── gawk
+ 860K   │ ├── umount
+ 860K   │ ├── mount
  832K   │ ├── tar
  816K   │ ├── jq
- 808K   │ ├── findmnt
  804K   │ ├── squashfuse_ll
  788K   │ ├── squashfuse
  772K   │ ├── duplicut
  748K   │ ├── b3sum
- 740K   │ ├── umount
  740K   │ ├── sftp
- 740K   │ ├── mount
  720K   │ ├── ncdu
  712K   │ ├── fuse2fs
  620K   │ ├── anew-rs
@@ -396,19 +396,19 @@
  356K   │ ├── xz
  356K   │ ├── unxz
  340K   │ ├── ps
+ 340K   │ ├── hexdump
  308K   │ ├── sftp-server
  308K   │ ├── mawk
- 292K   │ ├── hexdump
+ 308K   │ ├── column
  260K   │ ├── sed
- 260K   │ ├── column
  256K   │ ├── ping
  248K   │ ├── netstat
  248K   │ ├── base64
  240K   │ ├── tree
+ 236K   │ ├── script
  228K   │ ├── minisign
  216K   │ ├── reptyr
  212K   │ ├── awk
- 196K   │ ├── script
  180K   │ ├── zapper-stealth
  180K   │ ├── zapper
  180K   │ ├── bwrap
