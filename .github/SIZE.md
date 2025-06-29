@@ -1,5 +1,5 @@
 ```mathematica
- 2.9G └─┬ main
+ 3.0G └─┬ main
  1.3G   ├─┬ x86_64-Linux
   64M   │ ├── rclone
   44M   │ ├── glab
@@ -54,6 +54,7 @@
  7.5M   │ ├── bsdtar
  7.5M   │ ├── go-enricher
  7.4M   │ ├── bsdcpio
+ 7.4M   │ ├── filter-urls
  7.3M   │ ├── wget2
  7.3M   │ ├── wormhole-rs
  7.3M   │ ├── subxtract
@@ -64,6 +65,7 @@
  6.5M   │ ├── xq
  6.4M   │ ├── dwarfs-tools
  6.4M   │ ├── script-parser
+ 6.2M   │ ├── go-detector
  6.2M   │ ├── unfurl
  6.2M   │ ├── crt
  6.1M   │ ├── socat
