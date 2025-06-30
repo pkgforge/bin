@@ -14,7 +14,7 @@
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
   24M   │ ├── csvtk
-  23M   │ ├── qsv
+  24M   │ ├── qsv
   21M   │ ├── jc
   19M   │ ├── notify
   18M   │ ├── glow
@@ -37,6 +37,7 @@
   10M   │ ├── oras
   10M   │ ├── ipinfo
   10M   │ ├── dasel
+  10M   │ ├── extraxtor
   10M   │ ├── archey
  9.9M   │ ├── gocryptfs
  9.2M   │ ├── miniserve
@@ -97,7 +98,7 @@
  4.0M   │ ├── rg
  3.9M   │ ├── vim
  3.8M   │ ├── nping
- 3.7M   │ ├── fzf
+ 3.8M   │ ├── fzf
  3.6M   │ ├── 7z
  3.4M   │ ├── yj
  3.3M   │ ├── git-sizer
