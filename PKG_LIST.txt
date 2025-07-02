@@ -14,6 +14,7 @@
 #script#git.busybox.net.busybox.standalone.glibc:bincache
 #script#git.busybox.net.busybox.standalone:bincache
 #soar#github.com.pkgforge.soar.glibc:bincache
+#wget#ppkg.wget:bincache
 #xxd#git.busybox.net.busybox.standalone.glibc:bincache
 7z#github.com.ip7z.7zip:bincache
 actionlint#github.com.rhysd.actionlint:bincache
@@ -209,7 +210,6 @@ upx#github.com.upx.upx:bincache
 usque#github.com.Diniboy1123.usque.source:bincache
 validtoml#github.com.martinlindhe.validtoml:bincache
 vim#nixpkgs.vim:bincache
-#wget#ppkg.wget:bincache
 wget2#ppkg.wget2:bincache
 wormhole-rs#github.com.magic-wormhole.magic-wormhole.rs:bincache
 wrappe#github.com.Systemcluster.wrappe:bincache

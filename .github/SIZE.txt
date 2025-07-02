@@ -232,7 +232,7 @@
   39M   │ ├── logdy
   34M   │ ├── gh
   30M   │ ├── huggingface-cli
-  30M   │ ├── shellcheck
+  29M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
@@ -447,7 +447,7 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
- 524M   ├─┬ riscv64-Linux
+ 523M   ├─┬ riscv64-Linux
   55M   │ ├── rclone
   38M   │ ├── gh
   36M   │ ├── shellcheck
@@ -473,9 +473,9 @@
  5.6M   │ ├── bsdtar
  5.5M   │ ├── bsdcpio
  5.2M   │ ├── crates-dumper
- 5.2M   │ ├── wget
  4.9M   │ ├── go-enricher
  4.6M   │ ├── openssl
+ 4.5M   │ ├── wget
  4.5M   │ ├── rsync
  4.5M   │ ├── askalono
  4.4M   │ ├── ouch
