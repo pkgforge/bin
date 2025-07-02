@@ -209,7 +209,7 @@ upx#github.com.upx.upx:bincache
 usque#github.com.Diniboy1123.usque.source:bincache
 validtoml#github.com.martinlindhe.validtoml:bincache
 vim#nixpkgs.vim:bincache
-wget#ppkg.wget:bincache
+#wget#ppkg.wget:bincache
 wget2#ppkg.wget2:bincache
 wormhole-rs#github.com.magic-wormhole.magic-wormhole.rs:bincache
 wrappe#github.com.Systemcluster.wrappe:bincache
