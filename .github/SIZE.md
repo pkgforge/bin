@@ -233,7 +233,7 @@
   39M   │ ├── logdy
   34M   │ ├── gh
   30M   │ ├── huggingface-cli
-  29M   │ ├── shellcheck
+  30M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
@@ -262,8 +262,8 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── bita
  9.1M   │ ├── soar
+ 9.1M   │ ├── bita
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
