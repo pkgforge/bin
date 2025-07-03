@@ -171,6 +171,7 @@
  652K   │ ├── sftp
  588K   │ ├── upx
  560K   │ ├── neofetch
+ 524K   │ ├── tss
  520K   │ ├── dash
  436K   │ ├── bsdcat
  344K   │ ├── scp
@@ -394,6 +395,7 @@
  596K   │ ├── upx
  564K   │ ├── dash
  560K   │ ├── neofetch
+ 456K   │ ├── tss
  392K   │ ├── bsdcat
  388K   │ ├── scp
  356K   │ ├── xz
@@ -448,7 +450,7 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
- 523M   ├─┬ riscv64-Linux
+ 524M   ├─┬ riscv64-Linux
   55M   │ ├── rclone
   38M   │ ├── gh
   36M   │ ├── shellcheck
@@ -548,6 +550,7 @@
  500K   │ ├── eject
  496K   │ ├── fstrim
  492K   │ ├── mountpoint
+ 476K   │ ├── tss
  464K   │ ├── partx
  464K   │ ├── dash
  456K   │ ├── irqtop
