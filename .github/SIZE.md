@@ -173,6 +173,7 @@
  560K   │ ├── neofetch
  524K   │ ├── tss
  520K   │ ├── dash
+ 508K   │ ├── is-static
  436K   │ ├── bsdcat
  344K   │ ├── scp
  328K   │ ├── xz
@@ -396,6 +397,7 @@
  564K   │ ├── dash
  560K   │ ├── neofetch
  456K   │ ├── tss
+ 432K   │ ├── is-static
  392K   │ ├── bsdcat
  388K   │ ├── scp
  356K   │ ├── xz
@@ -554,6 +556,7 @@
  464K   │ ├── partx
  464K   │ ├── dash
  456K   │ ├── irqtop
+ 448K   │ ├── is-static
  436K   │ ├── wipefs
  416K   │ ├── mkswap
  408K   │ ├── blkid
