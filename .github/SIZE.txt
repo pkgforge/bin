@@ -1,15 +1,15 @@
  3.0G └─┬ main
  1.3G   ├─┬ x86_64-Linux
   64M   │ ├── rclone
-  44M   │ ├── glab
+  45M   │ ├── glab
   42M   │ ├── httpx
   40M   │ ├── logdy
+  39M   │ ├── cloudflared
   38M   │ ├── huggingface-cli
   36M   │ ├── gh
   32M   │ ├── trufflehog
   30M   │ ├── tailscale-multi
   29M   │ ├── tailscaled
-  26M   │ ├── cloudflared
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
   24M   │ ├── csvtk
@@ -185,9 +185,9 @@
  256K   │ ├── sed
  236K   │ ├── column
  236K   │ ├── base64
+ 232K   │ ├── ping
  228K   │ ├── tree
  212K   │ ├── netstat
- 204K   │ ├── ping
  196K   │ ├── awk
  192K   │ ├── reptyr
  176K   │ ├── script
@@ -202,7 +202,7 @@
  104K   │ ├── unix2dos
  104K   │ ├── mac2unix
  104K   │ ├── dos2unix
-  76K   │ ├── hexedit
+  80K   │ ├── hexedit
   68K   │ ├── joker
   64K   │ ├── add-section
   52K   │ ├── xxd
@@ -232,13 +232,13 @@
   43M   │ ├── glab
   40M   │ ├── httpx
   39M   │ ├── logdy
+  37M   │ ├── cloudflared
   34M   │ ├── gh
   32M   │ ├── huggingface-cli
-  30M   │ ├── shellcheck
+  29M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
-  25M   │ ├── cloudflared
   23M   │ ├── csvtk
   21M   │ ├── noseyparker-cli
   21M   │ ├── noseyparker
@@ -263,8 +263,8 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── soar
  9.1M   │ ├── bita
+ 9.1M   │ ├── soar
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
@@ -403,11 +403,11 @@
  356K   │ ├── unxz
  340K   │ ├── ps
  340K   │ ├── hexdump
+ 320K   │ ├── ping
  308K   │ ├── sftp-server
  308K   │ ├── mawk
  308K   │ ├── column
  260K   │ ├── sed
- 256K   │ ├── ping
  248K   │ ├── netstat
  248K   │ ├── base64
  240K   │ ├── tree
