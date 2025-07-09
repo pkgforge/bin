@@ -57,8 +57,8 @@
  7.4M   │ ├── bsdcpio
  7.4M   │ ├── filter-urls
  7.3M   │ ├── wget2
- 7.3M   │ ├── wormhole-rs
  7.3M   │ ├── subxtract
+ 7.3M   │ ├── wormhole-rs
  7.1M   │ ├── ulexec
  7.0M   │ ├── pixterm
  6.6M   │ ├── wget
@@ -102,8 +102,8 @@
  3.6M   │ ├── 7z
  3.4M   │ ├── yj
  3.3M   │ ├── git-sizer
- 3.3M   │ ├── fd-find
- 3.3M   │ ├── fd
+ 3.2M   │ ├── fd-find
+ 3.2M   │ ├── fd
  3.0M   │ ├── imgcat
  3.0M   │ ├── ncat
  2.9M   │ ├── file
