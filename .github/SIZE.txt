@@ -234,7 +234,7 @@
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   34M   │ ├── gh
-  32M   │ ├── huggingface-cli
+  33M   │ ├── huggingface-cli
   29M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
@@ -263,8 +263,8 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── bita
  9.1M   │ ├── soar
+ 9.1M   │ ├── bita
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
