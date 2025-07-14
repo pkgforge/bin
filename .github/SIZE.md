@@ -34,9 +34,9 @@
   11M   │ ├── soar
   11M   │ ├── bita
   10M   │ ├── aws-wire-lengths
+  10M   │ ├── dasel
   10M   │ ├── oras
   10M   │ ├── ipinfo
-  10M   │ ├── dasel
   10M   │ ├── extraxtor
   10M   │ ├── archey
  9.9M   │ ├── gocryptfs
@@ -117,7 +117,7 @@
  2.5M   │ ├── dust
  2.4M   │ ├── dwarfs
  2.4M   │ ├── btop
- 2.3M   │ ├── dysk
+ 2.2M   │ ├── dysk
  2.1M   │ ├── inscope
  1.9M   │ ├── fastfetch
  1.9M   │ ├── epoch
@@ -264,8 +264,8 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── soar
  9.1M   │ ├── bita
+ 9.1M   │ ├── soar
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
