@@ -178,7 +178,7 @@
  328K   │ ├── xz
  328K   │ ├── unxz
  304K   │ ├── ps
- 276K   │ ├── minisign
+ 280K   │ ├── minisign
  276K   │ ├── hexdump
  272K   │ ├── mawk
  256K   │ ├── sftp-server
@@ -263,8 +263,8 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── bita
  9.1M   │ ├── soar
+ 9.1M   │ ├── bita
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
