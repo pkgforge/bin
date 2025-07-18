@@ -1,13 +1,13 @@
  3.0G └─┬ main
  1.3G   ├─┬ x86_64-Linux
   64M   │ ├── rclone
+  45M   │ ├── httpx
   45M   │ ├── glab
-  42M   │ ├── httpx
   40M   │ ├── logdy
   39M   │ ├── cloudflared
   39M   │ ├── huggingface-cli
   36M   │ ├── gh
-  32M   │ ├── trufflehog
+  33M   │ ├── trufflehog
   30M   │ ├── tailscale-multi
   29M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
@@ -42,18 +42,19 @@
  9.2M   │ ├── miniserve
  9.1M   │ ├── go-indexer
  9.1M   │ ├── taplo
+ 9.1M   │ ├── bsdtar
  9.0M   │ ├── speedtest-go
  9.0M   │ ├── croc
+ 9.0M   │ ├── bsdcpio
  8.9M   │ ├── sttr
  8.6M   │ ├── curl
  8.5M   │ ├── tldr
  8.4M   │ ├── trurl
+ 8.1M   │ ├── openssl
  7.9M   │ ├── crates-dumper
  7.8M   │ ├── mkdwarfs
  7.7M   │ ├── eget
- 7.5M   │ ├── bsdtar
  7.5M   │ ├── go-enricher
- 7.4M   │ ├── bsdcpio
  7.4M   │ ├── filter-urls
  7.3M   │ ├── wget2
  7.3M   │ ├── subxtract
@@ -61,9 +62,9 @@
  7.1M   │ ├── ulexec
  7.0M   │ ├── pixterm
  6.6M   │ ├── wget
- 6.5M   │ ├── openssl
  6.5M   │ ├── xq
  6.4M   │ ├── dwarfs-tools
+ 6.4M   │ ├── bsdunzip
  6.4M   │ ├── script-parser
  6.2M   │ ├── go-detector
  6.2M   │ ├── unfurl
@@ -82,7 +83,6 @@
  5.3M   │ ├── ssh-keygen
  5.2M   │ ├── delta
  5.1M   │ ├── svn
- 5.1M   │ ├── bsdunzip
  5.0M   │ ├── svnrdump
  5.0M   │ ├── ssh-keysign
  4.9M   │ ├── ssh-add
@@ -147,11 +147,11 @@
  1.2M   │ ├── busybox
  1.1M   │ ├── readelf
  1.1M   │ ├── bash
+ 1.0M   │ ├── less
  1.0M   │ ├── zstdmt
  1.0M   │ ├── zstdcat
  1.0M   │ ├── zstd
  1.0M   │ ├── unzstd
- 968K   │ ├── less
  948K   │ ├── duplicut
  928K   │ ├── b3sum
  888K   │ ├── gawk
@@ -173,7 +173,7 @@
  524K   │ ├── tss
  520K   │ ├── dash
  508K   │ ├── is-static
- 436K   │ ├── bsdcat
+ 476K   │ ├── bsdcat
  344K   │ ├── scp
  328K   │ ├── xz
  328K   │ ├── unxz
@@ -229,8 +229,8 @@
  4.0K   │ └── gunzip
  1.2G   ├─┬ aarch64-Linux
   60M   │ ├── rclone
+  43M   │ ├── httpx
   43M   │ ├── glab
-  40M   │ ├── httpx
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   34M   │ ├── gh
@@ -268,7 +268,9 @@
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
+ 7.9M   │ ├── bsdtar
  7.9M   │ ├── curl
+ 7.8M   │ ├── bsdcpio
  7.7M   │ ├── trurl
  7.7M   │ ├── aws-wire-lengths
  7.4M   │ ├── miniserve
@@ -276,14 +278,13 @@
  7.3M   │ ├── eget
  7.2M   │ ├── taplo
  7.0M   │ ├── wget2
+ 7.0M   │ ├── openssl
  6.8M   │ ├── subxtract
  6.8M   │ ├── tldr
  6.6M   │ ├── pixterm
  6.6M   │ ├── mkdwarfs
- 6.5M   │ ├── bsdtar
  6.4M   │ ├── wget
  6.4M   │ ├── crates-dumper
- 6.4M   │ ├── bsdcpio
  6.2M   │ ├── xq
  6.1M   │ ├── go-enricher
  5.9M   │ ├── dwarfs-tools
@@ -293,8 +294,8 @@
  5.8M   │ ├── crt
  5.7M   │ ├── socat
  5.4M   │ ├── svn
- 5.4M   │ ├── openssl
  5.3M   │ ├── svnrdump
+ 5.2M   │ ├── bsdunzip
  5.1M   │ ├── sshd-session
  5.1M   │ ├── ssh
  4.9M   │ ├── svnsync
@@ -315,7 +316,6 @@
  4.2M   │ ├── ssh-add
  4.2M   │ ├── ssh-agent
  4.2M   │ ├── ssh-pkcs11-helper
- 4.0M   │ ├── bsdunzip
  4.0M   │ ├── svn-lite
  4.0M   │ ├── askalono
  4.0M   │ ├── nping
@@ -371,15 +371,15 @@
  1.1M   │ ├── readelf
  1.1M   │ ├── sqfsdiff
  1.1M   │ ├── bash
- 948K   │ ├── less
+ 1.0M   │ ├── less
  940K   │ ├── findmnt
  936K   │ ├── zstdmt
  936K   │ ├── zstdcat
  936K   │ ├── zstd
  936K   │ ├── unzstd
  904K   │ ├── gawk
+ 876K   │ ├── mount
  860K   │ ├── umount
- 860K   │ ├── mount
  832K   │ ├── tar
  816K   │ ├── jq
  804K   │ ├── squashfuse_ll
@@ -396,8 +396,8 @@
  564K   │ ├── dash
  560K   │ ├── neofetch
  456K   │ ├── tss
+ 448K   │ ├── bsdcat
  432K   │ ├── is-static
- 392K   │ ├── bsdcat
  388K   │ ├── scp
  356K   │ ├── xz
  356K   │ ├── unxz
