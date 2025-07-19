@@ -265,7 +265,7 @@
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
  9.1M   │ ├── bita
- 9.0M   │ ├── soar
+ 9.1M   │ ├── soar
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
