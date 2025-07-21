@@ -14,7 +14,7 @@
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
   24M   │ ├── csvtk
-  24M   │ ├── qsv
+  23M   │ ├── qsv
   21M   │ ├── jc
   19M   │ ├── notify
   18M   │ ├── glow
@@ -154,7 +154,7 @@
  1.0M   │ ├── zstd
  1.0M   │ ├── unzstd
  948K   │ ├── duplicut
- 928K   │ ├── b3sum
+ 916K   │ ├── b3sum
  888K   │ ├── gawk
  824K   │ ├── findmnt
  820K   │ ├── squashfuse
@@ -343,15 +343,15 @@
  2.0M   │ ├── wrappe
  2.0M   │ ├── dust
  1.8M   │ ├── epoch
- 1.8M   │ ├── dysk
  1.8M   │ ├── fastfetch
+ 1.8M   │ ├── dysk
  1.7M   │ ├── scopegen
  1.7M   │ ├── anew
  1.7M   │ ├── tmux
  1.7M   │ ├── tok
  1.7M   │ ├── comb
- 1.6M   │ ├── coreutils
  1.6M   │ ├── flashfetch
+ 1.6M   │ ├── coreutils
  1.6M   │ ├── tcpdump
  1.5M   │ ├── objcopy
  1.4M   │ ├── strace
@@ -386,7 +386,7 @@
  804K   │ ├── squashfuse_ll
  788K   │ ├── squashfuse
  772K   │ ├── duplicut
- 748K   │ ├── b3sum
+ 744K   │ ├── b3sum
  740K   │ ├── sftp
  720K   │ ├── ncdu
  712K   │ ├── fuse2fs
