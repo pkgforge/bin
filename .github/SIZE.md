@@ -14,7 +14,7 @@
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
   24M   │ ├── csvtk
-  23M   │ ├── qsv
+  24M   │ ├── qsv
   21M   │ ├── jc
   19M   │ ├── notify
   18M   │ ├── glow
@@ -31,8 +31,8 @@
   12M   │ ├── dbin
   12M   │ ├── aria2
   11M   │ ├── yq
-  11M   │ ├── soar
   11M   │ ├── bita
+  11M   │ ├── soar
   10M   │ ├── aws-wire-lengths
   10M   │ ├── dasel
   10M   │ ├── oras
@@ -59,7 +59,7 @@
  7.4M   │ ├── filter-urls
  7.3M   │ ├── wget2
  7.3M   │ ├── subxtract
- 7.3M   │ ├── wormhole-rs
+ 7.2M   │ ├── wormhole-rs
  7.1M   │ ├── ulexec
  7.0M   │ ├── pixterm
  6.6M   │ ├── wget
@@ -264,8 +264,8 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── soar
  9.1M   │ ├── bita
+ 9.1M   │ ├── soar
  8.6M   │ ├── croc
  8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
@@ -289,9 +289,9 @@
  6.2M   │ ├── xq
  6.1M   │ ├── go-enricher
  5.9M   │ ├── dwarfs-tools
- 5.9M   │ ├── wormhole-rs
  5.9M   │ ├── unfurl
  5.9M   │ ├── ulexec
+ 5.8M   │ ├── wormhole-rs
  5.8M   │ ├── crt
  5.7M   │ ├── socat
  5.4M   │ ├── svn
