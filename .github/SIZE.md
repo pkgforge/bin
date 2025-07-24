@@ -31,8 +31,8 @@
   12M   │ ├── dbin
   12M   │ ├── aria2
   11M   │ ├── yq
-  11M   │ ├── bita
   11M   │ ├── soar
+  11M   │ ├── bita
   10M   │ ├── aws-wire-lengths
   10M   │ ├── dasel
   10M   │ ├── oras
@@ -59,7 +59,7 @@
  7.4M   │ ├── filter-urls
  7.3M   │ ├── wget2
  7.3M   │ ├── subxtract
- 7.2M   │ ├── wormhole-rs
+ 7.1M   │ ├── wormhole-rs
  7.1M   │ ├── ulexec
  7.0M   │ ├── pixterm
  6.6M   │ ├── wget
