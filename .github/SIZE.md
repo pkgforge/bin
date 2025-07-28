@@ -1,13 +1,13 @@
 ```mathematica
- 3.0G └─┬ main
+ 3.1G └─┬ main
  1.3G   ├─┬ x86_64-Linux
   64M   │ ├── rclone
+  51M   │ ├── gh
   45M   │ ├── httpx
   45M   │ ├── glab
   40M   │ ├── logdy
   39M   │ ├── huggingface-cli
   39M   │ ├── cloudflared
-  36M   │ ├── gh
   33M   │ ├── trufflehog
   30M   │ ├── tailscale-multi
   29M   │ ├── tailscaled
@@ -47,10 +47,10 @@
  9.0M   │ ├── speedtest-go
  9.0M   │ ├── croc
  9.0M   │ ├── bsdcpio
- 8.9M   │ ├── sttr
  8.6M   │ ├── curl
  8.5M   │ ├── tldr
  8.4M   │ ├── trurl
+ 8.2M   │ ├── sttr
  8.1M   │ ├── openssl
  7.9M   │ ├── crates-dumper
  7.8M   │ ├── mkdwarfs
@@ -230,11 +230,11 @@
  4.0K   │ └── gunzip
  1.2G   ├─┬ aarch64-Linux
   60M   │ ├── rclone
+  49M   │ ├── gh
   43M   │ ├── httpx
   43M   │ ├── glab
   39M   │ ├── logdy
   37M   │ ├── cloudflared
-  34M   │ ├── gh
   33M   │ ├── huggingface-cli
   29M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
@@ -264,13 +264,13 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.1M   │ ├── gocryptfs
- 9.1M   │ ├── soar
  9.1M   │ ├── bita
+ 9.1M   │ ├── soar
  8.6M   │ ├── croc
- 8.6M   │ ├── sttr
  8.5M   │ ├── speedtest-go
  7.9M   │ ├── bsdtar
  7.9M   │ ├── curl
+ 7.8M   │ ├── sttr
  7.8M   │ ├── bsdcpio
  7.7M   │ ├── trurl
  7.7M   │ ├── aws-wire-lengths
