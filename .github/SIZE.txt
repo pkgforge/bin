@@ -96,8 +96,8 @@
  4.4M   │ ├── svn-lite
  4.0M   │ ├── rg
  3.9M   │ ├── vim
- 3.8M   │ ├── nping
  3.8M   │ ├── fzf
+ 3.8M   │ ├── nping
  3.6M   │ ├── 7z
  3.4M   │ ├── yj
  3.3M   │ ├── git-sizer
@@ -235,7 +235,7 @@
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   33M   │ ├── huggingface-cli
-  30M   │ ├── shellcheck
+  29M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
@@ -320,7 +320,7 @@
  4.0M   │ ├── askalono
  4.0M   │ ├── nping
  4.0M   │ ├── vim
- 3.6M   │ ├── fzf
+ 3.7M   │ ├── fzf
  3.3M   │ ├── yj
  3.3M   │ ├── git-sizer
  3.2M   │ ├── ncat
