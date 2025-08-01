@@ -124,6 +124,7 @@
  1.8M   │ ├── scopegen
  1.8M   │ ├── anew
  1.7M   │ ├── flashfetch
+ 1.7M   │ ├── bash
  1.7M   │ ├── tmux
  1.7M   │ ├── tok
  1.7M   │ ├── comb
@@ -147,7 +148,6 @@
  1.2M   │ ├── sqfsdiff
  1.2M   │ ├── busybox
  1.1M   │ ├── readelf
- 1.1M   │ ├── bash
  1.0M   │ ├── less
  1.0M   │ ├── zstdmt
  1.0M   │ ├── zstdcat
@@ -263,9 +263,9 @@
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
+ 9.2M   │ ├── soar
  9.1M   │ ├── gocryptfs
  9.1M   │ ├── bita
- 9.1M   │ ├── soar
  8.6M   │ ├── croc
  8.5M   │ ├── speedtest-go
  7.9M   │ ├── bsdtar
@@ -343,6 +343,7 @@
  2.0M   │ ├── wrappe
  2.0M   │ ├── dust
  1.8M   │ ├── epoch
+ 1.8M   │ ├── bash
  1.8M   │ ├── fastfetch
  1.8M   │ ├── dysk
  1.7M   │ ├── scopegen
@@ -371,7 +372,6 @@
  1.1M   │ ├── rdsquashfs
  1.1M   │ ├── readelf
  1.1M   │ ├── sqfsdiff
- 1.1M   │ ├── bash
  1.0M   │ ├── less
  940K   │ ├── findmnt
  936K   │ ├── zstdmt
