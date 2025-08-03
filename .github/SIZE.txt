@@ -235,7 +235,7 @@
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   33M   │ ├── huggingface-cli
-  30M   │ ├── shellcheck
+  29M   │ ├── shellcheck
   29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
@@ -262,7 +262,7 @@
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
- 9.2M   │ ├── soar
+ 9.3M   │ ├── soar
  9.1M   │ ├── gocryptfs
  9.1M   │ ├── bita
  8.6M   │ ├── croc
