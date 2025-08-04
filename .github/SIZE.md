@@ -5,23 +5,23 @@
   51M   │ ├── gh
   45M   │ ├── httpx
   45M   │ ├── glab
+  42M   │ ├── tailscale-multi
   40M   │ ├── logdy
   39M   │ ├── huggingface-cli
   39M   │ ├── cloudflared
   33M   │ ├── trufflehog
-  30M   │ ├── tailscale-multi
   29M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
   24M   │ ├── csvtk
   24M   │ ├── qsv
   21M   │ ├── jc
+  19M   │ ├── tailscale
   19M   │ ├── notify
   18M   │ ├── glow
   16M   │ ├── gitleaks
   16M   │ ├── gdu
   16M   │ ├── gost
-  15M   │ ├── tailscale
   14M   │ ├── shellcheck
   14M   │ ├── freeze
   14M   │ ├── chafa
@@ -40,7 +40,7 @@
   10M   │ ├── extraxtor
   10M   │ ├── archey
  9.9M   │ ├── gocryptfs
- 9.2M   │ ├── miniserve
+ 9.3M   │ ├── miniserve
  9.1M   │ ├── go-indexer
  9.1M   │ ├── taplo
  9.1M   │ ├── bsdtar
@@ -48,7 +48,7 @@
  9.0M   │ ├── croc
  9.0M   │ ├── bsdcpio
  8.6M   │ ├── curl
- 8.5M   │ ├── tldr
+ 8.4M   │ ├── tldr
  8.4M   │ ├── trurl
  8.2M   │ ├── sttr
  8.1M   │ ├── openssl
@@ -163,11 +163,11 @@
  792K   │ ├── tar
  752K   │ ├── mount
  744K   │ ├── umount
+ 732K   │ ├── fuse2fs
  724K   │ ├── anewer
  720K   │ ├── anew-rs
  704K   │ ├── faketty
  700K   │ ├── ncdu
- 664K   │ ├── fuse2fs
  652K   │ ├── sftp
  588K   │ ├── upx
  560K   │ ├── neofetch
@@ -233,16 +233,17 @@
   49M   │ ├── gh
   43M   │ ├── httpx
   43M   │ ├── glab
+  40M   │ ├── tailscale-multi
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   33M   │ ├── huggingface-cli
   29M   │ ├── shellcheck
-  29M   │ ├── tailscale-multi
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
   23M   │ ├── csvtk
   21M   │ ├── noseyparker-cli
   21M   │ ├── noseyparker
+  18M   │ ├── tailscale
   18M   │ ├── notify
   18M   │ ├── qsv
   18M   │ ├── jc
@@ -250,7 +251,6 @@
   15M   │ ├── gitleaks
   15M   │ ├── gdu
   14M   │ ├── gost
-  14M   │ ├── tailscale
   14M   │ ├── freeze
   13M   │ ├── chafa
   13M   │ ├── micro
@@ -263,7 +263,7 @@
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
- 9.3M   │ ├── soar
+ 9.2M   │ ├── soar
  9.1M   │ ├── gocryptfs
  9.1M   │ ├── bita
  8.6M   │ ├── croc
@@ -274,14 +274,14 @@
  7.8M   │ ├── bsdcpio
  7.7M   │ ├── trurl
  7.7M   │ ├── aws-wire-lengths
- 7.4M   │ ├── miniserve
+ 7.5M   │ ├── miniserve
  7.4M   │ ├── go-indexer
  7.3M   │ ├── eget
  7.2M   │ ├── taplo
  7.0M   │ ├── wget2
  7.0M   │ ├── openssl
  6.8M   │ ├── subxtract
- 6.8M   │ ├── tldr
+ 6.7M   │ ├── tldr
  6.6M   │ ├── pixterm
  6.6M   │ ├── mkdwarfs
  6.4M   │ ├── wget
@@ -382,14 +382,14 @@
  876K   │ ├── mount
  860K   │ ├── umount
  832K   │ ├── tar
- 816K   │ ├── jq
+ 820K   │ ├── jq
  804K   │ ├── squashfuse_ll
  788K   │ ├── squashfuse
+ 780K   │ ├── fuse2fs
  772K   │ ├── duplicut
  744K   │ ├── b3sum
  740K   │ ├── sftp
  720K   │ ├── ncdu
- 712K   │ ├── fuse2fs
  620K   │ ├── anew-rs
  612K   │ ├── anewer
  600K   │ ├── faketty
