@@ -236,7 +236,7 @@
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   33M   │ ├── huggingface-cli
-  29M   │ ├── shellcheck
+  30M   │ ├── shellcheck
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
   23M   │ ├── csvtk
