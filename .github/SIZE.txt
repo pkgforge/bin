@@ -21,7 +21,7 @@
   16M   │ ├── gitleaks
   16M   │ ├── gdu
   16M   │ ├── gost
-  14M   │ ├── shellcheck
+  15M   │ ├── shellcheck
   14M   │ ├── freeze
   14M   │ ├── chafa
   13M   │ ├── micro
@@ -30,8 +30,8 @@
   12M   │ ├── dbin
   12M   │ ├── aria2
   11M   │ ├── yq
-  11M   │ ├── bita
   11M   │ ├── soar
+  11M   │ ├── bita
   10M   │ ├── aws-wire-lengths
   10M   │ ├── dasel
   10M   │ ├── oras
@@ -122,7 +122,6 @@
  1.9M   │ ├── epoch
  1.8M   │ ├── scopegen
  1.8M   │ ├── anew
- 1.7M   │ ├── flashfetch
  1.7M   │ ├── bash
  1.7M   │ ├── tmux
  1.7M   │ ├── tok
@@ -147,6 +146,7 @@
  1.2M   │ ├── sqfsdiff
  1.2M   │ ├── busybox
  1.1M   │ ├── readelf
+ 1.1M   │ ├── flashfetch
  1.0M   │ ├── less
  1.0M   │ ├── zstdmt
  1.0M   │ ├── zstdcat
@@ -229,6 +229,7 @@
  4.0K   │ └── gunzip
  1.2G   ├─┬ aarch64-Linux
   60M   │ ├── rclone
+  52M   │ ├── shellcheck
   49M   │ ├── gh
   43M   │ ├── httpx
   43M   │ ├── glab
@@ -236,7 +237,6 @@
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   33M   │ ├── huggingface-cli
-  29M   │ ├── shellcheck
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
   23M   │ ├── csvtk
@@ -262,7 +262,7 @@
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
- 9.3M   │ ├── soar
+ 9.2M   │ ├── soar
  9.1M   │ ├── gocryptfs
  9.1M   │ ├── bita
  8.6M   │ ├── croc
@@ -310,7 +310,7 @@
  4.7M   │ ├── ssh-keygen
  4.6M   │ ├── validtoml
  4.6M   │ ├── ripgrep
- 4.5M   │ ├── delta
+ 4.6M   │ ├── delta
  4.5M   │ ├── rga
  4.3M   │ ├── ssh-keysign
  4.2M   │ ├── ssh-add
@@ -343,14 +343,13 @@
  2.0M   │ ├── dust
  1.8M   │ ├── epoch
  1.8M   │ ├── bash
- 1.8M   │ ├── fastfetch
  1.8M   │ ├── dysk
  1.7M   │ ├── scopegen
+ 1.7M   │ ├── fastfetch
  1.7M   │ ├── anew
  1.7M   │ ├── tmux
  1.7M   │ ├── tok
  1.7M   │ ├── comb
- 1.6M   │ ├── flashfetch
  1.6M   │ ├── coreutils
  1.6M   │ ├── tcpdump
  1.5M   │ ├── objcopy
@@ -372,6 +371,7 @@
  1.1M   │ ├── readelf
  1.1M   │ ├── sqfsdiff
  1.0M   │ ├── less
+ 1.0M   │ ├── flashfetch
  940K   │ ├── findmnt
  936K   │ ├── zstdmt
  936K   │ ├── zstdcat
