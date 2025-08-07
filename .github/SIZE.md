@@ -31,8 +31,8 @@
   12M   │ ├── dbin
   12M   │ ├── aria2
   11M   │ ├── yq
-  11M   │ ├── soar
   11M   │ ├── bita
+  11M   │ ├── soar
   10M   │ ├── aws-wire-lengths
   10M   │ ├── dasel
   10M   │ ├── oras
