@@ -346,8 +346,8 @@
  1.8M   │ ├── bash
  1.8M   │ ├── dysk
  1.7M   │ ├── scopegen
- 1.7M   │ ├── fastfetch
  1.7M   │ ├── anew
+ 1.7M   │ ├── fastfetch
  1.7M   │ ├── tmux
  1.7M   │ ├── tok
  1.7M   │ ├── comb
@@ -418,9 +418,9 @@
  212K   │ ├── awk
  180K   │ ├── zapper-stealth
  180K   │ ├── zapper
- 180K   │ ├── bwrap
  164K   │ ├── fusermount3
  164K   │ ├── fuser
+ 164K   │ ├── bwrap
  140K   │ ├── unix2mac
  140K   │ ├── unix2dos
  140K   │ ├── mac2unix
