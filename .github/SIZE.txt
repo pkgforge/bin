@@ -6,8 +6,8 @@
   45M   │ ├── glab
   42M   │ ├── tailscale-multi
   40M   │ ├── logdy
-  39M   │ ├── huggingface-cli
   39M   │ ├── cloudflared
+  35M   │ ├── huggingface-cli
   33M   │ ├── trufflehog
   29M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
@@ -236,7 +236,7 @@
   40M   │ ├── tailscale-multi
   39M   │ ├── logdy
   37M   │ ├── cloudflared
-  33M   │ ├── huggingface-cli
+  29M   │ ├── huggingface-cli
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
   23M   │ ├── csvtk
