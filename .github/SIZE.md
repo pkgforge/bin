@@ -59,11 +59,11 @@
  7.4M   │ ├── filter-urls
  7.3M   │ ├── wget2
  7.3M   │ ├── subxtract
- 7.1M   │ ├── wormhole-rs
+ 7.2M   │ ├── wormhole-rs
  7.1M   │ ├── ulexec
  7.0M   │ ├── pixterm
  6.6M   │ ├── wget
- 6.5M   │ ├── xq
+ 6.6M   │ ├── xq
  6.4M   │ ├── dwarfs-tools
  6.4M   │ ├── bsdunzip
  6.4M   │ ├── script-parser
@@ -119,8 +119,8 @@
  2.4M   │ ├── btop
  2.2M   │ ├── dysk
  2.1M   │ ├── inscope
- 1.9M   │ ├── fastfetch
  1.9M   │ ├── epoch
+ 1.9M   │ ├── fastfetch
  1.8M   │ ├── scopegen
  1.8M   │ ├── anew
  1.7M   │ ├── bash
@@ -154,7 +154,7 @@
  1.0M   │ ├── zstd
  1.0M   │ ├── unzstd
  948K   │ ├── duplicut
- 916K   │ ├── b3sum
+ 920K   │ ├── b3sum
  888K   │ ├── gawk
  824K   │ ├── findmnt
  820K   │ ├── squashfuse
@@ -264,7 +264,7 @@
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
  9.2M   │ ├── soar
- 9.1M   │ ├── gocryptfs
+ 9.2M   │ ├── gocryptfs
  9.1M   │ ├── bita
  8.6M   │ ├── croc
  8.5M   │ ├── speedtest-go
@@ -286,12 +286,12 @@
  6.6M   │ ├── mkdwarfs
  6.4M   │ ├── wget
  6.4M   │ ├── crates-dumper
- 6.2M   │ ├── xq
+ 6.3M   │ ├── xq
  6.1M   │ ├── go-enricher
  5.9M   │ ├── dwarfs-tools
+ 5.9M   │ ├── wormhole-rs
  5.9M   │ ├── unfurl
  5.9M   │ ├── ulexec
- 5.8M   │ ├── wormhole-rs
  5.8M   │ ├── crt
  5.7M   │ ├── socat
  5.4M   │ ├── svn
@@ -332,8 +332,8 @@
  2.7M   │ ├── dwarfsextract
  2.7M   │ ├── duf
  2.7M   │ ├── gs-netcat
- 2.6M   │ ├── fd-find
- 2.6M   │ ├── fd
+ 2.7M   │ ├── fd-find
+ 2.7M   │ ├── fd
  2.6M   │ ├── svnserve
  2.6M   │ ├── file
  2.4M   │ ├── svnadmin
@@ -342,7 +342,7 @@
  2.1M   │ ├── inscope
  2.0M   │ ├── wrappe
  2.0M   │ ├── dust
- 1.8M   │ ├── epoch
+ 1.9M   │ ├── epoch
  1.8M   │ ├── bash
  1.8M   │ ├── dysk
  1.7M   │ ├── scopegen
@@ -387,7 +387,7 @@
  788K   │ ├── squashfuse
  780K   │ ├── fuse2fs
  772K   │ ├── duplicut
- 744K   │ ├── b3sum
+ 752K   │ ├── b3sum
  740K   │ ├── sftp
  720K   │ ├── ncdu
  620K   │ ├── anew-rs
