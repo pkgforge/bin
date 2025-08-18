@@ -5,11 +5,11 @@
   51M   │ ├── gh
   45M   │ ├── httpx
   45M   │ ├── glab
-  42M   │ ├── tailscale-multi
+  43M   │ ├── tailscale-multi
   40M   │ ├── logdy
   39M   │ ├── cloudflared
   35M   │ ├── huggingface-cli
-  33M   │ ├── trufflehog
+  32M   │ ├── trufflehog
   29M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
@@ -92,9 +92,9 @@
  4.9M   │ ├── ssh-pkcs11-helper
  4.8M   │ ├── askalono
  4.7M   │ ├── validtoml
- 4.6M   │ ├── svnsync
  4.5M   │ ├── nmap
  4.4M   │ ├── svn-lite
+ 4.0M   │ ├── svnsync
  4.0M   │ ├── rg
  3.9M   │ ├── vim
  3.8M   │ ├── fzf
@@ -166,8 +166,8 @@
  732K   │ ├── fuse2fs
  724K   │ ├── anewer
  720K   │ ├── anew-rs
+ 712K   │ ├── ncdu
  704K   │ ├── faketty
- 700K   │ ├── ncdu
  652K   │ ├── sftp
  588K   │ ├── upx
  560K   │ ├── neofetch
@@ -345,9 +345,9 @@
  1.9M   │ ├── epoch
  1.8M   │ ├── bash
  1.8M   │ ├── dysk
+ 1.8M   │ ├── fastfetch
  1.7M   │ ├── scopegen
  1.7M   │ ├── anew
- 1.7M   │ ├── fastfetch
  1.7M   │ ├── tmux
  1.7M   │ ├── tok
  1.7M   │ ├── comb
@@ -389,7 +389,7 @@
  772K   │ ├── duplicut
  752K   │ ├── b3sum
  740K   │ ├── sftp
- 720K   │ ├── ncdu
+ 732K   │ ├── ncdu
  620K   │ ├── anew-rs
  612K   │ ├── anewer
  600K   │ ├── faketty
