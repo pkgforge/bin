@@ -31,8 +31,8 @@
   12M   │ ├── dbin
   12M   │ ├── aria2
   11M   │ ├── yq
-  11M   │ ├── bita
   11M   │ ├── soar
+  11M   │ ├── bita
   10M   │ ├── aws-wire-lengths
   10M   │ ├── dasel
   10M   │ ├── oras
@@ -92,9 +92,9 @@
  4.9M   │ ├── ssh-pkcs11-helper
  4.8M   │ ├── askalono
  4.7M   │ ├── validtoml
+ 4.6M   │ ├── svnsync
  4.5M   │ ├── nmap
  4.4M   │ ├── svn-lite
- 4.0M   │ ├── svnsync
  4.0M   │ ├── rg
  3.9M   │ ├── vim
  3.8M   │ ├── fzf
@@ -263,7 +263,7 @@
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
- 9.2M   │ ├── soar
+ 9.3M   │ ├── soar
  9.2M   │ ├── gocryptfs
  9.1M   │ ├── bita
  8.6M   │ ├── croc
