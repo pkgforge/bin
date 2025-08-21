@@ -12,10 +12,10 @@
   29M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
-  24M   │ ├── csvtk
   24M   │ ├── qsv
+  24M   │ ├── csvtk
   21M   │ ├── jc
-  19M   │ ├── tailscale
+  20M   │ ├── tailscale
   19M   │ ├── notify
   18M   │ ├── glow
   16M   │ ├── gitleaks
@@ -33,7 +33,6 @@
   11M   │ ├── soar
   11M   │ ├── bita
   10M   │ ├── aws-wire-lengths
-  10M   │ ├── dasel
   10M   │ ├── oras
   10M   │ ├── ipinfo
   10M   │ ├── extraxtor
@@ -41,6 +40,7 @@
  9.9M   │ ├── gocryptfs
  9.3M   │ ├── miniserve
  9.1M   │ ├── go-indexer
+ 9.1M   │ ├── dasel
  9.1M   │ ├── taplo
  9.1M   │ ├── bsdtar
  9.0M   │ ├── speedtest-go
@@ -145,8 +145,8 @@
  1.3M   │ ├── gsocket
  1.2M   │ ├── sqfsdiff
  1.2M   │ ├── busybox
- 1.1M   │ ├── readelf
  1.1M   │ ├── flashfetch
+ 1.1M   │ ├── readelf
  1.0M   │ ├── less
  1.0M   │ ├── zstdmt
  1.0M   │ ├── zstdcat
@@ -242,9 +242,9 @@
   23M   │ ├── csvtk
   21M   │ ├── noseyparker-cli
   21M   │ ├── noseyparker
+  19M   │ ├── qsv
   18M   │ ├── tailscale
   18M   │ ├── notify
-  18M   │ ├── qsv
   18M   │ ├── jc
   17M   │ ├── glow
   15M   │ ├── gitleaks
@@ -258,7 +258,6 @@
   11M   │ ├── dbin
   11M   │ ├── aria2
   11M   │ ├── yq
-  10M   │ ├── dasel
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
@@ -267,6 +266,7 @@
  9.1M   │ ├── bita
  8.6M   │ ├── croc
  8.5M   │ ├── speedtest-go
+ 8.5M   │ ├── dasel
  7.9M   │ ├── bsdtar
  7.9M   │ ├── curl
  7.8M   │ ├── sttr
@@ -370,8 +370,8 @@
  1.1M   │ ├── rdsquashfs
  1.1M   │ ├── readelf
  1.1M   │ ├── sqfsdiff
+ 1.1M   │ ├── flashfetch
  1.0M   │ ├── less
- 1.0M   │ ├── flashfetch
  940K   │ ├── findmnt
  936K   │ ├── zstdmt
  936K   │ ├── zstdcat
