@@ -1,7 +1,7 @@
  3.1G └─┬ main
  1.3G   ├─┬ x86_64-Linux
-  64M   │ ├── rclone
-  51M   │ ├── gh
+  65M   │ ├── rclone
+  52M   │ ├── gh
   45M   │ ├── httpx
   45M   │ ├── glab
   43M   │ ├── tailscale-multi
@@ -160,13 +160,13 @@
  820K   │ ├── jq
  812K   │ ├── squashfuse_ll
  792K   │ ├── tar
+ 752K   │ ├── ncdu
  752K   │ ├── mount
  744K   │ ├── umount
- 732K   │ ├── fuse2fs
  724K   │ ├── anewer
+ 720K   │ ├── fuse2fs
  720K   │ ├── anew-rs
- 712K   │ ├── ncdu
- 704K   │ ├── faketty
+ 688K   │ ├── faketty
  652K   │ ├── sftp
  588K   │ ├── upx
  560K   │ ├── neofetch
@@ -385,14 +385,14 @@
  804K   │ ├── squashfuse_ll
  788K   │ ├── squashfuse
  780K   │ ├── fuse2fs
+ 772K   │ ├── ncdu
  772K   │ ├── duplicut
  752K   │ ├── b3sum
  740K   │ ├── sftp
- 732K   │ ├── ncdu
  620K   │ ├── anew-rs
  612K   │ ├── anewer
- 600K   │ ├── faketty
  596K   │ ├── upx
+ 596K   │ ├── faketty
  564K   │ ├── dash
  560K   │ ├── neofetch
  456K   │ ├── tss
