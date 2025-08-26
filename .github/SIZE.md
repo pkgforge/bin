@@ -13,7 +13,7 @@
   29M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
-  24M   │ ├── qsv
+  25M   │ ├── qsv
   24M   │ ├── csvtk
   21M   │ ├── jc
   20M   │ ├── tailscale
@@ -95,8 +95,8 @@
  4.6M   │ ├── svnsync
  4.5M   │ ├── nmap
  4.4M   │ ├── svn-lite
+ 4.0M   │ ├── vim
  4.0M   │ ├── rg
- 3.9M   │ ├── vim
  3.8M   │ ├── fzf
  3.8M   │ ├── nping
  3.6M   │ ├── 7z
@@ -106,9 +106,9 @@
  3.2M   │ ├── fd
  3.0M   │ ├── imgcat
  3.0M   │ ├── ncat
+ 2.9M   │ ├── duf
  2.9M   │ ├── file
  2.8M   │ ├── dwarfsextract
- 2.8M   │ ├── duf
  2.7M   │ ├── gs-netcat
  2.6M   │ ├── svnserve
  2.6M   │ ├── objdump
@@ -129,13 +129,13 @@
  1.7M   │ ├── comb
  1.7M   │ ├── fuse-overlayfs
  1.7M   │ ├── coreutils
+ 1.6M   │ ├── strace
  1.6M   │ ├── tcpdump
  1.5M   │ ├── sqfstar
  1.5M   │ ├── mksquashfs
  1.5M   │ ├── grep
  1.5M   │ ├── xhost
  1.4M   │ ├── objcopy
- 1.4M   │ ├── strace
  1.4M   │ ├── unsquashfs
  1.4M   │ ├── sqfscat
  1.4M   │ ├── tar2sqfs
@@ -156,7 +156,7 @@
  948K   │ ├── duplicut
  920K   │ ├── b3sum
  888K   │ ├── gawk
- 824K   │ ├── findmnt
+ 828K   │ ├── findmnt
  820K   │ ├── squashfuse
  820K   │ ├── jq
  812K   │ ├── squashfuse_ll
@@ -179,7 +179,7 @@
  328K   │ ├── xz
  328K   │ ├── unxz
  304K   │ ├── ps
- 280K   │ ├── minisign
+ 284K   │ ├── minisign
  276K   │ ├── hexdump
  272K   │ ├── mawk
  256K   │ ├── sftp-server
@@ -319,8 +319,8 @@
  4.2M   │ ├── ssh-pkcs11-helper
  4.0M   │ ├── svn-lite
  4.0M   │ ├── askalono
- 4.0M   │ ├── nping
  4.0M   │ ├── vim
+ 4.0M   │ ├── nping
  3.7M   │ ├── fzf
  3.3M   │ ├── yj
  3.3M   │ ├── git-sizer
@@ -329,8 +329,8 @@
  3.0M   │ ├── 7z
  3.0M   │ ├── objdump
  2.9M   │ ├── imgcat
+ 2.8M   │ ├── duf
  2.7M   │ ├── dwarfsextract
- 2.7M   │ ├── duf
  2.7M   │ ├── gs-netcat
  2.7M   │ ├── fd-find
  2.7M   │ ├── fd
@@ -349,12 +349,12 @@
  1.7M   │ ├── scopegen
  1.7M   │ ├── anew
  1.7M   │ ├── tmux
+ 1.7M   │ ├── strace
  1.7M   │ ├── tok
  1.7M   │ ├── comb
  1.6M   │ ├── coreutils
  1.6M   │ ├── tcpdump
  1.5M   │ ├── objcopy
- 1.4M   │ ├── strace
  1.4M   │ ├── xhost
  1.4M   │ ├── sqfstar
  1.4M   │ ├── mksquashfs
@@ -403,7 +403,7 @@
  356K   │ ├── xz
  356K   │ ├── unxz
  340K   │ ├── ps
- 340K   │ ├── hexdump
+ 324K   │ ├── hexdump
  320K   │ ├── ping
  308K   │ ├── sftp-server
  308K   │ ├── mawk
