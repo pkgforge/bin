@@ -52,8 +52,8 @@
  8.4M   │ ├── trurl
  8.1M   │ ├── sttr
  8.1M   │ ├── openssl
+ 8.0M   │ ├── mkdwarfs
  7.9M   │ ├── crates-dumper
- 7.8M   │ ├── mkdwarfs
  7.7M   │ ├── eget
  7.5M   │ ├── go-enricher
  7.4M   │ ├── filter-urls
@@ -76,6 +76,7 @@
  5.8M   │ ├── ssh
  5.8M   │ ├── ripgrep
  5.8M   │ ├── ouch
+ 5.7M   │ ├── dwarfsextract
  5.5M   │ ├── batcat
  5.5M   │ ├── bat
  5.4M   │ ├── ssh-keyscan
@@ -105,19 +106,18 @@
  3.2M   │ ├── fd-find
  3.2M   │ ├── fd
  3.0M   │ ├── imgcat
+ 3.0M   │ ├── duf
  3.0M   │ ├── ncat
- 2.9M   │ ├── duf
  2.9M   │ ├── file
- 2.8M   │ ├── dwarfsextract
+ 2.9M   │ ├── dwarfs
  2.7M   │ ├── gs-netcat
  2.6M   │ ├── svnserve
  2.6M   │ ├── objdump
  2.5M   │ ├── wrappe
  2.5M   │ ├── svnadmin
+ 2.5M   │ ├── btop
  2.5M   │ ├── dust
- 2.4M   │ ├── dwarfs
- 2.4M   │ ├── btop
- 2.2M   │ ├── dysk
+ 2.3M   │ ├── dysk
  2.1M   │ ├── inscope
  1.9M   │ ├── epoch
  1.9M   │ ├── fastfetch
@@ -281,9 +281,9 @@
  7.0M   │ ├── wget2
  7.0M   │ ├── openssl
  6.8M   │ ├── subxtract
+ 6.7M   │ ├── mkdwarfs
  6.7M   │ ├── tldr
  6.6M   │ ├── pixterm
- 6.6M   │ ├── mkdwarfs
  6.4M   │ ├── wget
  6.4M   │ ├── crates-dumper
  6.3M   │ ├── xq
@@ -310,6 +310,7 @@
  4.7M   │ ├── sshd
  4.7M   │ ├── ssh-keygen
  4.6M   │ ├── validtoml
+ 4.6M   │ ├── dwarfsextract
  4.6M   │ ├── ripgrep
  4.6M   │ ├── delta
  4.5M   │ ├── rga
@@ -329,15 +330,14 @@
  3.0M   │ ├── 7z
  3.0M   │ ├── objdump
  2.9M   │ ├── imgcat
- 2.8M   │ ├── duf
- 2.7M   │ ├── dwarfsextract
+ 2.9M   │ ├── duf
  2.7M   │ ├── gs-netcat
+ 2.7M   │ ├── dwarfs
  2.7M   │ ├── fd-find
  2.7M   │ ├── fd
  2.6M   │ ├── svnserve
  2.6M   │ ├── file
  2.4M   │ ├── svnadmin
- 2.3M   │ ├── dwarfs
  2.3M   │ ├── btop
  2.1M   │ ├── inscope
  2.0M   │ ├── wrappe
