@@ -232,8 +232,8 @@
   60M   │ ├── rclone
   52M   │ ├── shellcheck
   49M   │ ├── gh
-  43M   │ ├── httpx
   43M   │ ├── glab
+  43M   │ ├── httpx
   40M   │ ├── tailscale-multi
   39M   │ ├── logdy
   37M   │ ├── cloudflared
@@ -274,7 +274,7 @@
  7.8M   │ ├── sttr
  7.7M   │ ├── trurl
  7.7M   │ ├── aws-wire-lengths
- 7.5M   │ ├── miniserve
+ 7.6M   │ ├── miniserve
  7.4M   │ ├── go-indexer
  7.3M   │ ├── eget
  7.2M   │ ├── taplo
