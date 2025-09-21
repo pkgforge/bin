@@ -1,6 +1,6 @@
 ```mathematica
  3.1G └─┬ main
- 1.3G   ├─┬ x86_64-Linux
+ 1.4G   ├─┬ x86_64-Linux
   65M   │ ├── rclone
   52M   │ ├── gh
   45M   │ ├── httpx
@@ -42,6 +42,7 @@
  9.4M   │ ├── dasel
  9.3M   │ ├── miniserve
  9.1M   │ ├── go-indexer
+ 9.1M   │ ├── taplo
  9.1M   │ ├── bsdtar
  9.0M   │ ├── speedtest-go
  9.0M   │ ├── croc
@@ -52,7 +53,6 @@
  8.1M   │ ├── sttr
  8.1M   │ ├── openssl
  8.0M   │ ├── mkdwarfs
- 8.0M   │ ├── taplo
  7.9M   │ ├── crates-dumper
  7.7M   │ ├── eget
  7.5M   │ ├── go-enricher
