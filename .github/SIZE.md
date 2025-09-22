@@ -232,9 +232,9 @@
   60M   │ ├── rclone
   52M   │ ├── shellcheck
   49M   │ ├── gh
-  43M   │ ├── glab
-  43M   │ ├── httpx
-  40M   │ ├── tailscale-multi
+  44M   │ ├── httpx
+  44M   │ ├── glab
+  39M   │ ├── tailscale-multi
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   29M   │ ├── huggingface-cli
@@ -244,9 +244,9 @@
   21M   │ ├── noseyparker-cli
   21M   │ ├── noseyparker
   19M   │ ├── qsv
-  18M   │ ├── tailscale
   18M   │ ├── notify
   18M   │ ├── jc
+  18M   │ ├── tailscale
   17M   │ ├── glow
   15M   │ ├── gitleaks
   15M   │ ├── gdu
@@ -262,27 +262,27 @@
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
  9.9M   │ ├── oras
- 9.3M   │ ├── soar
  9.2M   │ ├── gocryptfs
  9.1M   │ ├── bita
- 8.8M   │ ├── dasel
+ 9.0M   │ ├── soar
+ 8.6M   │ ├── dasel
  8.6M   │ ├── croc
  8.5M   │ ├── speedtest-go
  7.9M   │ ├── bsdtar
  7.9M   │ ├── curl
  7.8M   │ ├── bsdcpio
  7.8M   │ ├── sttr
+ 7.7M   │ ├── miniserve
  7.7M   │ ├── trurl
  7.7M   │ ├── aws-wire-lengths
- 7.6M   │ ├── miniserve
  7.4M   │ ├── go-indexer
  7.3M   │ ├── eget
  7.2M   │ ├── taplo
  7.0M   │ ├── wget2
  7.0M   │ ├── openssl
  6.8M   │ ├── subxtract
+ 6.8M   │ ├── tldr
  6.7M   │ ├── mkdwarfs
- 6.7M   │ ├── tldr
  6.6M   │ ├── pixterm
  6.4M   │ ├── wget
  6.4M   │ ├── crates-dumper
@@ -299,10 +299,10 @@
  5.2M   │ ├── bsdunzip
  5.1M   │ ├── sshd-session
  5.1M   │ ├── ssh
+ 5.1M   │ ├── batcat
+ 5.1M   │ ├── bat
  4.9M   │ ├── svnsync
  4.8M   │ ├── ouch
- 4.8M   │ ├── batcat
- 4.8M   │ ├── bat
  4.8M   │ ├── rsync
  4.8M   │ ├── actionlint
  4.7M   │ ├── ssh-keyscan
@@ -323,14 +323,14 @@
  4.0M   │ ├── vim
  4.0M   │ ├── nping
  3.7M   │ ├── fzf
+ 3.5M   │ ├── duf
+ 3.4M   │ ├── git-sizer
  3.3M   │ ├── yj
- 3.3M   │ ├── git-sizer
  3.2M   │ ├── ncat
  3.1M   │ ├── rg
  3.0M   │ ├── 7z
  3.0M   │ ├── objdump
  2.9M   │ ├── imgcat
- 2.9M   │ ├── duf
  2.7M   │ ├── gs-netcat
  2.7M   │ ├── dwarfs
  2.7M   │ ├── fd-find
