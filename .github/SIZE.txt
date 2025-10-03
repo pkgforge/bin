@@ -2,9 +2,9 @@
  1.4G   ├─┬ x86_64-Linux
   65M   │ ├── rclone
   52M   │ ├── gh
-  45M   │ ├── httpx
-  45M   │ ├── glab
-  43M   │ ├── tailscale-multi
+  47M   │ ├── glab
+  47M   │ ├── httpx
+  42M   │ ├── tailscale-multi
   40M   │ ├── logdy
   39M   │ ├── cloudflared
   35M   │ ├── huggingface-cli
@@ -15,7 +15,7 @@
   25M   │ ├── qsv
   24M   │ ├── csvtk
   21M   │ ├── jc
-  20M   │ ├── tailscale
+  19M   │ ├── tailscale
   19M   │ ├── notify
   18M   │ ├── glow
   16M   │ ├── gitleaks
@@ -30,25 +30,25 @@
   12M   │ ├── dbin
   12M   │ ├── aria2
   11M   │ ├── yq
-  11M   │ ├── soar
   11M   │ ├── bita
+  10M   │ ├── soar
   10M   │ ├── aws-wire-lengths
   10M   │ ├── oras
   10M   │ ├── ipinfo
   10M   │ ├── extraxtor
   10M   │ ├── archey
  9.9M   │ ├── gocryptfs
- 9.4M   │ ├── dasel
+ 9.5M   │ ├── curl
  9.3M   │ ├── miniserve
+ 9.2M   │ ├── dasel
+ 9.2M   │ ├── trurl
  9.1M   │ ├── go-indexer
  9.1M   │ ├── taplo
  9.1M   │ ├── bsdtar
  9.0M   │ ├── speedtest-go
  9.0M   │ ├── croc
  9.0M   │ ├── bsdcpio
- 8.6M   │ ├── curl
  8.4M   │ ├── tldr
- 8.4M   │ ├── trurl
  8.1M   │ ├── sttr
  8.1M   │ ├── openssl
  8.0M   │ ├── mkdwarfs
@@ -73,11 +73,11 @@
  6.0M   │ ├── rsync
  5.8M   │ ├── sshd-session
  5.8M   │ ├── ssh
- 5.8M   │ ├── ripgrep
  5.8M   │ ├── ouch
+ 5.8M   │ ├── batcat
+ 5.8M   │ ├── bat
  5.7M   │ ├── dwarfsextract
- 5.5M   │ ├── batcat
- 5.5M   │ ├── bat
+ 5.7M   │ ├── ripgrep
  5.4M   │ ├── ssh-keyscan
  5.3M   │ ├── rga
  5.3M   │ ├── sshd
@@ -100,12 +100,12 @@
  3.8M   │ ├── fzf
  3.8M   │ ├── nping
  3.6M   │ ├── 7z
+ 3.6M   │ ├── git-sizer
  3.4M   │ ├── yj
- 3.3M   │ ├── git-sizer
  3.2M   │ ├── fd-find
  3.2M   │ ├── fd
+ 3.2M   │ ├── duf
  3.0M   │ ├── imgcat
- 3.0M   │ ├── duf
  3.0M   │ ├── ncat
  2.9M   │ ├── file
  2.9M   │ ├── dwarfs
@@ -118,8 +118,8 @@
  2.5M   │ ├── dust
  2.3M   │ ├── dysk
  2.1M   │ ├── inscope
- 1.9M   │ ├── epoch
  1.9M   │ ├── fastfetch
+ 1.9M   │ ├── epoch
  1.8M   │ ├── scopegen
  1.8M   │ ├── anew
  1.7M   │ ├── bash
@@ -194,10 +194,10 @@
  172K   │ ├── zapper
  168K   │ ├── zapper-stealth
  136K   │ ├── bwrap
+ 132K   │ ├── fusermount3
  128K   │ ├── fuser
  116K   │ ├── netcat
  116K   │ ├── nc
- 116K   │ ├── fusermount3
  104K   │ ├── unix2mac
  104K   │ ├── unix2dos
  104K   │ ├── mac2unix
@@ -205,7 +205,7 @@
   80K   │ ├── hexedit
   68K   │ ├── joker
   64K   │ ├── add-section
-  52K   │ ├── xxd
+  56K   │ ├── xxd
   52K   │ ├── sponge
   44K   │ ├── sstrip
   40K   │ ├── pipetty
@@ -230,9 +230,9 @@
  1.2G   ├─┬ aarch64-Linux
   60M   │ ├── rclone
   52M   │ ├── shellcheck
-  49M   │ ├── gh
+  50M   │ ├── gh
+  45M   │ ├── glab
   44M   │ ├── httpx
-  44M   │ ├── glab
   39M   │ ├── tailscale-multi
   39M   │ ├── logdy
   37M   │ ├── cloudflared
@@ -263,16 +263,16 @@
  9.9M   │ ├── oras
  9.2M   │ ├── gocryptfs
  9.1M   │ ├── bita
- 9.0M   │ ├── soar
+ 8.9M   │ ├── soar
+ 8.7M   │ ├── curl
  8.6M   │ ├── dasel
  8.6M   │ ├── croc
  8.5M   │ ├── speedtest-go
+ 8.5M   │ ├── trurl
  7.9M   │ ├── bsdtar
- 7.9M   │ ├── curl
  7.8M   │ ├── bsdcpio
  7.8M   │ ├── sttr
  7.7M   │ ├── miniserve
- 7.7M   │ ├── trurl
  7.7M   │ ├── aws-wire-lengths
  7.4M   │ ├── go-indexer
  7.3M   │ ├── eget
@@ -322,10 +322,10 @@
  4.0M   │ ├── vim
  4.0M   │ ├── nping
  3.7M   │ ├── fzf
- 3.5M   │ ├── duf
  3.4M   │ ├── git-sizer
  3.3M   │ ├── yj
  3.2M   │ ├── ncat
+ 3.2M   │ ├── duf
  3.1M   │ ├── rg
  3.0M   │ ├── 7z
  3.0M   │ ├── objdump
@@ -415,9 +415,9 @@
  228K   │ ├── minisign
  216K   │ ├── reptyr
  212K   │ ├── awk
+ 196K   │ ├── fusermount3
  180K   │ ├── zapper-stealth
  180K   │ ├── zapper
- 164K   │ ├── fusermount3
  164K   │ ├── fuser
  164K   │ ├── bwrap
  140K   │ ├── unix2mac
