@@ -8,9 +8,9 @@
   42M   │ ├── tailscale-multi
   40M   │ ├── logdy
   39M   │ ├── cloudflared
-  35M   │ ├── huggingface-cli
+  36M   │ ├── huggingface-cli
   32M   │ ├── trufflehog
-  29M   │ ├── tailscaled
+  28M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
   25M   │ ├── qsv
@@ -32,9 +32,9 @@
   12M   │ ├── aria2
   11M   │ ├── yq
   11M   │ ├── bita
+  10M   │ ├── oras
   10M   │ ├── soar
   10M   │ ├── aws-wire-lengths
-  10M   │ ├── oras
   10M   │ ├── ipinfo
   10M   │ ├── extraxtor
   10M   │ ├── archey
@@ -49,7 +49,6 @@
  9.0M   │ ├── speedtest-go
  9.0M   │ ├── croc
  9.0M   │ ├── bsdcpio
- 8.4M   │ ├── tldr
  8.1M   │ ├── sttr
  8.1M   │ ├── openssl
  8.0M   │ ├── mkdwarfs
@@ -77,8 +76,8 @@
  5.8M   │ ├── ouch
  5.8M   │ ├── batcat
  5.8M   │ ├── bat
- 5.7M   │ ├── dwarfsextract
  5.7M   │ ├── ripgrep
+ 5.7M   │ ├── dwarfsextract
  5.4M   │ ├── ssh-keyscan
  5.3M   │ ├── rga
  5.3M   │ ├── sshd
@@ -103,11 +102,12 @@
  3.6M   │ ├── 7z
  3.6M   │ ├── git-sizer
  3.4M   │ ├── yj
- 3.2M   │ ├── fd-find
- 3.2M   │ ├── fd
+ 3.3M   │ ├── fd-find
+ 3.3M   │ ├── fd
  3.2M   │ ├── duf
  3.0M   │ ├── imgcat
  3.0M   │ ├── ncat
+ 3.0M   │ ├── tldr
  2.9M   │ ├── file
  2.9M   │ ├── dwarfs
  2.7M   │ ├── gs-netcat
@@ -184,8 +184,8 @@
  272K   │ ├── mawk
  256K   │ ├── sftp-server
  256K   │ ├── sed
+ 240K   │ ├── base64
  236K   │ ├── column
- 236K   │ ├── base64
  232K   │ ├── ping
  228K   │ ├── tree
  212K   │ ├── netstat
@@ -234,10 +234,10 @@
   50M   │ ├── gh
   45M   │ ├── glab
   44M   │ ├── httpx
-  39M   │ ├── tailscale-multi
   39M   │ ├── logdy
+  39M   │ ├── tailscale-multi
   37M   │ ├── cloudflared
-  29M   │ ├── huggingface-cli
+  31M   │ ├── huggingface-cli
   28M   │ ├── trufflehog
   27M   │ ├── tailscaled
   23M   │ ├── csvtk
@@ -245,8 +245,8 @@
   21M   │ ├── noseyparker
   19M   │ ├── qsv
   18M   │ ├── notify
-  18M   │ ├── jc
   18M   │ ├── tailscale
+  18M   │ ├── jc
   17M   │ ├── glow
   15M   │ ├── gitleaks
   15M   │ ├── gdu
@@ -259,9 +259,9 @@
   11M   │ ├── dbin
   11M   │ ├── aria2
   11M   │ ├── yq
+  10M   │ ├── oras
   10M   │ ├── archey
  9.9M   │ ├── ipinfo
- 9.9M   │ ├── oras
  9.2M   │ ├── gocryptfs
  9.1M   │ ├── bita
  8.9M   │ ├── soar
@@ -273,15 +273,14 @@
  7.9M   │ ├── bsdtar
  7.8M   │ ├── bsdcpio
  7.8M   │ ├── sttr
- 7.7M   │ ├── miniserve
  7.7M   │ ├── aws-wire-lengths
+ 7.7M   │ ├── miniserve
  7.4M   │ ├── go-indexer
  7.3M   │ ├── eget
  7.2M   │ ├── taplo
  7.0M   │ ├── wget2
  7.0M   │ ├── openssl
  6.8M   │ ├── subxtract
- 6.8M   │ ├── tldr
  6.7M   │ ├── mkdwarfs
  6.6M   │ ├── pixterm
  6.4M   │ ├── wget
@@ -338,6 +337,7 @@
  2.6M   │ ├── svnserve
  2.6M   │ ├── file
  2.4M   │ ├── svnadmin
+ 2.4M   │ ├── tldr
  2.3M   │ ├── btop
  2.1M   │ ├── inscope
  2.0M   │ ├── wrappe
@@ -409,8 +409,8 @@
  308K   │ ├── mawk
  308K   │ ├── column
  260K   │ ├── sed
+ 252K   │ ├── base64
  248K   │ ├── netstat
- 248K   │ ├── base64
  240K   │ ├── tree
  236K   │ ├── script
  228K   │ ├── minisign
