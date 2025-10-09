@@ -82,7 +82,7 @@
  5.3M   │ ├── rga
  5.3M   │ ├── sshd
  5.3M   │ ├── ssh-keygen
- 5.2M   │ ├── delta
+ 5.3M   │ ├── delta
  5.1M   │ ├── svn
  5.0M   │ ├── svnrdump
  5.0M   │ ├── ssh-keysign
@@ -251,7 +251,7 @@
   15M   │ ├── gitleaks
   15M   │ ├── gdu
   14M   │ ├── gost
-  14M   │ ├── freeze
+  13M   │ ├── freeze
   13M   │ ├── chafa
   13M   │ ├── micro
   12M   │ ├── cntb
@@ -272,7 +272,7 @@
  8.5M   │ ├── trurl
  7.9M   │ ├── bsdtar
  7.8M   │ ├── bsdcpio
- 7.8M   │ ├── sttr
+ 7.7M   │ ├── sttr
  7.7M   │ ├── aws-wire-lengths
  7.7M   │ ├── miniserve
  7.4M   │ ├── go-indexer
@@ -310,16 +310,16 @@
  4.7M   │ ├── ssh-keygen
  4.6M   │ ├── validtoml
  4.6M   │ ├── dwarfsextract
- 4.6M   │ ├── ripgrep
  4.6M   │ ├── delta
+ 4.6M   │ ├── ripgrep
  4.5M   │ ├── rga
  4.3M   │ ├── ssh-keysign
  4.2M   │ ├── ssh-add
  4.2M   │ ├── ssh-agent
  4.2M   │ ├── ssh-pkcs11-helper
+ 4.1M   │ ├── vim
  4.0M   │ ├── svn-lite
  4.0M   │ ├── askalono
- 4.0M   │ ├── vim
  4.0M   │ ├── nping
  3.7M   │ ├── fzf
  3.4M   │ ├── git-sizer
