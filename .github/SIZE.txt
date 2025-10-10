@@ -15,8 +15,8 @@
   25M   │ ├── qsv
   24M   │ ├── csvtk
   21M   │ ├── jc
-  19M   │ ├── tailscale
   19M   │ ├── notify
+  19M   │ ├── tailscale
   18M   │ ├── glow
   16M   │ ├── gitleaks
   16M   │ ├── gdu
