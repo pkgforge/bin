@@ -52,6 +52,7 @@
  8.1M   │ ├── openssl
  8.0M   │ ├── mkdwarfs
  7.9M   │ ├── crates-dumper
+ 7.7M   │ ├── socat
  7.7M   │ ├── eget
  7.5M   │ ├── go-enricher
  7.4M   │ ├── filter-urls
@@ -68,7 +69,6 @@
  6.2M   │ ├── go-detector
  6.2M   │ ├── unfurl
  6.2M   │ ├── crt
- 6.1M   │ ├── socat
  6.0M   │ ├── rsync
  5.8M   │ ├── sshd-session
  5.8M   │ ├── ssh
@@ -94,9 +94,9 @@
  4.6M   │ ├── svnsync
  4.5M   │ ├── nmap
  4.4M   │ ├── svn-lite
+ 4.2M   │ ├── fzf
  4.0M   │ ├── vim
  4.0M   │ ├── rg
- 3.8M   │ ├── fzf
  3.8M   │ ├── nping
  3.6M   │ ├── 7z
  3.6M   │ ├── git-sizer
@@ -120,46 +120,46 @@
  2.1M   │ ├── inscope
  2.0M   │ ├── fastfetch
  1.9M   │ ├── epoch
+ 1.9M   │ ├── tmux
  1.8M   │ ├── scopegen
  1.8M   │ ├── anew
  1.7M   │ ├── bash
- 1.7M   │ ├── tmux
  1.7M   │ ├── tok
+ 1.7M   │ ├── tcpdump
  1.7M   │ ├── comb
  1.7M   │ ├── fuse-overlayfs
  1.7M   │ ├── coreutils
  1.6M   │ ├── strace
  1.6M   │ ├── objcopy
- 1.6M   │ ├── tcpdump
  1.5M   │ ├── sqfstar
  1.5M   │ ├── mksquashfs
  1.5M   │ ├── grep
  1.5M   │ ├── xhost
+ 1.5M   │ ├── tar2sqfs
  1.4M   │ ├── strings
+ 1.4M   │ ├── gensquashfs
+ 1.4M   │ ├── sqfs2tar
  1.4M   │ ├── unsquashfs
  1.4M   │ ├── sqfscat
- 1.4M   │ ├── tar2sqfs
+ 1.4M   │ ├── rdsquashfs
  1.3M   │ ├── busybox
- 1.3M   │ ├── gensquashfs
- 1.3M   │ ├── sqfs2tar
- 1.3M   │ ├── rdsquashfs
+ 1.3M   │ ├── sqfsdiff
  1.3M   │ ├── gsocket
- 1.2M   │ ├── sqfsdiff
  1.2M   │ ├── readelf
  1.2M   │ ├── flashfetch
+ 1.1M   │ ├── zstdmt
+ 1.1M   │ ├── zstdcat
+ 1.1M   │ ├── zstd
+ 1.1M   │ ├── unzstd
  1.1M   │ ├── less
- 1.0M   │ ├── zstdmt
- 1.0M   │ ├── zstdcat
- 1.0M   │ ├── zstd
- 1.0M   │ ├── unzstd
  964K   │ ├── gawk
  948K   │ ├── duplicut
  920K   │ ├── b3sum
+ 904K   │ ├── squashfuse_ll
+ 896K   │ ├── squashfuse
+ 884K   │ ├── tar
  828K   │ ├── findmnt
  824K   │ ├── jq
- 820K   │ ├── squashfuse
- 812K   │ ├── squashfuse_ll
- 792K   │ ├── tar
  752K   │ ├── ncdu
  752K   │ ├── mount
  744K   │ ├── umount
@@ -174,15 +174,15 @@
  520K   │ ├── dash
  508K   │ ├── is-static
  476K   │ ├── bsdcat
+ 368K   │ ├── xz
+ 368K   │ ├── unxz
  360K   │ ├── ps
  344K   │ ├── scp
- 328K   │ ├── xz
- 328K   │ ├── unxz
  308K   │ ├── mawk
+ 292K   │ ├── sed
  284K   │ ├── minisign
  276K   │ ├── hexdump
  256K   │ ├── sftp-server
- 256K   │ ├── sed
  240K   │ ├── base64
  236K   │ ├── netstat
  236K   │ ├── column
@@ -227,14 +227,14 @@
  4.0K   │ ├── uncompress
  4.0K   │ ├── gzip
  4.0K   │ └── gunzip
- 1.2G   ├─┬ aarch64-Linux
+ 1.3G   ├─┬ aarch64-Linux
   60M   │ ├── rclone
   52M   │ ├── shellcheck
   50M   │ ├── gh
   45M   │ ├── glab
-  44M   │ ├── httpx
-  39M   │ ├── logdy
+  45M   │ ├── httpx
   39M   │ ├── tailscale-multi
+  39M   │ ├── logdy
   37M   │ ├── cloudflared
   31M   │ ├── huggingface-cli
   28M   │ ├── trufflehog
@@ -274,6 +274,7 @@
  7.7M   │ ├── sttr
  7.7M   │ ├── aws-wire-lengths
  7.7M   │ ├── miniserve
+ 7.4M   │ ├── socat
  7.4M   │ ├── go-indexer
  7.3M   │ ├── eget
  7.2M   │ ├── taplo
@@ -291,7 +292,6 @@
  5.9M   │ ├── unfurl
  5.9M   │ ├── ulexec
  5.8M   │ ├── crt
- 5.7M   │ ├── socat
  5.4M   │ ├── svn
  5.3M   │ ├── svnrdump
  5.2M   │ ├── bsdunzip
@@ -316,11 +316,11 @@
  4.2M   │ ├── ssh-add
  4.2M   │ ├── ssh-agent
  4.2M   │ ├── ssh-pkcs11-helper
+ 4.1M   │ ├── fzf
  4.1M   │ ├── vim
  4.0M   │ ├── svn-lite
  4.0M   │ ├── askalono
  4.0M   │ ├── nping
- 3.7M   │ ├── fzf
  3.4M   │ ├── git-sizer
  3.3M   │ ├── yj
  3.2M   │ ├── ncat
@@ -341,49 +341,49 @@
  2.1M   │ ├── inscope
  2.0M   │ ├── wrappe
  2.0M   │ ├── dust
+ 2.0M   │ ├── tmux
  1.9M   │ ├── epoch
  1.8M   │ ├── bash
  1.8M   │ ├── dysk
  1.8M   │ ├── fastfetch
+ 1.8M   │ ├── tcpdump
  1.7M   │ ├── scopegen
  1.7M   │ ├── anew
- 1.7M   │ ├── tmux
  1.7M   │ ├── strace
  1.7M   │ ├── objcopy
  1.7M   │ ├── tok
  1.7M   │ ├── comb
  1.6M   │ ├── coreutils
  1.6M   │ ├── busybox
- 1.6M   │ ├── tcpdump
  1.6M   │ ├── strings
  1.4M   │ ├── xhost
  1.4M   │ ├── sqfstar
  1.4M   │ ├── mksquashfs
+ 1.4M   │ ├── tar2sqfs
  1.3M   │ ├── fuse-overlayfs
+ 1.3M   │ ├── gensquashfs
+ 1.3M   │ ├── sqfs2tar
  1.3M   │ ├── unsquashfs
  1.3M   │ ├── sqfscat
  1.3M   │ ├── grep
+ 1.3M   │ ├── rdsquashfs
  1.2M   │ ├── gsocket
- 1.2M   │ ├── tar2sqfs
- 1.2M   │ ├── sqfs2tar
- 1.2M   │ ├── gensquashfs
+ 1.2M   │ ├── sqfsdiff
  1.2M   │ ├── readelf
- 1.1M   │ ├── rdsquashfs
- 1.1M   │ ├── sqfsdiff
  1.1M   │ ├── flashfetch
  1.1M   │ ├── less
  1.0M   │ ├── gawk
+1004K   │ ├── zstdmt
+1004K   │ ├── zstdcat
+1004K   │ ├── zstd
+1004K   │ ├── unzstd
+ 964K   │ ├── tar
  940K   │ ├── findmnt
- 936K   │ ├── zstdmt
- 936K   │ ├── zstdcat
- 936K   │ ├── zstd
- 936K   │ ├── unzstd
+ 932K   │ ├── squashfuse_ll
+ 912K   │ ├── squashfuse
  876K   │ ├── mount
  860K   │ ├── umount
- 832K   │ ├── tar
  820K   │ ├── jq
- 804K   │ ├── squashfuse_ll
- 788K   │ ├── squashfuse
  780K   │ ├── fuse2fs
  772K   │ ├── ncdu
  772K   │ ├── duplicut
@@ -399,16 +399,16 @@
  448K   │ ├── bsdcat
  432K   │ ├── ps
  432K   │ ├── is-static
+ 416K   │ ├── xz
+ 416K   │ ├── unxz
  388K   │ ├── scp
  360K   │ ├── mawk
- 356K   │ ├── xz
- 356K   │ ├── unxz
+ 340K   │ ├── sed
  324K   │ ├── hexdump
  320K   │ ├── ping
  308K   │ ├── sftp-server
  308K   │ ├── column
  292K   │ ├── netstat
- 260K   │ ├── sed
  252K   │ ├── base64
  240K   │ ├── tree
  236K   │ ├── script
