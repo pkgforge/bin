@@ -10,12 +10,12 @@
   39M   │ ├── cloudflared
   36M   │ ├── huggingface-cli
   32M   │ ├── trufflehog
+  32M   │ ├── jc
   28M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
   25M   │ ├── qsv
   24M   │ ├── csvtk
-  21M   │ ├── jc
   19M   │ ├── notify
   19M   │ ├── tailscale
   18M   │ ├── glow
@@ -40,8 +40,8 @@
   10M   │ ├── archey
  9.9M   │ ├── gocryptfs
  9.5M   │ ├── curl
+ 9.4M   │ ├── dasel
  9.3M   │ ├── miniserve
- 9.2M   │ ├── dasel
  9.2M   │ ├── trurl
  9.1M   │ ├── go-indexer
  9.1M   │ ├── taplo
@@ -160,7 +160,7 @@
  896K   │ ├── squashfuse
  884K   │ ├── tar
  828K   │ ├── findmnt
- 824K   │ ├── jq
+ 820K   │ ├── jq
  752K   │ ├── ncdu
  752K   │ ├── mount
  744K   │ ├── umount
@@ -239,6 +239,7 @@
   37M   │ ├── cloudflared
   31M   │ ├── huggingface-cli
   28M   │ ├── trufflehog
+  28M   │ ├── jc
   27M   │ ├── tailscaled
   23M   │ ├── csvtk
   21M   │ ├── noseyparker-cli
@@ -246,7 +247,6 @@
   19M   │ ├── qsv
   18M   │ ├── notify
   18M   │ ├── tailscale
-  18M   │ ├── jc
   17M   │ ├── glow
   15M   │ ├── gitleaks
   15M   │ ├── gdu
@@ -265,8 +265,8 @@
  9.2M   │ ├── gocryptfs
  9.1M   │ ├── bita
  8.9M   │ ├── soar
+ 8.8M   │ ├── dasel
  8.7M   │ ├── curl
- 8.6M   │ ├── dasel
  8.6M   │ ├── croc
  8.5M   │ ├── speedtest-go
  8.5M   │ ├── trurl
