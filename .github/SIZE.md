@@ -3,8 +3,8 @@
  1.4G   ├─┬ x86_64-Linux
   65M   │ ├── rclone
   52M   │ ├── gh
+  51M   │ ├── httpx
   47M   │ ├── glab
-  47M   │ ├── httpx
   42M   │ ├── tailscale-multi
   40M   │ ├── logdy
   39M   │ ├── cloudflared
@@ -45,8 +45,8 @@
  9.2M   │ ├── trurl
  9.1M   │ ├── go-indexer
  9.1M   │ ├── taplo
+ 9.1M   │ ├── speedtest-go
  9.1M   │ ├── bsdtar
- 9.0M   │ ├── speedtest-go
  9.0M   │ ├── croc
  9.0M   │ ├── bsdcpio
  8.1M   │ ├── sttr
@@ -232,8 +232,8 @@
   60M   │ ├── rclone
   52M   │ ├── shellcheck
   50M   │ ├── gh
+  48M   │ ├── httpx
   45M   │ ├── glab
-  45M   │ ├── httpx
   39M   │ ├── tailscale-multi
   39M   │ ├── logdy
   37M   │ ├── cloudflared
@@ -268,8 +268,8 @@
  8.8M   │ ├── dasel
  8.7M   │ ├── curl
  8.6M   │ ├── croc
- 8.5M   │ ├── speedtest-go
  8.5M   │ ├── trurl
+ 8.5M   │ ├── speedtest-go
  7.9M   │ ├── bsdtar
  7.8M   │ ├── bsdcpio
  7.7M   │ ├── sttr
