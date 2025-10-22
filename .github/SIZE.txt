@@ -24,7 +24,7 @@
   15M   │ ├── shellcheck
   14M   │ ├── freeze
   14M   │ ├── chafa
-  13M   │ ├── micro
+  14M   │ ├── micro
   13M   │ ├── cntb
   12M   │ ├── usque
   12M   │ ├── dbin
@@ -72,9 +72,9 @@
  6.0M   │ ├── rsync
  5.8M   │ ├── sshd-session
  5.8M   │ ├── ssh
- 5.8M   │ ├── ouch
  5.8M   │ ├── batcat
  5.8M   │ ├── bat
+ 5.8M   │ ├── ouch
  5.7M   │ ├── ripgrep
  5.7M   │ ├── dwarfsextract
  5.4M   │ ├── ssh-keyscan
