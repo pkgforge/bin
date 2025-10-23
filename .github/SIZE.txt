@@ -243,8 +243,8 @@
   23M   │ ├── csvtk
   21M   │ ├── noseyparker-cli
   21M   │ ├── noseyparker
-  19M   │ ├── qsv
   18M   │ ├── notify
+  18M   │ ├── qsv
   18M   │ ├── tailscale
   17M   │ ├── glow
   15M   │ ├── gitleaks
@@ -263,11 +263,11 @@
  9.9M   │ ├── ipinfo
  9.2M   │ ├── gocryptfs
  9.1M   │ ├── bita
+ 8.9M   │ ├── curl
  8.9M   │ ├── soar
  8.8M   │ ├── dasel
- 8.7M   │ ├── curl
+ 8.7M   │ ├── trurl
  8.6M   │ ├── croc
- 8.5M   │ ├── trurl
  8.5M   │ ├── speedtest-go
  7.9M   │ ├── bsdtar
  7.8M   │ ├── bsdcpio
@@ -278,10 +278,10 @@
  7.4M   │ ├── go-indexer
  7.3M   │ ├── eget
  7.2M   │ ├── taplo
+ 7.2M   │ ├── mkdwarfs
  7.0M   │ ├── wget2
  7.0M   │ ├── openssl
  6.8M   │ ├── subxtract
- 6.7M   │ ├── mkdwarfs
  6.6M   │ ├── pixterm
  6.4M   │ ├── wget
  6.4M   │ ├── crates-dumper
@@ -302,13 +302,13 @@
  5.1M   │ ├── actionlint
  4.9M   │ ├── svnsync
  4.8M   │ ├── ouch
+ 4.8M   │ ├── dwarfsextract
  4.8M   │ ├── rsync
  4.7M   │ ├── ssh-keyscan
  4.7M   │ ├── nmap
  4.7M   │ ├── sshd
  4.7M   │ ├── ssh-keygen
  4.6M   │ ├── validtoml
- 4.6M   │ ├── dwarfsextract
  4.6M   │ ├── delta
  4.6M   │ ├── ripgrep
  4.5M   │ ├── rga
@@ -329,8 +329,8 @@
  3.1M   │ ├── rg
  3.0M   │ ├── 7z
  2.9M   │ ├── imgcat
- 2.7M   │ ├── gs-netcat
  2.7M   │ ├── dwarfs
+ 2.7M   │ ├── gs-netcat
  2.7M   │ ├── fd-find
  2.7M   │ ├── fd
  2.6M   │ ├── svnserve
