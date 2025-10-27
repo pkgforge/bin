@@ -49,8 +49,8 @@
  9.0M   │ ├── croc
  9.0M   │ ├── bsdcpio
  8.4M   │ ├── mkdwarfs
+ 8.2M   │ ├── openssl
  8.1M   │ ├── sttr
- 8.1M   │ ├── openssl
  7.9M   │ ├── crates-dumper
  7.7M   │ ├── socat
  7.7M   │ ├── eget
@@ -243,8 +243,8 @@
   23M   │ ├── csvtk
   21M   │ ├── noseyparker-cli
   21M   │ ├── noseyparker
-  18M   │ ├── notify
   18M   │ ├── qsv
+  18M   │ ├── notify
   18M   │ ├── tailscale
   17M   │ ├── glow
   15M   │ ├── gitleaks
@@ -277,10 +277,10 @@
  7.4M   │ ├── socat
  7.4M   │ ├── go-indexer
  7.3M   │ ├── eget
- 7.2M   │ ├── taplo
+ 7.3M   │ ├── taplo
  7.2M   │ ├── mkdwarfs
+ 7.1M   │ ├── openssl
  7.0M   │ ├── wget2
- 7.0M   │ ├── openssl
  6.8M   │ ├── subxtract
  6.6M   │ ├── pixterm
  6.4M   │ ├── wget
