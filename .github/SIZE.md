@@ -49,7 +49,7 @@
  9.1M   │ ├── bsdtar
  9.0M   │ ├── croc
  9.0M   │ ├── bsdcpio
- 8.4M   │ ├── mkdwarfs
+ 8.5M   │ ├── mkdwarfs
  8.2M   │ ├── openssl
  8.1M   │ ├── sttr
  7.9M   │ ├── crates-dumper
@@ -344,8 +344,8 @@
  2.0M   │ ├── dust
  2.0M   │ ├── tmux
  1.9M   │ ├── epoch
- 1.8M   │ ├── bash
  1.8M   │ ├── dysk
+ 1.8M   │ ├── bash
  1.8M   │ ├── fastfetch
  1.8M   │ ├── tcpdump
  1.7M   │ ├── scopegen
