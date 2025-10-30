@@ -9,8 +9,8 @@
   40M   │ ├── logdy
   39M   │ ├── cloudflared
   36M   │ ├── huggingface-cli
-  32M   │ ├── trufflehog
   32M   │ ├── jc
+  32M   │ ├── trufflehog
   28M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
@@ -59,37 +59,37 @@
  7.4M   │ ├── filter-urls
  7.3M   │ ├── wget2
  7.3M   │ ├── subxtract
+ 7.3M   │ ├── ssh
  7.2M   │ ├── wormhole-rs
  7.1M   │ ├── ulexec
+ 7.1M   │ ├── sshd-session
  7.0M   │ ├── pixterm
+ 6.9M   │ ├── ssh-keyscan
+ 6.8M   │ ├── sshd
+ 6.8M   │ ├── ssh-keygen
  6.6M   │ ├── wget
  6.6M   │ ├── xq
  6.4M   │ ├── dwarfs-tools
  6.4M   │ ├── bsdunzip
+ 6.4M   │ ├── ssh-keysign
  6.4M   │ ├── script-parser
+ 6.3M   │ ├── ssh-add
+ 6.3M   │ ├── ssh-agent
+ 6.3M   │ ├── ssh-pkcs11-helper
  6.2M   │ ├── go-detector
  6.2M   │ ├── unfurl
  6.2M   │ ├── crt
  6.0M   │ ├── rsync
- 5.8M   │ ├── sshd-session
- 5.8M   │ ├── ssh
  5.8M   │ ├── batcat
  5.8M   │ ├── bat
  5.8M   │ ├── dwarfsextract
  5.8M   │ ├── ouch
  5.7M   │ ├── ripgrep
- 5.4M   │ ├── ssh-keyscan
  5.3M   │ ├── actionlint
  5.3M   │ ├── rga
- 5.3M   │ ├── sshd
- 5.3M   │ ├── ssh-keygen
  5.3M   │ ├── delta
  5.1M   │ ├── svn
  5.0M   │ ├── svnrdump
- 5.0M   │ ├── ssh-keysign
- 4.9M   │ ├── ssh-add
- 4.9M   │ ├── ssh-agent
- 4.9M   │ ├── ssh-pkcs11-helper
  4.8M   │ ├── askalono
  4.7M   │ ├── validtoml
  4.6M   │ ├── svnsync
@@ -164,26 +164,26 @@
  752K   │ ├── ncdu
  752K   │ ├── mount
  744K   │ ├── umount
+ 724K   │ ├── sftp
  724K   │ ├── anewer
  720K   │ ├── fuse2fs
  720K   │ ├── anew-rs
  688K   │ ├── faketty
- 652K   │ ├── sftp
  588K   │ ├── upx
  560K   │ ├── neofetch
  524K   │ ├── tss
  520K   │ ├── dash
  508K   │ ├── is-static
  476K   │ ├── bsdcat
+ 384K   │ ├── scp
  368K   │ ├── xz
  368K   │ ├── unxz
  360K   │ ├── ps
- 344K   │ ├── scp
  308K   │ ├── mawk
+ 296K   │ ├── sftp-server
  292K   │ ├── sed
  284K   │ ├── minisign
  276K   │ ├── hexdump
- 256K   │ ├── sftp-server
  240K   │ ├── base64
  236K   │ ├── netstat
  236K   │ ├── column
@@ -211,7 +211,7 @@
   44K   │ ├── sstrip
   40K   │ ├── pipetty
   40K   │ ├── ansi2html
-  16K   │ ├── ssh-sk-helper
+  20K   │ ├── ssh-sk-helper
   16K   │ ├── ssh-copy-id
   12K   │ ├── ansi2txt
  8.0K   │ ├── znew
@@ -238,14 +238,14 @@
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   31M   │ ├── huggingface-cli
-  28M   │ ├── trufflehog
   28M   │ ├── jc
+  28M   │ ├── trufflehog
   27M   │ ├── tailscaled
   23M   │ ├── csvtk
   21M   │ ├── noseyparker-cli
   21M   │ ├── noseyparker
-  18M   │ ├── qsv
   18M   │ ├── notify
+  18M   │ ├── qsv
   18M   │ ├── tailscale
   17M   │ ├── glow
   15M   │ ├── gitleaks
