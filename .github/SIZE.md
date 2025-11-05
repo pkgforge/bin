@@ -14,7 +14,7 @@
   28M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
-  24M   │ ├── qsv
+  25M   │ ├── qsv
   24M   │ ├── csvtk
   19M   │ ├── notify
   19M   │ ├── tailscale
@@ -244,7 +244,7 @@
   23M   │ ├── csvtk
   21M   │ ├── noseyparker-cli
   21M   │ ├── noseyparker
-  18M   │ ├── qsv
+  19M   │ ├── qsv
   18M   │ ├── notify
   18M   │ ├── tailscale
   17M   │ ├── glow
