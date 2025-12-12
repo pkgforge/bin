@@ -3,14 +3,14 @@
   65M   │ ├── rclone
   52M   │ ├── gh
   51M   │ ├── httpx
-  47M   │ ├── glab
-  42M   │ ├── tailscale-multi
+  48M   │ ├── glab
+  43M   │ ├── tailscale-multi
   40M   │ ├── logdy
   39M   │ ├── cloudflared
   36M   │ ├── huggingface-cli
   32M   │ ├── jc
   32M   │ ├── trufflehog
-  28M   │ ├── tailscaled
+  29M   │ ├── tailscaled
   26M   │ ├── noseyparker-cli
   26M   │ ├── noseyparker
   25M   │ ├── qsv
@@ -32,13 +32,13 @@
   11M   │ ├── yq
   11M   │ ├── bita
   10M   │ ├── oras
-  10M   │ ├── soar
   10M   │ ├── aws-wire-lengths
   10M   │ ├── ipinfo
   10M   │ ├── extraxtor
   10M   │ ├── archey
  9.9M   │ ├── gocryptfs
  9.6M   │ ├── curl
+ 9.5M   │ ├── soar
  9.4M   │ ├── dasel
  9.4M   │ ├── trurl
  9.3M   │ ├── miniserve
@@ -80,9 +80,9 @@
  6.2M   │ ├── crt
  6.0M   │ ├── rsync
  5.8M   │ ├── dwarfsextract
+ 5.8M   │ ├── ouch
  5.8M   │ ├── batcat
  5.8M   │ ├── bat
- 5.8M   │ ├── ouch
  5.7M   │ ├── ripgrep
  5.3M   │ ├── actionlint
  5.3M   │ ├── rga
@@ -101,9 +101,9 @@
  3.6M   │ ├── 7z
  3.6M   │ ├── git-sizer
  3.4M   │ ├── yj
+ 3.2M   │ ├── duf
  3.2M   │ ├── fd-find
  3.2M   │ ├── fd
- 3.2M   │ ├── duf
  3.0M   │ ├── imgcat
  3.0M   │ ├── ncat
  3.0M   │ ├── tldr
@@ -123,11 +123,11 @@
  1.9M   │ ├── tmux
  1.8M   │ ├── scopegen
  1.8M   │ ├── anew
+ 1.8M   │ ├── fuse-overlayfs
  1.7M   │ ├── bash
  1.7M   │ ├── tok
  1.7M   │ ├── tcpdump
  1.7M   │ ├── comb
- 1.7M   │ ├── fuse-overlayfs
  1.7M   │ ├── coreutils
  1.6M   │ ├── strace
  1.6M   │ ├── objcopy
@@ -230,10 +230,10 @@
  1.3G   ├─┬ aarch64-Linux
   60M   │ ├── rclone
   52M   │ ├── shellcheck
-  50M   │ ├── gh
+  49M   │ ├── gh
   48M   │ ├── httpx
   45M   │ ├── glab
-  39M   │ ├── tailscale-multi
+  40M   │ ├── tailscale-multi
   39M   │ ├── logdy
   37M   │ ├── cloudflared
   31M   │ ├── huggingface-cli
@@ -264,11 +264,11 @@
  9.2M   │ ├── gocryptfs
  9.1M   │ ├── bita
  8.9M   │ ├── curl
- 8.9M   │ ├── soar
  8.8M   │ ├── dasel
  8.7M   │ ├── trurl
  8.6M   │ ├── croc
  8.5M   │ ├── speedtest-go
+ 8.0M   │ ├── soar
  7.9M   │ ├── bsdtar
  7.8M   │ ├── bsdcpio
  7.7M   │ ├── sttr
@@ -310,7 +310,7 @@
  4.7M   │ ├── ssh-keygen
  4.6M   │ ├── validtoml
  4.6M   │ ├── delta
- 4.6M   │ ├── ripgrep
+ 4.5M   │ ├── ripgrep
  4.5M   │ ├── rga
  4.3M   │ ├── ssh-keysign
  4.2M   │ ├── ssh-add
@@ -331,8 +331,8 @@
  2.9M   │ ├── imgcat
  2.7M   │ ├── dwarfs
  2.7M   │ ├── gs-netcat
- 2.7M   │ ├── fd-find
- 2.7M   │ ├── fd
+ 2.6M   │ ├── fd-find
+ 2.6M   │ ├── fd
  2.6M   │ ├── svnserve
  2.6M   │ ├── file
  2.4M   │ ├── svnadmin
@@ -343,9 +343,9 @@
  2.0M   │ ├── dust
  2.0M   │ ├── tmux
  1.9M   │ ├── epoch
+ 1.8M   │ ├── fastfetch
  1.8M   │ ├── dysk
  1.8M   │ ├── bash
- 1.8M   │ ├── fastfetch
  1.8M   │ ├── tcpdump
  1.7M   │ ├── scopegen
  1.7M   │ ├── anew
@@ -354,13 +354,13 @@
  1.7M   │ ├── tok
  1.7M   │ ├── comb
  1.6M   │ ├── coreutils
+ 1.6M   │ ├── fuse-overlayfs
  1.6M   │ ├── busybox
  1.6M   │ ├── strings
  1.4M   │ ├── xhost
  1.4M   │ ├── sqfstar
  1.4M   │ ├── mksquashfs
  1.4M   │ ├── tar2sqfs
- 1.3M   │ ├── fuse-overlayfs
  1.3M   │ ├── gensquashfs
  1.3M   │ ├── sqfs2tar
  1.3M   │ ├── unsquashfs
