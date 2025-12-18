@@ -233,7 +233,7 @@
   52M   │ ├── shellcheck
   49M   │ ├── gh
   48M   │ ├── httpx
-  45M   │ ├── glab
+  46M   │ ├── glab
   40M   │ ├── tailscale-multi
   39M   │ ├── logdy
   37M   │ ├── cloudflared
