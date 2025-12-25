@@ -34,8 +34,8 @@
   10M   │ ├── oras
   10M   │ ├── aws-wire-lengths
   10M   │ ├── ipinfo
-  10M   │ ├── soar
   10M   │ ├── extraxtor
+  10M   │ ├── soar
   10M   │ ├── archey
  9.9M   │ ├── gocryptfs
  9.6M   │ ├── curl
@@ -81,8 +81,8 @@
  6.0M   │ ├── rsync
  5.8M   │ ├── dwarfsextract
  5.8M   │ ├── ouch
- 5.8M   │ ├── batcat
- 5.8M   │ ├── bat
+ 5.7M   │ ├── batcat
+ 5.7M   │ ├── bat
  5.7M   │ ├── ripgrep
  5.3M   │ ├── actionlint
  5.3M   │ ├── rga
@@ -343,7 +343,7 @@
  2.0M   │ ├── dust
  2.0M   │ ├── tmux
  1.9M   │ ├── epoch
- 1.8M   │ ├── fastfetch
+ 1.9M   │ ├── fastfetch
  1.8M   │ ├── dysk
  1.8M   │ ├── bash
  1.8M   │ ├── tcpdump
