@@ -37,7 +37,7 @@
   10M   │ ├── ipinfo
   10M   │ ├── extraxtor
   10M   │ ├── archey
-10.0M   │ ├── soar
+  10M   │ ├── soar
  9.9M   │ ├── gocryptfs
  9.6M   │ ├── curl
  9.4M   │ ├── dasel
