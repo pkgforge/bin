@@ -254,7 +254,6 @@
   13M   │ ├── chafa
   13M   │ ├── micro
   12M   │ ├── cntb
-  12M   │ ├── usque
   11M   │ ├── dbin
   11M   │ ├── aria2
   11M   │ ├── yq
@@ -321,6 +320,7 @@
  4.0M   │ ├── svn-lite
  4.0M   │ ├── askalono
  4.0M   │ ├── nping
+ 4.0M   │ ├── usque
  3.4M   │ ├── git-sizer
  3.3M   │ ├── yj
  3.2M   │ ├── ncat
